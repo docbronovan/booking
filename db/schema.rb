@@ -11,7 +11,57 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150828202545) do
+ActiveRecord::Schema.define(version: 20150830213130) do
+
+  create_table "bands", force: :cascade do |t|
+    t.integer  "user_id"
+    t.string   "name"
+    t.string   "city"
+    t.integer  "members"
+    t.string   "instrumets"
+    t.text     "description"
+    t.string   "genre"
+    t.string   "requirements"
+    t.string   "text"
+    t.string   "soundcloud"
+    t.string   "facebook"
+    t.string   "website"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  add_index "bands", ["user_id"], name: "index_bands_on_user_id"
+
+  create_table "events", force: :cascade do |t|
+    t.integer  "band_id"
+    t.integer  "venue_id"
+    t.string   "title"
+    t.date     "date"
+    t.string   "twentyOne"
+    t.integer  "cover"
+    t.string   "stage"
+    t.text     "equipment"
+    t.text     "description"
+    t.text     "other"
+    t.text     "disclaimer"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "events", ["band_id"], name: "index_events_on_band_id"
+  add_index "events", ["venue_id"], name: "index_events_on_venue_id"
+
+  create_table "slots", force: :cascade do |t|
+    t.integer  "event_id"
+    t.integer  "band_id"
+    t.time     "time"
+    t.boolean  "approved",   default: true
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+  end
+
+  add_index "slots", ["band_id"], name: "index_slots_on_band_id"
+  add_index "slots", ["event_id"], name: "index_slots_on_event_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -35,5 +85,22 @@ ActiveRecord::Schema.define(version: 20150828202545) do
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+
+  create_table "venues", force: :cascade do |t|
+    t.integer  "user_id"
+    t.string   "name"
+    t.string   "address"
+    t.string   "city"
+    t.string   "state"
+    t.integer  "zip"
+    t.string   "neighborhood"
+    t.string   "phone"
+    t.string   "website"
+    t.text     "description"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  add_index "venues", ["user_id"], name: "index_venues_on_user_id"
 
 end

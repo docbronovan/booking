@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
-    include Pundit
+  include Pundit
   protect_from_forgery with: :exception
   before_action :configure_permitted_parameters, if: :devise_controller?
 
@@ -10,9 +10,23 @@ class ApplicationController < ActionController::Base
   end
 
   def after_sign_in_path_for(resource)
-    root_url
+    if current_user.role = 'BAND'
+      user_path(current_user)
+    elsif current_user.role = 'VENUE'
+      venue_path(current_user)
+    else
+      root_path
+    end
   end
+
+  def after_sign_up_path_for(resource)
+    edit_user_path(current_user)
+  end
+
+  protected
+  
   def configure_permitted_parameters
-    devise_parameter_sanitizer.for(:sign_up) << :member_type
+    devise_parameter_sanitizer.for(:sign_up) << :role
   end
+
 end

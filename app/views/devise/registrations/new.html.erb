@@ -6,8 +6,8 @@
       <%= devise_error_messages! %>
 
       <div class="form-group">
-        <%= f.label :member_type %>
-        <%= f.select :member_type, options_for_select([['BAND','BAND'],['VENUE','VENUE']]), autofocus: true, class: 'form-control', placeholder: "Venue or Band" %>
+        <%= f.label :role %>
+        <%= f.select :role, options_for_select([['BAND','BAND'],['VENUE','VENUE']]), autofocus: true, class: 'form-control', placeholder: "Venue or Band" %>
       </div>
 
       <div class="form-group">

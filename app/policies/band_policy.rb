@@ -1,0 +1,2 @@
+class BandPolicy < ApplicationPolicy
+end

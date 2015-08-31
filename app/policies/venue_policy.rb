@@ -1,0 +1,2 @@
+class VenuePolicy < ApplicationPolicy
+end

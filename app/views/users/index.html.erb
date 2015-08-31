@@ -1,0 +1,10 @@
+<h1>LCL BANDS INDEX</h1>
+<p>member type = <%= @user.role%></p>
+
+<% if @user.role = 'BAND'%>
+  <p><%= @band.name %></p>
+<% elsif @user.role = 'VENUE' %>
+  <p><%= @venue.name %></p>
+<% else %>
+  <p><%= @message %></p>
+<% end %>

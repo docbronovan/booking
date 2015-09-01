@@ -1,2 +1,23 @@
 <h1>Events#show</h1>
-<p>Find me in app/views/events/show.html.erb</p>
+
+<h3>SHOW DETAILS</h3>
+
+<p>Venue: <%= @venue.name %></p>
+
+<p>Date: <% @event.date %></p>
+
+<p>Schedule</p>
+<% @slots.each do |slot| %>
+  <% if slot.event == @event %>
+    <% @bands.each do |band| %>
+      <% if slot.band == band %>
+        <h4><%= link_to band.name, band %></h4> 
+        <p> <%= slot.time %></p>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>
+
+
+<p>CANCEL SHOW</p>
+

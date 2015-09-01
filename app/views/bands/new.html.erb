@@ -1,0 +1,56 @@
+<h1>Band info</h1>
+  
+  <div class="row">
+    <div class="col-md-8">
+      <%= form_for @band do |f| %>
+        <div>
+        <%= f.label :Band_name %>
+        <%= f.text_field :name %>
+        </div>
+        <div>
+        <%= f.label :city %>
+        <%= f.text_field :city %>
+        </div>
+        <div>
+        <%= f.label :members %>
+        <%= f.text_field :members %>
+        </div>
+        <div>
+        <%= f.label :instruments %>
+        <%= f.text_field :instruments %>
+        </div>
+        <div> 
+        <%= f.label :genre %>
+        <%= f.text_field :genre %>
+        </div>
+        <div>
+        <%= f.label :requirements %>
+        <%= f.text_field :requirements %>
+        </div>
+        <div>
+        <%= f.label :description %>
+        <%= f.text_field :description %>
+        </div>
+        <div>
+        <%= f.label :soundcloud %>
+        <%= f.text_field :soundcloud %>
+        </div>
+        <div> 
+        <%= f.label :facebook %>
+        <%= f.text_field :facebook %>
+        </div>
+        <div>
+        <%= f.label :website %>
+        <%= f.text_field :website %>
+        </div>
+        <div>
+        <%= f.label :phone %>
+        <%= f.text_field :phone %>
+        </div>
+        <div>
+        <%= f.submit "Save" %>
+        </div>
+        
+    <% end %>
+  </div>
+</div>

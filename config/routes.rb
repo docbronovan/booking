@@ -5,8 +5,9 @@ Rails.application.routes.draw do
   get 'welcome/about'
   root to: 'welcome#index'
 
-  resources :users, only: [:update, :show, :index]
-  
+  resources :users, only: [:update, :show, :index] do
+    resources :bands 
+  end 
   resources :venues do
     resources :events, controller: 'venues/events'
   end

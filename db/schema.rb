@@ -11,29 +11,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150831183336) do
+ActiveRecord::Schema.define(version: 20150831205909) do
 
   create_table "bands", force: :cascade do |t|
     t.integer  "user_id"
     t.string   "name"
     t.string   "city"
     t.integer  "members"
-    t.string   "instrumets"
+    t.string   "instruments"
     t.text     "description"
     t.string   "genre"
     t.string   "requirements"
-    t.string   "text"
     t.string   "soundcloud"
     t.string   "facebook"
     t.string   "website"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.integer  "phone"
   end
 
   add_index "bands", ["user_id"], name: "index_bands_on_user_id"
 
   create_table "events", force: :cascade do |t|
-    t.integer  "band_id"
     t.integer  "venue_id"
     t.string   "title"
     t.date     "date"
@@ -48,7 +47,6 @@ ActiveRecord::Schema.define(version: 20150831183336) do
     t.datetime "updated_at",  null: false
   end
 
-  add_index "events", ["band_id"], name: "index_events_on_band_id"
   add_index "events", ["venue_id"], name: "index_events_on_venue_id"
 
   create_table "slots", force: :cascade do |t|

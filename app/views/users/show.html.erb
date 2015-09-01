@@ -1,10 +1,8 @@
-<h1>LCL BANDS INDEX</h1>
+<h1>User#SHOW</h1>
 
-<% if @user.role = 'BAND'%>
-  <p><%= @band.name %></p>
-<% elsif @user.role = 'VENUE' %>
-  <p><%= @venue.name %></p>
-<% else %>
-  <p><%= @message %></p>
+
+<%  @bands.each do |band| %>
+  <h3><%=link_to band.name, band %></h3>
 <% end %>
+
 

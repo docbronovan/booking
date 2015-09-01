@@ -1,23 +1,44 @@
-<h1>Events#show</h1>
-
-<h3>SHOW DETAILS</h3>
-
-<p>Venue: <%= @venue.name %></p>
-
-<p>Date: <% @event.date %></p>
-
-<p>Schedule</p>
-<% @slots.each do |slot| %>
-  <% if slot.event == @event %>
-    <% @bands.each do |band| %>
-      <% if slot.band == band %>
-        <h4><%= link_to band.name, band %></h4> 
-        <p> <%= slot.time %></p>
+<div class="container">
+  <div class="row col-md-12">
+    <h1>SHOW DETAILS</h1>
+  </div>
+  <div class="row col-md-12">
+    <p>Venue: <%= @venue.name %></p>
+    <p>Date: <%= @event.date %></p>
+  </div>
+  <div class="row upcoming col-md-12">
+    <h3>Schedule</h3>
+    <div class ="row col-md-6 col-md-offset-3 display-shows">
+      <% @slots.each do |slot| %>
+        <% if slot.event == @event %>
+          <% @bands.each do |band| %>
+            <% if slot.band == band %>
+              <div class = "btn-info btn-lg"> 
+                <div class="row">
+                  <div class = "col-sm-12">
+                    <h4><%= link_to "#{band.name} #{slot.time}", band %></h4> 
+                  </div>
+                </div>
+              </div>
+            <% end %>
+          <% end %>
+        <% end %>
       <% end %>
-    <% end %>
-  <% end %>
-<% end %>
+    </div>
+    <div class="row col-md-6 col-md-offset-3">
+    <div class = "col-sm-6 col-sm-offset-3">
+      <div class="btn-danger">
+      CANCEL SHOW
+      </div>
+    </div>
+  </div>
+  </div>
 
-
-<p>CANCEL SHOW</p>
-
+  <div class="row col-md-12">
+    <div class="row col-md-6 col-md-offset-3">
+    <div class = "col-sm-6 col-sm-offset-3">
+    <footer>Locl Shows</footer>
+    </div>
+  </div>
+  </div>
+</div>

@@ -15,3 +15,37 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  padding-bottom: 2%;
+}
+
+.display-shows {
+  padding-top: 3%;
+}
+
+.upcoming {
+  padding-top: 1%;
+}
+
+.btn-info.btn-lg{
+  margin-top: 2%;
+  margin-bottom:2%;
+}
+
+.col-sm-6.time {
+  font-size: 14px;
+}
+
+.btn-danger {
+  margin-top: 6%;
+}
+footer {
+  padding-top: 6%;
+  padding-bottom:1%;
+}

@@ -11,17 +11,29 @@
     <div class ="row col-md-6 col-md-offset-3 display-shows">
       <% @slots.each do |slot| %>
         <% if slot.event == @event %>
-          <% @bands.each do |band| %>
-            <% if slot.band == band %>
+          <% if slot.approved == false %>
               <div class = "btn-info btn-lg"> 
                 <div class="row">
                   <div class = "col-sm-12">
-                    <h4><%= link_to "#{band.name} #{slot.time}", band %></h4> 
+                    <h4><%=  "OPEN #{slot.time}"  %></h4>  
                   </div>
                 </div>
               </div>
+          <% else %>
+            <% @bands.each do |band| %>
+              
+              <% if slot.band == band %>
+                <div class = "btn-info btn-lg"> 
+                  <div class="row">
+                    <div class = "col-sm-12">
+                      <h4><%= link_to "#{band.name} #{slot.time}", band %></h4> 
+                    </div>
+                  </div>
+                </div>
+              <% end %>
             <% end %>
           <% end %>
+
         <% end %>
       <% end %>
     </div>

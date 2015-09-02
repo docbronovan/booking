@@ -8,7 +8,7 @@
 
 require 'faker'
 
-# Create some bands
+# Create some users
 4.times do 
   user = User.create!(
     email:    Faker::Internet.email,
@@ -82,12 +82,19 @@ end
 events = Event.all
 
 #Create slots
-24.times do
+14.times do
   Slot.create!(
     event: events.sample,  
     band:   bands.sample, 
     time:  Faker::Time.forward(23, :night).strftime("%H:%M"),
     approved: [1,0].sample 
+  )
+end
+14.times do
+  Slot.create!(
+    event: events.sample,  
+    time:  Faker::Time.forward(23, :night).strftime("%H:%M"),
+    approved: 0
   )
 end
 slots = Slot.all

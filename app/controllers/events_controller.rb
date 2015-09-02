@@ -1,5 +1,7 @@
 class EventsController < ApplicationController
   def index
+    @events = Event.all
+    @slots = Slot.all
   end
 
   def show

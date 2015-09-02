@@ -2,6 +2,14 @@ class BandsController < ApplicationController
   def index
   end
 
+  def about
+    @band = Band.find(params[:id])
+  end
+
+  def edit
+    @band = Band.find(params[:id])
+  end
+
   def new
     @band = Band.new
   end
@@ -10,6 +18,7 @@ class BandsController < ApplicationController
     @band = Band.find(params[:id])
     @slots = @band.slots
     @events = Event.all
+    @venue = Venue.all
   end
 
   def create
@@ -22,8 +31,22 @@ class BandsController < ApplicationController
       render :new #added by me so I dont get template error
     end
   end
+
+  def update
+    @band = Band.find(params[:id])
+    if @band.update_attributes(band_params)
+      redirect_to @band
+      flash[:notice] = "Band info was updated."
+    else
+      flash[:error] = "Error saving band. Please try again."
+      render :edit
+    end
+  end
+
   def band_params
     params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone)
   end
   
+
+
 end

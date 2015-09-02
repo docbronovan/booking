@@ -1,2 +1,23 @@
-<h1>Events#index</h1>
-<p>Find me in app/views/events/index.html.erb</p>
+<div class="container">
+  
+  <h1>Events#index</h1>
+    <% @events.each do |event| %>
+      <% @slots.each do |slot| %>
+          <% if slot.approved == false %>
+              <div class = "btn-info btn-lg"> 
+                <div class="row">
+                  <div class = "col-sm-12">
+                    <h4><%=  "OPEN #{event.title}"  %></h4>  
+                  </div>
+                </div>
+              </div>
+          <% end %>
+      <% end %>
+    <% end %>
+
+
+
+
+</div>
+
+

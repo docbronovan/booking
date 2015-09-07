@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   devise_for :users
+  
   get 'welcome/index'
   get 'welcome/about'
   root to: 'welcome#index'
@@ -13,9 +14,22 @@ Rails.application.routes.draw do
     resources :events, controller: 'venues/events'
   end
 
+  resources :events do
+    resources :slots, except: [:index], controller: 'events/slots' do
+      resources :slot_applications
+    end
+  end
+
+   resources :events do
+      resources :slot_applications
+    end
+
   resources :bands 
   resources :events
-  resources :slots
+  resources :slots do
+    resources :slot_applications
+  end
+  resources :slot_applications
   
 
   # The priority is based upon order of creation: first created -> highest priority.

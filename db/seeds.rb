@@ -29,7 +29,7 @@ brock.skip_confirmation!
 brock.save!
 
 # Create venues
-5.times do
+4.times do
   Venue.create!(
     user:   users.sample,
     name:  Faker::Name.name, 
@@ -46,10 +46,10 @@ end
 venues = Venue.all
 
 # Create Bands
-10.times do
+9.times do
   Band.create!(
     user: users.sample,  
-    name: Faker::Name.name ,
+    name: Faker::Name.name,
     city:   Faker::Address.city, 
     members:  Faker::Number.number(1),
     instruments:  Faker::Number.number(1),
@@ -59,13 +59,13 @@ venues = Venue.all
     soundcloud: Faker::Internet.url('soundcloud.com') ,
     facebook: Faker::Internet.url('facebook.com') ,
     website: Faker::Internet.url ,
-    phone:  Faker::PhoneNumber.phone_number  
+    phone:  Faker::PhoneNumber.phone_number 
   )
 end
 bands = Band.all
 
 # Create events
-12.times do
+8.times do
   Event.create!(
     venue: venues.sample,  
     title:   Faker::Lorem.word,  
@@ -82,22 +82,23 @@ end
 events = Event.all
 
 #Create slots
-14.times do
-  Slot.create!(
-    event: events.sample,  
-    band:   bands.sample, 
-    time:  Faker::Time.forward(23, :night).strftime("%H:%M"),
-    approved: [1,0].sample 
-  )
-end
-14.times do
+20.times do
   Slot.create!(
     event: events.sample,  
     time:  Faker::Time.forward(23, :night).strftime("%H:%M"),
-    approved: 0
+    confirmed: true
   )
 end
 slots = Slot.all
+
+50.times do
+  SlotApplication.create!(
+    band: bands.sample,
+    slot: slots.sample, 
+    approved: [1,0].sample
+  )
+end
+slot_applications = SlotApplication.all
 
 puts "Seed finished"
 puts "#{User.count} users created"
@@ -105,3 +106,4 @@ puts "#{Venue.count} venues created"
 puts "#{Band.count} bands created"
 puts "#{Event.count} bands created"
 puts "#{Slot.count} slots created"
+puts "#{SlotApplication.count} slots created"

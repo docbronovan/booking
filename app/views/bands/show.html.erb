@@ -6,24 +6,46 @@
     <h3> Upcoming Shows </h3>
   </div>
   <div class ="col-sm-6 col-md-offset-3 display-shows">
-      <% @slots.each do |slot| %>
-        <% @events.each do |event| %>
-          <% if slot.event_id == event.id %>
-            <div class = "btn-info btn-lg"> 
-              <div class="row">
-                <div class = "col-sm-12"><%= link_to "#{event.title} #{slot.time}", event %>
-               
-                </div>
-                
-              </div>
-              </div>
+        <% @slot_apps.each do |slot_app| %>
+          <% @slots.each do |slot| %>  
+            <% @events.each do |event| %>
+              <% if slot_app.slot_id == slot.id && slot_app.band_id == @band.id %>
+                <% if slot.event_id == event.id && slot.confirmed? %>
+                  <div class = "btn-info btn-lg"> 
+                    <div class="row">
+                      <div class = "col-sm-12"><%= link_to "#{event.title} #{slot.time}", event %></div> 
+                    </div>
+                  </div>
+                <% end %>
+              <% end %>
+            <% end %>
           <% end %>
         <% end %>
-      <% end %>
   </div>
 
+  <div class="col-md-12 upcoming ">
+    <h3> Waiting to hear back </h3>
+  </div>
+  <div class ="col-sm-6 col-md-offset-3 display-shows">
+    <div class ="col-sm-6 col-md-offset-3 display-shows">
+        <% @slot_apps.each do |slot_app| %>
+          <% @slots.each do |slot| %>  
+            <% @events.each do |event| %>
+              <% if slot_app.slot_id == slot.id && slot_app.band_id == @band.id %>
+                <% if slot.event_id == event.id && slot.confirmed == false %>
+                  <div class = "btn-info btn-lg"> 
+                    <div class="row">
+                      <div class = "col-sm-12"><%= link_to "#{event.title} #{slot.time}", event %></div> 
+                    </div>
+                  </div>
+                <% end %>
+              <% end %>
+            <% end %>
+          <% end %>
+        <% end %>
+  </div>
 
-</div>
+  </div>
 <div class="container">
   <div class="row col-md-12">
     <footer>Locl Shows</footer>

@@ -1,22 +1,15 @@
 <div class="container">
   
-  <h1>Events#index</h1>
-    <% @events.each do |event| %>
-      <% @slots.each do |slot| %>
-          <% if slot.approved == false %>
-              <div class = "btn-info btn-lg"> 
-                <div class="row">
-                  <div class = "col-sm-12">
-                    <h4><%=  "OPEN #{event.title}"  %></h4>  
-                  </div>
-                </div>
-              </div>
-          <% end %>
-      <% end %>
+  <h1>Events with open time slots</h1>
+    <% @listings.each do |event| %>
+      <div class = "btn-info btn-lg"> 
+        <div class="row">
+          <div class = "col-sm-12">
+            <h4><%= link_to "#{event.date}  #{event.title} OPEN", event_path(event)  %></h4>  
+          </div>
+        </div>
+      </div>
     <% end %>
-
-
-
 
 </div>
 

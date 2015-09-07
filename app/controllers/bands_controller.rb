@@ -16,10 +16,13 @@ class BandsController < ApplicationController
 
   def show
     @band = Band.find(params[:id])
-    @slots = @band.slots
+    @slot_apps = SlotApplication.all
+    #@slot_apps = SlotApplication.joins(:band).where(bands: { id: @band }).uniq
+    @slots = Slot.all
     @events = Event.all
     @venue = Venue.all
   end
+
 
   def create
     @band = Band.new(band_params)  

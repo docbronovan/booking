@@ -4,36 +4,39 @@
   </div>
   <div class="row col-md-12">
     <p>Venue: <%= @venue.name %></p>
+    <p>Title: <%= @event.title %></p>
     <p>Date: <%= @event.date %></p>
   </div>
   <div class="row upcoming col-md-12">
     <h3>Schedule</h3>
     <div class ="row col-md-6 col-md-offset-3 display-shows">
+      
       <% @slots.each do |slot| %>
-        <% if slot.event == @event %>
-          <% if slot.approved == false %>
-              <div class = "btn-info btn-lg"> 
-                <div class="row">
-                  <div class = "col-sm-12">
-                    <h4><%=  "OPEN #{slot.time}"  %></h4>  
-                  </div>
-                </div>
+        <% if slot.confirmed == false %>
+          <div class = "btn-info btn-lg"> 
+            <div class="row">
+              <div class = "col-sm-12">
+                <h4><%=  link_to "OPEN #{slot.time} Click here to book", new_slot_application_path  %></h4>  
               </div>
-          <% else %>
-            <% @bands.each do |band| %>
-              
-              <% if slot.band == band %>
-                <div class = "btn-info btn-lg"> 
-                  <div class="row">
-                    <div class = "col-sm-12">
-                      <h4><%= link_to "#{band.name} #{slot.time}", band %></h4> 
+            </div>
+          </div>
+
+        <% else %>
+          <% @slot_apps.each do |slot_app| %>
+            <% if slot_app.slot == slot %>
+              <% @bands.each do |band| %>
+                <% if slot_app.band == band %>
+                  <div class = "btn-info btn-lg"> 
+                    <div class="row">
+                      <div class = "col-sm-12">
+                        <h4><%= link_to "#{band.name} #{slot.time}", band %></h4> 
+                      </div>
                     </div>
                   </div>
-                </div>
+                <% end %>
               <% end %>
             <% end %>
           <% end %>
-
         <% end %>
       <% end %>
     </div>

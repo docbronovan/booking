@@ -1,5 +1,7 @@
 class Slot < ActiveRecord::Base
   belongs_to :event
-  belongs_to :band
+  has_many :slot_applications
+
+
 
 end

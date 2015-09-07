@@ -1,0 +1,16 @@
+<h1>Slots#new</h1>
+
+<h1>Time Slot Info</h1>
+  
+ <%= form_for @slot_app do |f| %>
+        <div class ="">
+          <%= f.collection_select :id, @bands, :id, :name %>
+        </div>
+
+        <div>
+          <% f.hidden_field :approved, :value => false %>
+        </div>
+        <div>
+          <%= f.submit "BOOK!" %>
+        </div>
+<% end %>

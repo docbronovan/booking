@@ -1,8 +1,10 @@
 class EventsController < ApplicationController
   def index
     @events = Event.all
+    #@events = Event.order(params[:sort])
     @slots = Slot.all
-    @listings = Event.joins(:slots).where(slots: { confirmed: false }).order(:title).uniq
+    @listings = Event.joins(:slots).where(slots: { confirmed: false }).order(:date).uniq
+    
   end
 
   def show

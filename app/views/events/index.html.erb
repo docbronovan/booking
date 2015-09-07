@@ -1,16 +1,52 @@
 <div class="container">
   
   <h1>Events with open time slots</h1>
-    <% @listings.each do |event| %>
-      <div class = "btn-info btn-lg"> 
-        <div class="row">
-          <div class = "col-sm-12">
-            <h4><%= link_to "#{event.date}  #{event.title} OPEN", event_path(event)  %></h4>  
-          </div>
+  <div class="row column-headers">
+      <div class="col-md-2 col-offset-2">    
+        DATE
+      </div>
+      <div class="col-md-3">   
+        VENUE NAME
+      </div>
+      <div class="col-md-3">
+        EVENT TITLE
+      </div>
+      <div class="col-md-2">
+        OPEN SLOTS
+      </div>
+
+    </div>
+  <% @listings.each do |event| %>
+    <div class="row">
+      <div class="col-md-2 col-offset-2"> 
+        <div class="list-group-item">    
+          <strong><%= link_to event.date, event_path(event) %></strong>
         </div>
       </div>
-    <% end %>
+      <div class="col-md-3">   
+        <div class="list-group-item"> 
+          <%= link_to event.venue.name, event_path(event) %>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="list-group">  
+          <div class="list-group-item"> 
+            <div class="item-edit-delete">
+              <%= link_to event.title, event_path(event)%>
+            </div>
+          </div> 
+        </div>
+      </div>
+      
+      <div class="col-md-2">
+        <div class="list-group">
+          <div class="list-group-item"> 
+            <%= link_to "OPEN", event_path(event) %>
+          </div> 
+        </div>
+      </div>
 
-</div>
+    </div>
+  <% end %>
 
 

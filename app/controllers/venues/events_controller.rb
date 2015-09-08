@@ -1,13 +1,25 @@
 class Venues::EventsController < ApplicationController
 
+  def index 
+    @venue = Venue.find(params[:venue_id])
+    @slots = Slot.all
+    @events = Event.where("venue_id = ?", @venue.id)
+    #@listings = Event.joins(:slots).where(slots: { confirmed: false }).order(:date).uniq    
+  end
+
   def show
     @event = Event.find(params[:id])
+    @venue = Venue.find(@event.venue_id)
+    @slots = Slot.where("event_id = ?", @event.id).order(:time) #all of the slots assocated with event
+    @slot_apps = SlotApplication.all # ALL slot applications
+    @bands = Band.all # ALL bands
+
   end
 
   def new
     @venue = Venue.find(params[:venue_id])
     @event = Event.new
-    #authorize @event
+ 
   end
 
   def create

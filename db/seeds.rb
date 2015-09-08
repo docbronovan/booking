@@ -9,44 +9,18 @@
 require 'faker'
 
 # Create some users
-4.times do 
+3.times do 
   user = User.create!(
     email:    Faker::Internet.email,
     password: 'helloworld',
-    role:     ['BAND','VENUE'].sample
+    role:     'BAND'
   )
   user.skip_confirmation!
   user.save!
 end
-users = User.all
-
-brock = User.new(
-  email: 'brockdonovan@gmail.com',
-  password: 'helloworld',
-  role:     'BAND'
-)
-brock.skip_confirmation!
-brock.save!
-
-# Create venues
-4.times do
-  Venue.create!(
-    user:   users.sample,
-    name:  Faker::Name.name, 
-    address:  Faker::Address.street_address,
-    city:   Faker::Address.city, 
-    state:  Faker::Address.state_abbr,
-    zip:  Faker::Address.zip_code,
-    neighborhood:  Faker::Address.city_suffix,
-    phone:  Faker::PhoneNumber.phone_number,
-    website:  Faker::Internet.url,
-    description:  Faker::Lorem.sentence
-  )
-end
-venues = Venue.all
 
 # Create Bands
-9.times do
+4.times do
   Band.create!(
     user: users.sample,  
     name: Faker::Name.name,
@@ -63,6 +37,41 @@ venues = Venue.all
   )
 end
 bands = Band.all
+brock = User.new(
+  email: 'brockdonovan@gmail.com',
+  password: 'helloworld',
+  role:     'BAND'
+)
+brock.skip_confirmation!
+brock.save!
+
+bdon = User.new(
+  email: 'bdonovan@barackobama.com',
+  password: 'helloworld',
+  role:     'VENUE'
+)
+bdon.skip_confirmation!
+bdon.save!
+
+users = User.all
+
+# Create venues
+4.times do
+  Venue.create!(
+    user:   bdon,
+    name:  Faker::Name.name, 
+    address:  Faker::Address.street_address,
+    city:   Faker::Address.city, 
+    state:  Faker::Address.state_abbr,
+    zip:  Faker::Address.zip_code,
+    neighborhood:  Faker::Address.city_suffix,
+    phone:  Faker::PhoneNumber.phone_number,
+    website:  Faker::Internet.url,
+    description:  Faker::Lorem.sentence
+  )
+end
+venues = Venue.all
+
 
 # Create events
 8.times do

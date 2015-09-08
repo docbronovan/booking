@@ -1,8 +1,11 @@
-<h1>My Bands</h1>
-
-
-<% @bands.each do |band| %>
-  <h3><%=link_to band.name, band %></h3>
+<% if current_user.role == 'BAND' %>
+  <h1>My Bands</h1>
+  <% @bands.each do |band| %>
+    <h3><%=link_to band.name, band %></h3>
+  <% end %>
+<% elsif current_user.role == 'VENUE' %>
+  <h1>My Venues</h1>
+  <% @venues.each do |venue| %>
+    <h3><%=link_to venue.name, venue %></h3>
+  <% end %>
 <% end %>
-
-

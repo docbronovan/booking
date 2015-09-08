@@ -3,15 +3,15 @@ Rails.application.routes.draw do
   devise_for :users
   
   get 'welcome/index'
-  get 'welcome/about'
   root to: 'welcome#index'
   get 'bands/:id/about' => 'bands#about'
 
   resources :users, only: [:update, :show, :index] do
     resources :bands 
   end 
+
   resources :venues do
-    resources :events, controller: 'venues/events'
+    resources :events, controller: 'venues/events', shallow: true
   end
 
   resources :events do
@@ -19,10 +19,6 @@ Rails.application.routes.draw do
       resources :slot_applications
     end
   end
-
-   resources :events do
-      resources :slot_applications
-    end
 
   resources :bands 
   resources :events

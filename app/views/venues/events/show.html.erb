@@ -1,0 +1,70 @@
+<div class="container">
+  <div class="row col-md-12">
+    <h1>SHOW DETAILS venues event show</h1>
+  </div>
+  <div class="row col-md-12">
+    <p>Venue: <%= @venue.name %></p>
+    <p>Title: <%= @event.title %></p>
+    <p>Date: <%= @event.date %></p>
+  </div>
+  <div class="row upcoming col-md-12">
+    <h3>Schedule</h3>
+    <div class ="row col-md-6 col-md-offset-3 display-shows">
+      
+      <% @slots.each do |slot| %>
+        <% if slot.confirmed == false %>
+          <div class = "btn-info btn-lg"> 
+            <div class="row">
+              <div class = "col-sm-4">
+                <%= slot.time.in_time_zone("Eastern Time (US & Canada)").strftime("%I:%M%p") %>
+              </div>
+              <div class = "col-sm-2">
+                <h4> Unconfirmed </h4>  
+              </div>
+            </div>
+          </div>
+
+        <% else %>
+          <% @slot_apps.each do |slot_app| %>
+              <% @bands.each do |band| %>
+                <% if slot_app.slot == slot && slot_app.approved == true && slot_app.band == band %>
+                  <div class = "btn-info btn-lg"> 
+                    <div class="row">
+                      <div class = "col-sm-4">
+                        <h4><%= link_to "#{slot.time.in_time_zone("Eastern Time (US & Canada)").strftime("%I:%M%p")}  ", band %></h4> 
+                      </div>
+                      <div class = "col-sm-4">
+                      <h4><%= link_to "#{band.name} ", band %></h4> </div>
+                    </div>
+                  </div>
+                <% end %>
+              <% end %>
+            <% end %>
+          <% end %>
+        <% end %>
+
+    <div class = "btn-info btn-lg"> 
+      <div class="row">
+        <div class = "col-sm-12">
+          <%=link_to "Add slot",  new_slot_application_path %>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row col-md-6 col-md-offset-3">
+    <div class = "col-sm-6 col-sm-offset-3">
+      <div class="btn-danger">
+      CANCEL SHOW
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="row col-md-12">
+    <div class="row col-md-6 col-md-offset-3">
+    <div class = "col-sm-6 col-sm-offset-3">
+    <footer>Locl Shows</footer>
+    </div>
+  </div>
+  </div>
+</div>

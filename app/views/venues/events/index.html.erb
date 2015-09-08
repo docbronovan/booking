@@ -1,9 +1,8 @@
 <div class="container">
-  <p>Find me in app/views/venues/show.html.erb</p>
-    <p>Venue index</p><br>
-  <h1><%= @venue.name %></h1>
-
   
+  <h1>DOUBLE DOOR </h1> 
+  <p>Venue events index</p><br>
+
   <div class="row column-headers">
       <div class="col-md-2 col-md-offset-2">    
         DATE
@@ -15,8 +14,8 @@
         OPEN SLOTS
       </div>
     </div>
+
   <% @events.each do |event| %>
-  <% if event.venue == @venue %>
     <div class="row">
       <div class="col-md-2 col-md-offset-2"> 
         <div class="list-group-item">    
@@ -46,5 +45,3 @@
   <% end %>
 
 
-
-<% end %>

@@ -8,8 +8,10 @@ class SlotApplicationsController < ApplicationController
   end
 
   def create
-    @slot_app = SlotApplication.new(slot_app_params)  
+    @slot_app = SlotApplication.new(slot_app_params)
+    @venue  = User.find(1)
     if @slot_app.save
+      UserMailer.request_email(@venue).deliver_later
       flash[:notice] = "Applications was saved."
       redirect_to current_user
     else

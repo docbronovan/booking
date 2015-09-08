@@ -8,6 +8,9 @@ class UsersController < ApplicationController
     if @user.role == 'BAND'
       @bands = @user.bands
     end 
+    if @user.role == 'VENUE'
+      @venues = @user.venues
+    end 
   end
 
 end

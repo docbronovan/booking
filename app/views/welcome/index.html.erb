@@ -1,9 +1,11 @@
 <div class="jumbotron">
   <h1>LOCL SHOWS</h1>
   
-  <% if current_user %>
+  <% if current_user.role == 'BAND' %>
     <p><%= link_to "Check out your band page!", user_path(current_user) %></p>
     <p><%= link_to "Check out some shows!", events_path %></p>
+  <% elsif  current_user.role == 'VENUE'%>
+    <p><%= link_to "Check out your venue page!", user_path(current_user) %></p>
   <% else %>
     <button type="button" class="btn btn-primary btn-lg active">
       <%= link_to "Sign in", root_path %>

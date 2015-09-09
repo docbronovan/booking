@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>ABOUT  <%= @venue.name %></h1>
+
+  <div class="col-md-12">
+    <p>Name: <%= @venue.name %></p>
+    <p>Address: <%= @venue.address %></p>    
+    <p>City: <%= @venue.city %></p>
+    <p>State: <%= @venue.state %></p>
+    <p>Zip: <%= @venue.zip %></p>
+    <p>neighborhood: <%= @venue.neighborhood %></p>
+    <p>phone: <%= @venue.phone %></p>
+    <p>website: <%= @venue.website %></p>
+    <p>description: <%= @venue.description %></p>
+    
+  </div>
+  <% if @user == current_user %>
+    <div class = "col-md-2 col-md-offset-4 btn-info btn-sm">
+      <%= link_to "edit info", edit_venue_path %>
+    </div>
+  <% end %>
+</div>
+<div class="container">
+  <div class="row col-md-12">
+    <footer>Locl Shows</footer>
+  </div>
+</div>

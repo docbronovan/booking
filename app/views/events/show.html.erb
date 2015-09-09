@@ -3,7 +3,7 @@
     <h1>SHOW DETAILS</h1>
   </div>
   <div class="row col-md-12">
-    <p>Venue: <%= @venue.name %></p>
+    <p>Venue: <%= link_to @venue.name,"/venues/#{@venue.id}/about" %></p>
     <p>Title: <%= @event.title %></p>
     <p>Date: <%= @event.date %></p>
   </div>

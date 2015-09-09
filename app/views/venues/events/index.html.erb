@@ -19,14 +19,14 @@
     <div class="row">
       <div class="col-md-2 col-md-offset-2"> 
         <div class="list-group-item">    
-          <strong><%= link_to event.date, event %></strong>
+          <strong><%= link_to event.date, new_venue_event %></strong>
         </div>
       </div>
       <div class="col-md-3">
         <div class="list-group">  
           <div class="list-group-item"> 
             <div class="item-edit-delete">
-              <%= link_to event.title, event %>
+              <%= link_to event.title, new_venue_event %>
             </div>
           </div> 
         </div>
@@ -35,7 +35,7 @@
       <div class="col-md-2">
         <div class="list-group">
           <div class="list-group-item"> 
-            <%= link_to "OPEN", event %>
+            <%= link_to "OPEN", new_venue_event %>
           </div> 
         </div>
       </div>

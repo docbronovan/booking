@@ -17,18 +17,31 @@ class EventsController < ApplicationController
   end
 
   def new
-  end
-
-  def edit
+    @event = Event.new
   end
 
   def create
+    @event = Event.build(event_params)
+    if @event.save
+      flash[:notice] = "Event was saved."
+      redirect_to [@venue, @event]
+    else
+      flash[:error] = "There was an error saving the event. Please try again."
+      render :new #added by me so I dont get template error
+    end
+  end
+  
+  def edit
   end
 
   def update
   end
 
   def destroy
+  end
+
+  def event_params
+    params.require(:event).permit(:title, :date ,:twentyOne, :cover, :stage, :equipment, :description, :other, :disclaimer)
   end
 
   def open_slot(events, *args) #should take array

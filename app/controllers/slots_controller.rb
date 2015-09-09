@@ -15,7 +15,7 @@ class SlotsController < ApplicationController
   end
 
   def create
-    @slot = Slot.build(params.require(:slot))
+    @slot = Slot.build(params.require(:slot).permit(:event_id, :time))
     if @slot.save
       #added for through
       #@slot.users << current_user

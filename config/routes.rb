@@ -10,18 +10,20 @@ Rails.application.routes.draw do
     resources :bands 
   end 
 
-  resources :venues do
-    resources :events, controller: 'venues/events', shallow: true
+  resources :events do
+    resources :slots, except: [:index], controller: 'events/slots' 
   end
 
-  resources :events do
-    resources :slots, except: [:index], controller: 'events/slots' do
+  resources :slots, only: [] do
       resources :slot_applications
     end
-  end
 
+  #get "venues/:venue_id/events/new" => "venues/events#new", :as => "new_venue_event"
+  resources :venues do
+    resources :events, only: [:new , :index, :show, :create], controller: 'venues/events'
+  end
   resources :bands 
-  resources :events
+  
   resources :slots do
     resources :slot_applications
   end

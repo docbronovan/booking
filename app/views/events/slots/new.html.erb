@@ -1,13 +1,15 @@
 <%= form_for [@event, @slot] do |f| %>
-        <div class ="">
-          <%= f.collection_select :band_id, @bands, :id, :name %>
-        </div>
+        
+  <% if current_user.role == 'VENUE' %>
+      <% f.hidden_field :confirmed, :value => false %>
+      <% f.hidden_field :event_id, :value => @event.id %>
 
-        <div>
-          <% f.hidden_field :approved, :value => false %>
-          <% f.hidden_field :approved, :value => false %>
-        </div>
-        <div>
-          <%= f.submit "new BOOK!" %>
-        </div>
+    <div>
+      <%= f.time_select(:time,time_separator: ':',ampm: true) %>
+      
+    </div>
+    <div>
+      <%= f.submit "Add time slot" %>
+    </div>
+  <% end %>
 <% end %>

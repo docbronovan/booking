@@ -4,8 +4,8 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
   
-  has_many :bands
-  has_many :venues
+  has_many :bands, dependent: :destroy
+  has_many :venues, dependent: :destroy
 
   def band?
     role == 'BAND'

@@ -15,16 +15,18 @@ class Events::SlotsController < ApplicationController
 
   def create
     @event = Event.find(params[:event_id])
+    
     @slot = Slot.new(slot_params)
     @slot.event = @event
-
     if @slot.save
       flash[:notice] = "Slot was saved."
-      redirect_to @event
+      redirect_to current_user
     else
       flash[:error] = "There was an error saving the slot. Please try again."
       render :new #added by me so I dont get template error
     end
+
+
   end
 
   def edit
@@ -49,10 +51,10 @@ class Events::SlotsController < ApplicationController
   def destroy
     @event = Event.find(params[:event_id])
     @slot = Slot.find(params[:id])
-
+    @venue = @event.venue
     if @slot.destroy
       flash[:notice] = "\"#{@slot.title}\" was deleted sucessfully."
-      redirect_to @event
+      redirect_to @venue
     else
       flash[:error] = "There was an error deleting the slot."
       render :show
@@ -62,6 +64,6 @@ class Events::SlotsController < ApplicationController
   private
 
   def slot_params
-    params.require(:slot).permit(:band_id, :event_id, :approved)
+    params.require(:slot).permit(:event_id, :time,:confirmed)
   end
 end

@@ -16,10 +16,10 @@
           <div class = "btn-info btn-lg"> 
             <div class="row">
               <div class = "col-sm-4">
-                <%= slot.time.in_time_zone("Eastern Time (US & Canada)").strftime("%I:%M%p") %>
+                <%= slot.time.strftime("%I:%M%p") %>
               </div>
               <div class = "col-sm-2">
-                <h4> Unconfirmed </h4>  
+                <h4> <%= link_to "Unconfirmed", "/slots/#{slot.id}/slot_applications" %> </h4>  
               </div>
             </div>
           </div>
@@ -31,10 +31,10 @@
                   <div class = "btn-info btn-lg"> 
                     <div class="row">
                       <div class = "col-sm-4">
-                        <h4><%= link_to "#{slot.time.in_time_zone("Eastern Time (US & Canada)").strftime("%I:%M%p")}  ", band %></h4> 
+                        <h4><%= link_to "#{slot.time.strftime("%I:%M%p")}  ", "/bands/#{band.id}/about" %></h4> 
                       </div>
                       <div class = "col-sm-4">
-                      <h4><%= link_to "#{band.name} ", band %></h4> </div>
+                      <h4><%= link_to "#{band.name} ", "/bands/#{band.id}/about" %></h4> </div>
                     </div>
                   </div>
                 <% end %>
@@ -46,7 +46,7 @@
     <div class = "btn-info btn-lg"> 
       <div class="row">
         <div class = "col-sm-12">
-          <%=link_to "Add slot",  new_slot_application_path %>
+          <%=link_to "Add slot",  [:new, @event, :slot] %>
         </div>
       </div>
     </div>

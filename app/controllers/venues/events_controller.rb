@@ -1,5 +1,10 @@
 class Venues::EventsController < ApplicationController
 
+  def new
+    @event = Event.new
+    @venue = Venue.find(params[:venue_id])
+  end
+
   def index 
     @venue = Venue.find(params[:venue_id])
     @slots = Slot.all
@@ -13,23 +18,14 @@ class Venues::EventsController < ApplicationController
     @slots = Slot.where("event_id = ?", @event.id).order(:time) #all of the slots assocated with event
     @slot_apps = SlotApplication.all # ALL slot applications
     @bands = Band.all # ALL bands
-
-  end
-
-  def new
-    @venue = Venue.find(params[:venue_id])
-    @event = Event.new
- 
   end
 
   def create
     @venue = Venue.find(params[:venue_id])
     
-    @event = current_user.events.build(event_params)
-    authorize @event
+    @event = Event.new(event_params)
     @event.venue = @venue
     if @event.save
-      @event.create_vote
       flash[:notice] = "Event was saved."
       redirect_to [@venue, @event]
     else
@@ -74,6 +70,7 @@ class Venues::EventsController < ApplicationController
   private
 
   def event_params
-    params.require(:event).permit(:title, :date ,:twentyOne, :cover, :stage, :equipment, :description, :other, :disclaimer)
+    params.require(:event).permit(:title,:date ,:twentyOne, :cover, :stage, :equipment, :description, :other, :disclaimer)
   end
+
 end

@@ -1,10 +1,10 @@
-<h1>Slots#new</h1>
+<h1>Slot_Applications#new</h1>
 
 <h1>Time Slot Info</h1>
   
- <%= form_for @slot_app do |f| %>
+ <%= form_for [@slot,@slot_app] do |f| %>
         <div class ="">
-          <%= f.collection_select :id, @bands, :id, :name %>
+          <%= f.collection_select :band_id, @bands, :id, :name %>
         </div>
 
         <div>

@@ -1,0 +1,34 @@
+<h1>Slot_applications#index</h1>
+
+<p><%= @slot.event.title %></p>
+<p>
+<% @slot_applications.each do |slot_app| %>
+  <div class="row">
+    <div class="col-md-2 col-offset-2"> 
+      <div class="list-group-item">    
+        <strong>Slot_App_id<%= slot_app.id %></strong>
+      </div>
+    </div>
+    <!-- band -->
+    <div class="col-md-3">   
+      <div class="list-group-item"> 
+        <% @bands.each do |band| %>
+          <% if band.id == slot_app.band_id %>
+            <%= link_to slot_app.band.name, band %>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+    <!-- confirm -->
+    <div class="col-md-3">   
+      <div class="list-group-item"> 
+        <% @bands.each do |band| %>
+          <% if band.id == slot_app.band_id %>
+            <%= link_to slot_app.band.name, root_path %>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>
+</p>

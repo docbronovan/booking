@@ -1,17 +1,22 @@
 class SlotApplicationsController < ApplicationController
   def index
+    @slot = Slot.find(params[:slot_id])
+    @slot_applications = SlotApplication.where("slot_id = ?", @slot.id)
+    @bands = Band.all
   end
 
   def new
+    @slot = Slot.find(params[:slot_id])
     @slot_app = SlotApplication.new
     @bands = current_user.bands
   end
 
   def create
-    @slot_app = SlotApplication.new(slot_app_params)
-    @venue  = User.find(1)
+    @slot = Slot.find(params[:slot_id])
+    @slot_app = @slot.slot_applications.new(slot_app_params)
+    @venue  = @slot.event.venue
     if @slot_app.save
-      UserMailer.request_email(@venue).deliver_later
+      UserMailer.request_email(@venue.user).deliver_later
       flash[:notice] = "Applications was saved."
       redirect_to current_user
     else

@@ -25,7 +25,7 @@
       </div>
       <div class="col-md-3">   
         <div class="list-group-item"> 
-          <%= link_to event.venue.name, event_path(event) %>
+          <%= link_to event.venue.name, "/venues/#{event.venue.id}/about" %>
         </div>
       </div>
       <div class="col-md-3">

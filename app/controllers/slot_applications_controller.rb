@@ -25,6 +25,17 @@ class SlotApplicationsController < ApplicationController
     end
   end
 
+  def update
+    @slot = Slot.find(params[:slot_id])
+    if @slot.update_attributes(:confirmed)
+      flash[:notice] = "Band confirmed"
+      redirect_to slot_applications_path
+    else
+      flash[:error] = "There was an error confirming the band. Please try again."
+      render :edit
+    end
+  end
+
   def slot_app_params
     params.require(:slot_application).permit(:band_id, :slot_id, :approved)
   end

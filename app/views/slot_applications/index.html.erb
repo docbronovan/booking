@@ -4,7 +4,7 @@
 <p>
 <% @slot_applications.each do |slot_app| %>
   <div class="row">
-    <div class="col-md-2 col-offset-2"> 
+    <div class="col-md-3 "> 
       <div class="list-group-item">    
         <strong>Slot_App_id<%= slot_app.id %></strong>
       </div>
@@ -14,21 +14,25 @@
       <div class="list-group-item"> 
         <% @bands.each do |band| %>
           <% if band.id == slot_app.band_id %>
-            <%= link_to slot_app.band.name, band %>
+            <%= link_to slot_app.band.name, "/bands/#{band.id}/about" %>
           <% end %>
         <% end %>
       </div>
     </div>
     <!-- confirm -->
     <div class="col-md-3">   
-      <div class="list-group-item"> 
-        <% @bands.each do |band| %>
-          <% if band.id == slot_app.band_id %>
-            <%= link_to slot_app.band.name, root_path %>
-          <% end %>
+      <% @bands.each do |band| %>
+        <% if band.id == slot_app.band_id %>
+          <div class = "btn-success"> 
+            <%= render partial: 'form', locals: {slot: @slot } %>
+          </div>
         <% end %>
-      </div>
+      <% end %>
     </div>
+
   </div>
+
+
+
 <% end %>
 </p>

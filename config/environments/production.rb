@@ -78,6 +78,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # set action mailer
-  config.action_mailer.default_url_options = { host: 'brock-donovan-blocmarks.herokuapp.com'}
+  config.action_mailer.default_url_options = { host: 'brock-donovan-booking.herokuapp.com'}
 
 end

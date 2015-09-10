@@ -16,7 +16,7 @@
           <div class = "btn-info btn-lg"> 
             <div class="row">
               <div class = "col-sm-12">
-                <h4><%=  link_to "OPEN #{slot.time} Click here to book", new_slot_slot_application_path(slot)  %></h4>  
+                <h4><%=  link_to "#{slot.time.strftime("%I:%M%p")} OPEN Click here to book", new_slot_slot_application_path(slot)  %></h4>  
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@
                   <div class = "btn-info btn-lg"> 
                     <div class="row">
                       <div class = "col-sm-12">
-                        <h4><%= link_to "#{band.name} #{slot.time}", "/bands/#{band.id}/about" %></h4> 
+                        <h4><%= link_to "#{slot.time.strftime("%I:%M%p")} #{band.name}", "/bands/#{band.id}/about" %></h4> 
                       </div>
                     </div>
                   </div>

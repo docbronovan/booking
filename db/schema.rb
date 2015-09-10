@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150904223322) do
+ActiveRecord::Schema.define(version: 20150910190304) do
 
   create_table "bands", force: :cascade do |t|
     t.integer  "user_id"
@@ -25,9 +25,10 @@ ActiveRecord::Schema.define(version: 20150904223322) do
     t.string   "soundcloud"
     t.string   "facebook"
     t.string   "website"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
     t.string   "phone"
+    t.string   "email",        default: "", null: false
   end
 
   add_index "bands", ["user_id"], name: "index_bands_on_user_id"
@@ -104,8 +105,9 @@ ActiveRecord::Schema.define(version: 20150904223322) do
     t.string   "phone"
     t.string   "website"
     t.text     "description"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+    t.string   "email",        default: "", null: false
   end
 
   add_index "venues", ["user_id"], name: "index_venues_on_user_id"

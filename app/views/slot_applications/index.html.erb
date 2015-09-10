@@ -23,9 +23,7 @@
     <div class="col-md-3">   
       <% @bands.each do |band| %>
         <% if band.id == slot_app.band_id %>
-          <div class = "btn-success"> 
-            <%= render partial: 'form', locals: {slot: @slot } %>
-          </div>
+            <%= link_to "Confirm band?", edit_slot_path(@slot), class: 'btn btn-success' %>
         <% end %>
       <% end %>
     </div>

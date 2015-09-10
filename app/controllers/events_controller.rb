@@ -38,6 +38,17 @@ class EventsController < ApplicationController
   end
 
   def destroy
+    @venue = Venue.find(params[:venue_id])
+    @event = Event.find(params[:id])
+    #authorize @event
+
+    if @event.destroy
+      flash[:notice] = "\"#{@event.title}\" was deleted sucessfully."
+      redirect_to @venue
+    else
+      flash[:error] = "There was an error deleting the event."
+      render :show
+    end
   end
 
   def event_params

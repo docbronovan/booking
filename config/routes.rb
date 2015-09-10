@@ -20,7 +20,7 @@ Rails.application.routes.draw do
 
   #get "venues/:venue_id/events/new" => "venues/events#new", :as => "new_venue_event"
   resources :venues do
-    resources :events, only: [:new , :index, :show, :create], controller: 'venues/events'
+    resources :events, only: [:new , :index, :show, :create, :destroy], controller: 'venues/events'
   end
   resources :bands 
   

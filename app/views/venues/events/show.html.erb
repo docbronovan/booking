@@ -1,11 +1,9 @@
 <div class="container">
   <div class="row col-md-12">
-    <h1>SHOW DETAILS venues event show</h1>
+    <h1><%=@event.title%></h1>
   </div>
   <div class="row col-md-12">
-    <p>Venue: <%= @venue.name %></p>
-    <p>Title: <%= @event.title %></p>
-    <p>Date: <%= @event.date %></p>
+    <p><%= @event.date %> @ <%= @venue.name %></p>
   </div>
   <div class="row upcoming col-md-12">
     <h3>Schedule</h3>
@@ -53,13 +51,15 @@
     
     <div class="row col-md-6 col-md-offset-3">
     <div class = "col-sm-6 col-sm-offset-3">
-      <div class="btn-danger">
-      CANCEL SHOW
-      </div>
+        <%= link_to "Cancel show", [@venue,@event], method: :delete, class: 'btn btn-danger', data: {confirm: 'Are you sure you want to cancel this show!? This cannot be undone' } %>
     </div>
   </div>
   </div>
 
+  <div class="row col-md-12">
+    <%= link_to "back to venue", venue_path(@venue)%>
+  </div>
+  
   <div class="row col-md-12">
     <div class="row col-md-6 col-md-offset-3">
     <div class = "col-sm-6 col-sm-offset-3">

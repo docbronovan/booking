@@ -22,11 +22,12 @@ end
 # Create Bands
 4.times do
   Band.create!(
+    email:    Faker::Internet.email,
     user: users.sample,  
     name: Faker::Name.name,
     city:   Faker::Address.city, 
     members:  Faker::Number.number(1),
-    instruments:  Faker::Number.number(1),
+    instruments:  Faker::Lorem.word,
     description: Faker::Lorem.sentence  ,
     genre: Faker::Lorem.word ,
     requirements: Faker::Lorem.sentence  ,
@@ -58,6 +59,7 @@ users = User.all
 # Create venues
 4.times do
   Venue.create!(
+    email:    Faker::Internet.email,
     user:   bdon,
     name:  Faker::Name.name, 
     address:  Faker::Address.street_address,

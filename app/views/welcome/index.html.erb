@@ -5,7 +5,7 @@
       <p><%= link_to "Check out your band page!", user_path(current_user) %></p>
       <p><%= link_to "Check out some shows!", events_path %></p>
     <% else  current_user.role == 'VENUE'%>
-      <p><%= link_to "Check out your venue page!", user_path(current_user) %></p>
+      <p><%= link_to "Check out your venues!", user_path(current_user) %></p>
     <% end %>
     <% else %>
       <button type="button" class="btn btn-primary btn-lg active">

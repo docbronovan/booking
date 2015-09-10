@@ -38,12 +38,12 @@
         <div> 
         <%= f.label :disclaimer %>
         <%= f.text_field :disclaimer %>
-        
         </div>
+    
         <%= f.hidden_field :venue_id, value: @venue.id %>
         <%= f.hidden_field :event_id, value: @event.id %>
+        
         <div>
-
         <%= f.submit "Save" %>
         </div>
         

@@ -7,6 +7,7 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
   gem 'newrelic_rpm'
+  gem 'raygun4ruby'
 end
 group :development do
   gem 'sqlite3'

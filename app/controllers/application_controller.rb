@@ -10,10 +10,10 @@ class ApplicationController < ActionController::Base
   end
 
   def after_sign_in_path_for(resource)
-    if current_user.role = 'BAND'
-      band_path(current_user)
-    elsif current_user.role = 'VENUE'
-      venue_path(current_user)
+    if current_user.role = 'BAND' && band.current_user
+        band_path(current_user)
+    elsif current_user.role = 'VENUE' && venue.current_user
+        venue_path(current_user)
     else
       root_path
     end

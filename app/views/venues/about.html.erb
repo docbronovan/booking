@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container center">
   <h1>ABOUT  <%= @venue.name %></h1>
 
   <div class="col-md-12">
@@ -20,9 +20,14 @@
       <%= link_to "edit info", edit_venue_path %>
     </div>
   <% end %>
-</div>
-<div class="container">
+
+  <div>
+    <%= link_to "Back", @return_to %>
+
+  </div>
+<div class="container center">
   <div class="row col-md-12">
     <footer>Locl Shows</footer>
   </div>
+</div>
 </div>

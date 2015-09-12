@@ -5,6 +5,7 @@ class VenuesController < ApplicationController
   def about
     @venue = Venue.find(params[:id])
     @user = @venue.user_id
+    @return_to ||= request.referer
   end
 
   def show

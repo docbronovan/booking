@@ -17,7 +17,14 @@
 @import "bootstrap";
 
 
-.container {
+/*.container {
+  text-align: center;
+}*/
+
+.form-group {
+  text-align: left;
+}
+.container.center {
   text-align: center;
 }
 
@@ -33,6 +40,10 @@ h3 {
   margin-top: 0px;
 }
 
+.bandinfo {
+  text-align: center;
+}
+
 .display-shows {
   padding-top: 3%;
 }
@@ -43,6 +54,7 @@ h3 {
 }
 
 .column-headers {
+  padding-top: 20px;
   padding-bottom: 20px;
   font-weight: bold;
 }
@@ -59,6 +71,7 @@ h3 {
 .btn-danger {
   margin-top: 6%;
 }
+
 footer {
   padding-top: 6%;
   padding-bottom:1%;

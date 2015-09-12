@@ -1,5 +1,7 @@
+<div class = "container center">
 <% if current_user.role == 'BAND' %>
   <h1>My Bands</h1>
+  <p><%= link_to "Create new band page", new_band_path %></p>
   <% @bands.each do |band| %>
     <h3><%=link_to band.name, band %></h3>
   <% end %>
@@ -9,3 +11,4 @@
     <h3><%=link_to venue.name, venue %></h3>
   <% end %>
 <% end %>
+</div>

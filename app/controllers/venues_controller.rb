@@ -35,8 +35,23 @@ class VenuesController < ApplicationController
     end
   end
 
+  def new
+    @venue = Venue.new
+  end
+
+  def create
+    @venue = current_user.venues.new(venue_params)  
+    if @venue.save
+      flash[:notice] = "Venue was saved."
+      redirect_to @venue
+    else
+      flash[:error] = "There was an error saving the venue. Please try again."
+      render :new #added by me so I dont get template error
+    end
+  end
+
   def venue_params
-    params.require(:venue).permit(:user,:name,:city,:address,:state,:zip,:neighborhood,:phone,:description,:website)
+    params.require(:venue).permit(:user,:name,:city,:address,:state,:zip,:neighborhood,:phone,:description,:website, :email)
   end
 
   def event_open

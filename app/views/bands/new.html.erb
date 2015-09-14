@@ -35,7 +35,12 @@
 
             <div class="form-group">
             <%= f.label :facebook %>
-            <%= f.text_field :facebook, class: 'form-control', placeholder: "Enter new facebook page" %>
+            <%= f.text_field :facebook, class: 'form-control', placeholder: "Enter facebook page" %>
+            </div>
+
+            <div class="form-group">
+            <%= f.label :website %>
+            <%= f.text_field :website, class: 'form-control', placeholder: "Enter website" %>
             </div>
 
             <div class="form-group">
@@ -58,7 +63,7 @@
             <%= f.text_area :description, class: 'form-control', placeholder: "Enter band description" %>
             </div>
          <div class="form-group">
-        <%= f.submit "Update", class: 'btn btn-success' %>
+        <%= f.submit "Save", class: 'btn btn-success' %>
       </div>
     <% end %>
   </div>

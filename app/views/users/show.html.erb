@@ -7,6 +7,7 @@
   <% end %>
 <% elsif current_user.role == 'VENUE' %>
   <h1>My Venues</h1>
+  <p><%= link_to "Create new venue page", new_venue_path %></p>
   <% @venues.each do |venue| %>
     <h3><%=link_to venue.name, venue %></h3>
   <% end %>

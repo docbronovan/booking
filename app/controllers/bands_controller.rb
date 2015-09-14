@@ -26,7 +26,7 @@ class BandsController < ApplicationController
 
 
   def create
-    @band = Band.new(band_params)  
+    @band = current_user.bands.new(band_params)  
     if @band.save
       flash[:notice] = "Band was saved."
       redirect_to @band
@@ -48,7 +48,7 @@ class BandsController < ApplicationController
   end
 
   def band_params
-    params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone)
+    params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone, :email)
   end
   
 

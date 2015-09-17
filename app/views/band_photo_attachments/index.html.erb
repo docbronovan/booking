@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Band Photo Attachments</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Band</th>
+      <th>Photo</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @band_photo_attachments.each do |band_photo_attachment| %>
+      <tr>
+        <td><%= band_photo_attachment.band_id %></td>
+        <td><%= band_photo_attachment.photo %></td>
+        <td><%= link_to 'Show', band_photo_attachment %></td>
+        <td><%= link_to 'Edit', edit_band_photo_attachment_path(band_photo_attachment) %></td>
+        <td><%= link_to 'Destroy', band_photo_attachment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Band photo attachment', new_band_photo_attachment_path %>

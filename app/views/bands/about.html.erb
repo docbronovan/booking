@@ -14,6 +14,12 @@
     <p>website: <%= @band.website %></p>
     <p>email: <%= @band.email %></p>
   </div>
+
+  <% @band_photo_attachments.each do |p| %>
+    <%= image_tag p.photo_url %>
+    <%= link_to "Edit Attachment", edit_band_photo_attachment_path(p) %>
+  <% end %>
+
   <% if @user == current_user %>
     <div class = "col-md-2 col-md-offset-4 btn-info btn-sm">
       <%= link_to "edit info", edit_band_path %>

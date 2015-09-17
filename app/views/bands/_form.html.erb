@@ -1,0 +1,17 @@
+<%= form_for(@band, :html => { :multipart => true }) do |f| %>
+   <div class="field">
+     <%= f.label :name %><br>
+     <%= f.text_field :name %>
+   </div>
+
+   <%= f.fields_for :band_photo_attachments do |p| %>
+     <div class="field">
+       <%= p.label :photo %><br>
+       <%= p.file_field :photo, :multiple => true, name: "band_photo_attachments[photo][]" %>
+     </div>
+   <% end %>
+
+   <div class="actions">
+     <%= f.submit %>
+   </div>
+<% end %>

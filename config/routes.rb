@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :band_photo_attachments
   devise_for :users
   
   get 'welcome/index'

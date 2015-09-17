@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150910190304) do
+ActiveRecord::Schema.define(version: 20150916145609) do
+
+  create_table "band_photo_attachments", force: :cascade do |t|
+    t.integer  "band_id"
+    t.string   "photo"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "bands", force: :cascade do |t|
     t.integer  "user_id"
@@ -29,6 +36,7 @@ ActiveRecord::Schema.define(version: 20150910190304) do
     t.datetime "updated_at",                null: false
     t.string   "phone"
     t.string   "email",        default: "", null: false
+    t.string   "photo"
   end
 
   add_index "bands", ["user_id"], name: "index_bands_on_user_id"

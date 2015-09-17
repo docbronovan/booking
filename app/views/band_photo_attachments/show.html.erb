@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Band:</strong>
+  <%= @band_photo_attachment.band_id %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @band_photo_attachment.photo %>
+</p>
+
+<%= link_to 'Edit', edit_band_photo_attachment_path(@band_photo_attachment) %> |
+<%= link_to 'Back', band_photo_attachments_path %>

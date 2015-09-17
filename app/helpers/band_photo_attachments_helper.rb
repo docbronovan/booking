@@ -1,0 +1,2 @@
+module BandPhotoAttachmentsHelper
+end

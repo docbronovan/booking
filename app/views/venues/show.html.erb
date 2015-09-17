@@ -2,6 +2,7 @@
   <div class = "row">
     <div class = "row col-md-5 col-md-offset-3 ">
       <h1><%= @venue.name %></h1>
+      <p><%= link_to "View venue info","/venues/#{@venue.id}/about"%></p>
       <p><%= link_to "Edit venue info", edit_venue_path(@venue) %></p>
     </div>
     <div class = "row col-md-3 col-md-offset-4 btn-success btn-lg"> <%= link_to "New Event", [:new, @venue, :event]  %>

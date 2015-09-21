@@ -1,25 +1,28 @@
 <div class="container center">
   <h1>ABOUT  <%= @band.name %></h1>
+    <div class="photo">
+      <%= image_tag(@band.photo.url) if @band.photo? %>
+    </div>
+    <div class="col-md-12">
+      <p>Name: <%= @band.name %></p>
+      <p>City: <%= @band.city %></p>
+      <p>num_members: <%= @band.members %></p>
+      <p>instruments: <%= @band.instruments %></p>
+      <p>description: <%= @band.description %></p>
+      <p>genre: <%= @band.genre %></p>
+      <p>requirements: <%= @band.requirements %></p>
+      <p>soundcloud: <%= @band.soundcloud %></p>
+      <p>facebook: <%= @band.facebook %></p>
+      <p>website: <%= @band.website %></p>
+      <p>email: <%= @band.email %></p>
+    </div>
 
-  <div class="col-md-12">
-    <p>Name: <%= @band.name %></p>
-    <p>City: <%= @band.city %></p>
-    <p>num_members: <%= @band.members %></p>
-    <p>instruments: <%= @band.instruments %></p>
-    <p>description: <%= @band.description %></p>
-    <p>genre: <%= @band.genre %></p>
-    <p>requirements: <%= @band.requirements %></p>
-    <p>soundcloud: <%= @band.soundcloud %></p>
-    <p>facebook: <%= @band.facebook %></p>
-    <p>website: <%= @band.website %></p>
-    <p>email: <%= @band.email %></p>
-  </div>
   <% if @user == current_user %>
     <div class = "col-md-2 col-md-offset-4 btn-info btn-sm">
       <%= link_to "edit info", edit_band_path %>
     </div>
   <% end %>
 </div>
-    <div class="row col-md-12">
+    <div class = "center">
       <%= link_to "Back", @return_to %>
     </div>

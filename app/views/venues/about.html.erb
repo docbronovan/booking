@@ -1,6 +1,8 @@
 <div class="container center">
   <h1>ABOUT  <%= @venue.name %></h1>
-
+  <div class="photo">
+      <%= image_tag(@venue.photo.url) if @venue.photo? %>
+  </div>
   <div class="col-md-12">
     <p>Name: <%= @venue.name %></p>
     <p>Address: <%= @venue.address %></p>    
@@ -22,7 +24,6 @@
   <% end %>
 
   <div>
-    <%= link_to "Back", @return_to %>
-
+    <%= link_to "Back", @band %>
   </div>
 </div>

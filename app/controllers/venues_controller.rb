@@ -51,7 +51,7 @@ class VenuesController < ApplicationController
   end
 
   def venue_params
-    params.require(:venue).permit(:user,:name,:city,:address,:state,:zip,:neighborhood,:phone,:description,:website, :email)
+    params.require(:venue).permit(:user,:name,:city,:address,:state,:zip,:neighborhood,:phone,:description,:website,:email,:photo)
   end
 
   def event_open

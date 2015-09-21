@@ -7,6 +7,8 @@ class User < ActiveRecord::Base
   has_many :bands, dependent: :destroy
   has_many :venues, dependent: :destroy
 
+  mount_uploader :photo, PhotoUploader
+
   def band?
     role == 'BAND'
   end

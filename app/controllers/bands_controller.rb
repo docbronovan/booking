@@ -49,7 +49,7 @@ class BandsController < ApplicationController
   end
 
   def band_params
-    params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone, :email)
+    params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone,:email,:photo)
   end
   
 

@@ -5,6 +5,7 @@ class BandsController < ApplicationController
   def about
     @band = Band.find(params[:id])
     @user = @band.user_id
+    @return_to ||= request.referer
   end
 
   def edit

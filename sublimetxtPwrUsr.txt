@@ -1,0 +1,40 @@
+https://www.youtube.com/watch?v=_zNhqUnBfis
+ ⌘ representing Command and 
+ ⌥  representing Option 
+ ^ represents Control while 
+ ⇧ represents the Shift key.
+
+cmd+p goto Anything...
+
+cmd+r goto symbol
+
+cmd+shift+[ OR ] next/prev tab
+
+multiple cursors  
+  cmd+click-each-line OR 
+  alt+click-and-drag
+
+cmd/⌘-SHIFT-P set syntax
+
+!! doesnt work: ctrl+shift+w wrap selection in html tag
+
+cmd+ctrl+(upORdown) line buble(move entire line up or down)
+
+cmd+shift+space highlight selection between quotes
+
+cmd+shift+v paste with correct indenting
+
+   
+markdown preview or markdown to HTML preview
+  cmd+shift+p, type markdown preview: preview in browser, select github or markdown. Will open new window in browser.
+
+
+pluggins:
+  css - Hayaku
+  bracketHighlighter
+  markdown Preview
+
+.wrapper>ul>li*10>a[href"#"]{item}  
+.wrapper 
+EMMET
+

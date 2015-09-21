@@ -1,0 +1,1187 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"norm",
+				"norm_data_rand_pro_status"
+			],
+			[
+				"apc",
+				"apc_cons"
+			],
+			[
+				"pub",
+				"publicly_viewable"
+			],
+			[
+				"gly",
+				"glyphicon-chevron-up"
+			],
+			[
+				"tmp",
+				"tmp_signups"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"last",
+				"lastweektotalmessages"
+			],
+			[
+				"total",
+				"totalgroupmembers"
+			],
+			[
+				"totalgrou",
+				"totalgroupmessages"
+			],
+			[
+				"otr",
+				"otrsignups"
+			],
+			[
+				"list_zi",
+				"list_size_tuple"
+			],
+			[
+				"mailing",
+				"mailinggroups"
+			],
+			[
+				"cons_addr",
+				"cons_addr_district_id"
+			],
+			[
+				"primary",
+				"primarychase"
+			],
+			[
+				"temp",
+				"bd_email_temp1"
+			],
+			[
+				"saved_",
+				"saved_column"
+			],
+			[
+				"mailing_rec",
+				"mailing_recipient_trim"
+			],
+			[
+				"mailing_recip",
+				"mailing_recipient_id"
+			],
+			[
+				"maili",
+				"mailing_send_id"
+			],
+			[
+				"ins",
+				"insurance35"
+			],
+			[
+				"lookin",
+				"looking34_cons"
+			],
+			[
+				"cons",
+				"cons_email"
+			],
+			[
+				"metric",
+				"metricName"
+			],
+			[
+				"metr",
+				"metricTotal"
+			],
+			[
+				"metric_",
+				"metric_name"
+			],
+			[
+				"boun",
+				"bounce_rate"
+			],
+			[
+				"page",
+				"pageviews"
+			],
+			[
+				"metci",
+				"metric_name"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"webp",
+				"webp"
+			],
+			[
+				"creat",
+				"create_dt"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "capstone.txt\nbig face girl.png google docs\nOR bear \n\n\nshould be able to have multiple bands associated with one email address\n- make this tabs (user/show)\n\nslot_application_mailer (look at blocmarks)\n\n- sortable column names\nhttp://railscasts.com/episodes/228-sortable-table-columns?view=asciicast\n\napply for open slots\n- how to notify venue that a band applied?\n\n-validation:\n  -there aren't two shows at the same venue at the same time\n  -email associated with the venue required to create a show\n  -Unique band names\n  -  \n\nadmin has to change privledge to venue before venue can book. \n- change member_type to pundit privledge type\nformat unlocks/new and sessions/new\n\nuxpin.com\npixate\nalgolia - heroku addon for search\n\ndifferent color navbar if you are venue or band\n\nadd authorization step if someone signups up as a venue. They don't get the confirmation email until I approve them.\n\nband signup email instead of add band for venue\n\nfilter for band searching for shows. Filter by certain date. maybe add input box for date. location filtering.\n\nvenue search for bands for certain days/times\n\n\n---\nrails g model Band user:references name:string city:string num_members:int instrumets:string description:text genre:string requirements: text soundcloud:string  facebook:string  website:string\n\nrails g controller Bands index show\n\n\n\nrails g model Venue user:references name:string  address:string city:string  state:string zip:int neighborhood:string  phone:string website:string description:text\n\nrails g controller Venues index show\n\n\n\nrails g model Event band:references venue:references title:string date:date twentyOne cover:int stage:string equipment:text description:text other:text disclaimer:text\n\nrails g controller Events index show  new edit  create  update  destroy\n\n\n\nrails g model Slot event:references band:references time:time approved:boolean\n\nrails g controller Slots create update destroy\n\nrails g controller\n\n-------\n\n\n▶ heroku config:get SENDGRID_USERNAME\napp40660131@heroku.com\n\n~/code/booking  devise ✗                                           16h55m ⚑ ◒\n▶ heroku config:get SENDGRID_PASSWORD\njzam3w5b2333\n\n▶ rake secret\nbe054f85da39d86fef09b57ca412c87ec53c8673694b7247cd655c89c0e800e74f2e6cdcef21688b50436bcc0a583b955dbe3b8d36c7adf2e0263b690e05f64f\n\nDefault SMTP Login\npostmaster@app0c819235635b46c7be58b1319fa9699a.mailgun.org\nDefault Password\ndfce8f91678bb938efc56a95779171ae\n",
+			"file": "/Users/User/Documents/bloc/capstone.txt",
+			"file_size": 3012,
+			"file_write_time": 130863195020000000,
+			"settings":
+			{
+				"buffer_size": 2409,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sublimetxtPwrUsr.txt",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/band.rb",
+			"settings":
+			{
+				"buffer_size": 190,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/bands_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "class BandsController < ApplicationController\n  def index\n  end\n\n  def about\n    @band = Band.find(params[:id])\n    @user = @band.user_id\n    @return_to ||= request.referer\n  end\n\n  def edit\n    @band = Band.find(params[:id])\n  end\n\n  def new\n    @band = Band.new\n  end\n\n  def show\n    @band = Band.find(params[:id])\n    @slot_apps = SlotApplication.all\n    #@slot_apps = SlotApplication.joins(:band).where(bands: { id: @band }).uniq\n    @slots = Slot.all\n    @events = Event.all\n    @venue = Venue.all\n  end\n\n\n  def create\n    @band = current_user.bands.new(band_params)  \n    if @band.save\n      flash[:notice] = \"Band was saved.\"\n      redirect_to @band\n    else\n      flash[:error] = \"There was an error saving the band. Please try again.\"\n      render :new #added by me so I dont get template error\n    end\n  end\n\n  def update\n    @band = Band.find(params[:id])\n    if @band.update_attributes(band_params)\n      redirect_to @band\n      flash[:notice] = \"Band info was updated.\"\n    else\n      flash[:error] = \"Error saving band. Please try again.\"\n      render :edit\n    end\n  end\n\n  def band_params\n    params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone, :email)\n  end\n  \n\n\nend\n  ",
+			"settings":
+			{
+				"buffer_size": 1276,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"syntax: tex",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/User/code/booking",
+		"/Users/User/code/booking/app",
+		"/Users/User/code/booking/app/assets",
+		"/Users/User/code/booking/app/controllers",
+		"/Users/User/code/booking/app/models",
+		"/Users/User/code/booking/app/views",
+		"/Users/User/code/booking/app/views/bands",
+		"/Users/User/code/booking/app/views/devise",
+		"/Users/User/code/booking/app/views/devise/mailer",
+		"/Users/User/code/booking/app/views/devise/registrations",
+		"/Users/User/code/booking/app/views/devise/sessions",
+		"/Users/User/code/booking/app/views/events",
+		"/Users/User/code/booking/app/views/events/slots",
+		"/Users/User/code/booking/app/views/layouts",
+		"/Users/User/code/booking/app/views/slot_applications",
+		"/Users/User/code/booking/app/views/slots",
+		"/Users/User/code/booking/app/views/users",
+		"/Users/User/code/booking/app/views/venues",
+		"/Users/User/code/booking/app/views/venues/events",
+		"/Users/User/code/booking/app/views/welcome",
+		"/Users/User/code/booking/config",
+		"/Users/User/code/booking/config/initializers"
+	],
+	"file_history":
+	[
+		"/Users/User/code/booking/app/models/band.rb",
+		"/Users/User/code/booking/tmp/cache/assets/development/sprockets/v3.0/yxR8vxknIX83VV2jnZfW1S5kEuSSYauhTL-mWaGWQx4.cache",
+		"/Users/User/code/booking/app/views/layouts/application.html.erb",
+		"/Users/User/code/booking/app/views/bands/about.html.erb",
+		"/Users/User/code/booking/app/controllers/bands_controller.rb",
+		"/Users/User/code/booking/app/views/bands/show.html.erb",
+		"/Users/User/code/booking/app/views/venues/show.html.erb",
+		"/Users/User/code/booking/app/views/venues/events/show.html.erb",
+		"/Users/User/code/booking/app/controllers/application_controller.rb",
+		"/Users/User/code/booking/app/uploaders/photo_uploader.rb",
+		"/Users/User/Documents/bloc/aws keys.txt",
+		"/Users/User/code/booking/config/initializers/fog.rb",
+		"/Users/User/code/booking/config/application.yml",
+		"/Users/User/code/booking/app/views/bands/_form.html.erb",
+		"/Users/User/code/booking/app/models/band_photo_attachment.rb",
+		"/Users/User/code/booking/app/controllers/band_photo_attachments_controller.rb",
+		"/Users/User/code/booking/app/assets/stylesheets/application.scss",
+		"/Users/User/code/booking/app/views/users/show.html.erb",
+		"/Users/User/code/booking/app/controllers/venues_controller.rb",
+		"/Users/User/code/booking/app/views/venues/new.html.erb",
+		"/Users/User/code/booking/app/views/bands/new.html.erb",
+		"/Users/User/code/booking/app/views/slots/new.html.erb",
+		"/Users/User/code/booking/app/views/slot_applications/new.html.erb",
+		"/Users/User/code/booking/app/views/venues/about.html.erb",
+		"/Users/User/code/booking/app/views/events/show.html.erb",
+		"/Users/User/code/booking/app/views/events/index.html.erb",
+		"/Users/User/code/booking/app/views/bands/edit.html.erb",
+		"/Users/User/code/booking/app/views/devise/sessions/new.html.erb",
+		"/Users/User/code/booking/app/controllers/welcome_controller.rb",
+		"/Users/User/Documents/ofa-projects/recurring donor modeling/donors_recurring_modeling_recurring.sql",
+		"/Users/User/Documents/ofa-projects/recurring donor modeling/Email_non-recurring_recurring_modeling.sql",
+		"/Users/User/Documents/ofa-projects/recurring donor modeling/Email_donors_recurring_modeling_recurring.sql",
+		"/Users/User/Documents/bloc/todo_api.txt",
+		"/Users/User/Documents/ofa-projects/recurring_donors.sql",
+		"/Users/User/Documents/Organizing for action/scripts/useful redshift.sql",
+		"/Users/User/Documents/Organizing for action/monday.txt",
+		"/Users/User/Documents/outfile.txt",
+		"/Users/User/Documents/ofa-projects/actblueBSD contribs/actblue and bsd donations.sql",
+		"/Users/User/Documents/Organizing for action/civis/checking civis error logs.txt",
+		"/Users/User/Documents/ofa-projects/dollars per acq.sql",
+		"/Users/User/Documents/ofa-projects/actblue test/act blue test.txt",
+		"/Users/User/Documents/pullSingleConsAddr.py",
+		"/Users/User/Documents/pullConsAddr.py",
+		"/Users/User/Documents/ofa-projects/shift.txt",
+		"/Users/User/Documents/ofa-projects/20150723 OFA towels reveroy module test/towel test.txt",
+		"/Users/User/Documents/ofa-projects/act blue test.txt",
+		"/Users/User/Documents/ofa-projects/20150722 sprint.txt",
+		"/Users/User/Documents/ofa-projects/clicks-opens.txt",
+		"/Users/User/Documents/ofa-projects/pullConsAddr.py",
+		"/Users/User/Documents/ofa-projects/pull minwagename.sql",
+		"/Users/User/code/blocitoff/db/migrate/20150715153024_add_defaultvalue_to_completed.rb",
+		"/Users/User/code/blocitoff/config/routes.rb",
+		"/Users/User/code/blocitoff/app/controllers/items_controller.rb",
+		"/Users/User/code/blocitoff/app/views/items/destroy.js.erb",
+		"/Users/User/code/blocitoff/app/views/items/_form.html.erb",
+		"/Users/User/code/blocitoff/app/views/items/_item.html.erb",
+		"/Users/User/code/blocitoff/app/views/users/show.html.erb",
+		"/Users/User/code/blocitoff/db/seeds.rb",
+		"/Users/User/code/blocitoff/app/views/welcome/index.html.erb",
+		"/Users/User/code/blocitoff/app/views/items/create.js.erb",
+		"/Users/User/code/blocitoff/app/controllers/users_controller.rb",
+		"/Users/User/code/blocitoff/app/views/items/create.html.erb",
+		"/Users/User/code/bloccit/app/views/comments/_comment.html.erb",
+		"/Users/User/Documents/ofa-projects/oneyearactives.sql",
+		"/Users/User/Documents/bloc/comments meeting.txt",
+		"/Users/User/Downloads/Recurring donations.txt",
+		"/Users/User/Documents/ofa-projects/20150618 fb ads test/20150615_facebook_donor_ads_test.txt",
+		"/Users/User/Documents/ofa-projects/20150615_EOQ sprint.txt",
+		"/Users/User/Documents/ofa-projects/20150615_facebook_donor_ads_test.txt",
+		"/Users/User/Documents/Organizing for action/jkiddpass.txt",
+		"/Users/User/Documents/ofa-projects/Recurring donations.txt",
+		"/Users/User/Downloads/recurring donor issue 6-3-2015.sql",
+		"/Users/User/Documents/Organizing for action/datasets/congressional_MAP_dataset_20150608.sql",
+		"/Users/User/Documents/ofa4-analytics/tests_a.py",
+		"/Users/User/Documents/ofa4-analytics/tests_b.py",
+		"/Users/User/code/bloccit/app/views/posts/_post.html.erb",
+		"/Users/User/code/bloccit/app/views/users/show.html.erb",
+		"/Users/User/code/bloccit/app/views/topics/show.html.erb",
+		"/Users/User/code/bloccit/app/controllers/users_controller.rb",
+		"/Users/User/code/bloccit/config/routes.rb",
+		"/Users/User/code/bloccit/spec/features/profiles_spec.rb",
+		"/Users/User/code/bloccit/app/helpers/application_helper.rb",
+		"/Users/User/code/bloccit/app/views/votes/_voter.html.erb",
+		"/Users/User/code/bloccit/spec/models/comment_spec.rb",
+		"/Users/User/code/bloccit/app/models/comment.rb",
+		"/Users/User/code/bloccit/app/views/devise/registrations/edit.html.erb",
+		"/Users/User/code/bloccit/app/models/vote.rb",
+		"/Users/User/code/bloccit/app/models/user.rb",
+		"/Users/User/code/bloccit/app/assets/stylesheets/application.scss",
+		"/Users/User/code/bloccit/app/controllers/application_controller.rb",
+		"/Users/User/code/bloccit/spec/features/sign_in_spec.rb",
+		"/Users/User/code/bloccit/spec/rails_helper.rb",
+		"/Users/User/code/bloccit/spec/support/test_factories.rb",
+		"/Users/User/code/bloccit/spec/models/user_spec.rb",
+		"/Users/User/code/bloccit/spec/models/topic_spec.rb",
+		"/Users/User/code/bloccit/app/models/topic.rb",
+		"/Users/User/code/bloccit/Gemfile",
+		"/Users/User/code/bloccit/app/controllers/topics_controller.rb",
+		"/Users/User/code/bloccit/app/policies/topic_policy.rb",
+		"/Users/User/code/bloccit/spec/models/post_spec.rb",
+		"/Users/User/code/bloccit/spec/models/vote_spec.rb",
+		"/Users/User/code/bloccit/app/views/favorites/_favorite.html.erb",
+		"/Users/User/code/bloccit/config/environments/development.rb",
+		"/Users/User/code/bloccit/app/controllers/posts_controller.rb",
+		"/Users/User/code/bloccit/app/views/favorite_mailer/new_comment.text.erb",
+		"/Users/User/code/bloccit/app/views/favorite_mailer/new_comment.html.erb",
+		"/Users/User/code/bloccit/app/mailers/favorite_mailer.rb",
+		"/Users/User/code/bloccit/app/policies/favorite_policy.rb",
+		"/Users/User/code/bloccit/app/views/posts/show.html.erb",
+		"/Users/User/code/bloccit/app/controllers/favorites_controller.rb",
+		"/Users/User/code/bloccit/db/migrate/20150526214733_add_email_permission_to_users.rb",
+		"/Users/User/code/bloccit/spec/controllers/favorites_controller_spec.rb",
+		"/Users/User/code/bloccit/app/models/favorite.rb",
+		"/Users/User/code/bloccit/app/models/post.rb",
+		"/Users/User/code/bloccit/spec/models/favorites_controller_spec.rb",
+		"/Users/User/code/bloccit/app/controllers/votes_controller.rb",
+		"/Users/User/Documents/bloc/20150519223121_remove_summaries.rb",
+		"/Users/User/code/bloccit/spec/controllers/votes_controller_spec.rb",
+		"/Users/User/code/bloccit/db/migrate/20150519223014_remove_unused_tables.rb",
+		"/Users/User/code/bloccit/db/seeds.rb",
+		"/Users/User/code/bloccit/app/policies/vote_policy.rb",
+		"/Users/User/code/bloccit/app/views/vote/_voter.html.erb",
+		"/Users/User/Documents/bloc/voting.txt",
+		"/Users/User/code/bloccit/app/controllers/comments_controller.rb",
+		"/Users/User/code/bloccit/app/views/comments/_form.html.erb",
+		"/Users/User/code/bloccit/app/policies/comment_policy.rb",
+		"/Users/User/code/bloccit/app/views/layouts/application.html.erb",
+		"/Users/User/code/bloccit/app/policies/post_policy.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"edit",
+			"def",
+			"about",
+			"band",
+			"avatar",
+			"post",
+			"web",
+			"current",
+			"col",
+			"non",
+			"non_recurring_phone_cons",
+			"non_recurring_2015",
+			"recurring",
+			"\\\\",
+			"random",
+			"<",
+			"\\n",
+			"\\)\\n\\(",
+			"comment",
+			"f\\.",
+			"path",
+			"f ",
+			"count",
+			"ofa_",
+			"email",
+			"scratch.",
+			"obama.",
+			";\\\"\\)",
+			"ofa_cur.execute\\(\\\"",
+			"contribu",
+			"in ",
+			"in",
+			"8",
+			"tag",
+			"van",
+			"vansy",
+			"my_campaign_id",
+			"email",
+			"tag",
+			"makeBsdApiUrl2",
+			"today",
+			"column",
+			"topic",
+			"@topic",
+			"warn",
+			"publicly_vie",
+			"email_favorites",
+			"user",
+			"post",
+			"class: 'btn btn-primary'",
+			"h3",
+			"vote",
+			"save",
+			"post.cre",
+			"require f",
+			" def associated_post(options{}",
+			" def associated_post(options{})",
+			"created_at time",
+			"if @post.sav",
+			"post",
+			"up_",
+			"post.each",
+			"produ",
+			"user",
+			"render",
+			"form",
+			"user",
+			"form",
+			"topic",
+			"post",
+			"comments",
+			"current",
+			"xml",
+			"cons_g",
+			"cons_group_name",
+			"cons_group_name =",
+			"tomorrow",
+			"create tab",
+			"create",
+			"topic_post_summary_path",
+			"comment",
+			"topic",
+			"posts_path",
+			"devise",
+			" def configure_permitted_parameters\n    devise_parameter_sanitizer.for(:sign_up) << :name\n  end",
+			"create",
+			"each",
+			"adver",
+			"welcom",
+			"\\$ ",
+			"$ ",
+			"@",
+			",\\n",
+			"5432",
+			"case",
+			"\\t",
+			"-8",
+			"Matchup",
+			"State",
+			"main.js",
+			"date",
+			"sheet",
+			"error",
+			",",
+			"bsdsync.",
+			"create",
+			"optimiz",
+			"\\n",
+			"error",
+			"\\n",
+			"'",
+			"\\n",
+			"error",
+			"\\\"\\)\\n",
+			"ofa_cur.execute\\(\\\"",
+			"error",
+			"\\\"",
+			"error",
+			"actives",
+			"erro",
+			"overlap",
+			"twitt",
+			"error",
+			"host",
+			"interval",
+			"str\\(toda",
+			"str(today",
+			"yesterday"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"photo",
+			"band",
+			"not",
+			"non_recurring_phone_cons_large",
+			"non_recurring_2015_large",
+			"non_recurring",
+			"",
+			"\\n<",
+			"\\n\\n",
+			")\\n\\n(",
+			"item",
+			"oneyear_",
+			"bdonovan.",
+			"bsdsync.",
+			";",
+			"",
+			"comment",
+			"",
+			",",
+			", ",
+			"-120",
+			"State",
+			"Matchup",
+			"",
+			"'\\n'",
+			"\\n'",
+			"',",
+			"'\\n",
+			"\\n",
+			"",
+			"bdonovan",
+			"",
+			"\"",
+			"\",",
+			"\"",
+			"",
+			", ",
+			"\\n",
+			" ",
+			"",
+			"\\tmethods\\n \\t\\t",
+			"\\tmethods\\n \\t",
+			"'1day'",
+			"\\\\'",
+			"\\'",
+			"bsdsync.cons_addr",
+			"\"total signups\"",
+			"\"new yesterday\"",
+			"newYesterday",
+			"bsdsync.cons_email",
+			"bsdsync.stg_signup",
+			"bdonovan",
+			"",
+			" ",
+			" ,",
+			"",
+			", ",
+			" ",
+			",",
+			"pkeys",
+			"pdict",
+			"ndict",
+			"    ",
+			"",
+			"union select cons_id from",
+			" union ",
+			"`",
+			"'",
+			"\\n",
+			"",
+			"words",
+			"",
+			"epa_event_signups",
+			"",
+			";#",
+			"",
+			"scratch.bd_last7",
+			"scratch.bd",
+			"create temporary table",
+			"",
+			",",
+			"",
+			"temp2",
+			",",
+			"",
+			"cons_group_771dcdbb5fb7",
+			"cons_group_48e64f6b31fd",
+			"cons_group_c2c8577ecd4c",
+			"\",\"",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/User/Documents/bloc/capstone.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sublimetxtPwrUsr.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"parser": "markdown",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"target": "browser"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/band.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/bands_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "booking.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"img",
+				"tmp/cache/assets/development/sprockets/v3.0/yxR8vxknIX83VV2jnZfW1S5kEuSSYauhTL-mWaGWQx4.cache"
+			],
+			[
+				"subl",
+				"sublimetxtPwrUsr.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/code/booking/booking.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 329.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"BandsController"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

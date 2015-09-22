@@ -1,5 +1,5 @@
-class AddPhotoToUsers < ActiveRecord::Migration
+class AddPhotoToBands < ActiveRecord::Migration
   def change
-    add_column :users, :photo, :string
+    add_column :bands, :photo, :string
   end
 end

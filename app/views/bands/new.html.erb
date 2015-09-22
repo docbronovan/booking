@@ -14,7 +14,7 @@
             </div>
 
             <div class="form-group">
-            <%= f.label :members %>
+            <%= f.label :number_of_members %>
             <%= f.text_field :members, class: 'form-control', placeholder: "Enter number of members in band" %>
             </div>
 
@@ -62,6 +62,14 @@
             <%= f.label :description %>
             <%= f.text_area :description, class: 'form-control', placeholder: "Enter band description" %>
             </div>
+
+            
+            <div class="form-group">
+              <%= f.label :photo %>
+              <%= f.file_field :photo %>
+              <%= f.hidden_field :photo_cache %>
+            </div>
+
          <div class="form-group">
         <%= f.submit "Save", class: 'btn btn-success' %>
       </div>

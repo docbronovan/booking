@@ -9,9 +9,11 @@ class CreateVenues < ActiveRecord::Migration
       t.integer :zip
       t.string :neighborhood
       t.string :phone
+      t.string :email, null: false
       t.string :website
+      t.string :photo
       t.text :description
-
+      
       t.timestamps null: false
     end
   end

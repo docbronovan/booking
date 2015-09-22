@@ -18,7 +18,7 @@ require 'faker'
   user.skip_confirmation!
   user.save!
 end
-
+users = User.all
 # Create Bands
 4.times do
   Band.create!(

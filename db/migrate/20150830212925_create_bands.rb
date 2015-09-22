@@ -5,14 +5,16 @@ class CreateBands < ActiveRecord::Migration
       t.string :name
       t.string :city
       t.integer :members
-      t.string :instrumets
+      t.string :instruments
       t.text :description
       t.string :genre
       t.string :requirements
-      t.string :text
       t.string :soundcloud
       t.string :facebook
       t.string :website
+      t.string :photo
+      t.string :phone
+      t.string :email, null: false
 
       t.timestamps null: false
     end

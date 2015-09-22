@@ -11,14 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150921215525) do
-
-  create_table "band_photo_attachments", force: :cascade do |t|
-    t.integer  "band_id"
-    t.string   "photo"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 20150903204742) do
 
   create_table "bands", force: :cascade do |t|
     t.integer  "user_id"
@@ -32,11 +25,11 @@ ActiveRecord::Schema.define(version: 20150921215525) do
     t.string   "soundcloud"
     t.string   "facebook"
     t.string   "website"
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
-    t.string   "phone"
-    t.string   "email",        default: "", null: false
     t.string   "photo"
+    t.string   "phone"
+    t.string   "email",        null: false
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
   add_index "bands", ["user_id"], name: "index_bands_on_user_id"
@@ -72,9 +65,9 @@ ActiveRecord::Schema.define(version: 20150921215525) do
   create_table "slots", force: :cascade do |t|
     t.integer  "event_id"
     t.time     "time"
+    t.boolean  "confirmed",  default: false
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
-    t.boolean  "confirmed",  default: false
   end
 
   add_index "slots", ["event_id"], name: "index_slots_on_event_id"
@@ -94,10 +87,9 @@ ActiveRecord::Schema.define(version: 20150921215525) do
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
     t.string   "unconfirmed_email"
+    t.string   "role"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
-    t.string   "role",                   default: "", null: false
-    t.string   "photo"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
@@ -112,12 +104,12 @@ ActiveRecord::Schema.define(version: 20150921215525) do
     t.integer  "zip"
     t.string   "neighborhood"
     t.string   "phone"
+    t.string   "email",        null: false
     t.string   "website"
-    t.text     "description"
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
-    t.string   "email",        default: "", null: false
     t.string   "photo"
+    t.text     "description"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
   add_index "venues", ["user_id"], name: "index_venues_on_user_id"

@@ -3,7 +3,7 @@ class CreateSlots < ActiveRecord::Migration
     create_table :slots do |t|
       t.references :event, index: true, foreign_key: true
       t.time :time
-      t.confirmed :boolean, default: false
+      t.boolean :confirmed, default: false
 
       t.timestamps null: false
     end

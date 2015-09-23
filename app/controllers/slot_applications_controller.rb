@@ -14,7 +14,7 @@ class SlotApplicationsController < ApplicationController
   def create
     @slot = Slot.find(params[:slot_id])
     @date = @slot.time.strftime("%B %d, %Y")
-    @time = @slot.time.strftime("%l:%M")
+    @time = @slot.time.strftime("%l:%M %P")
     @slot_app = @slot.slot_applications.new(slot_app_params)
     @venue  = @slot.event.venue
     @band = Band.all

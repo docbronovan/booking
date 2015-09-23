@@ -13,10 +13,13 @@ class SlotApplicationsController < ApplicationController
 
   def create
     @slot = Slot.find(params[:slot_id])
+    @date = @slot.time.strftime("%B %d, %Y")
+    @time = @slot.time.strftime("%l:%M")
     @slot_app = @slot.slot_applications.new(slot_app_params)
     @venue  = @slot.event.venue
+    @band = Band.all
     if @slot_app.save
-      UserMailer.request_email(@venue.user).deliver_later
+      UserMailer.request_email(@venue.user, @date, @time).deliver_later
       flash[:notice] = "Applications was saved."
       redirect_to current_user
     else

@@ -1,17 +1,14 @@
 <div class="container center">
-<%= form_for [@event, @slot] do |f| %>
-        
-  <% if current_user.role == 'VENUE' %>
-      <% f.hidden_field :confirmed, :value => false %>
-      <% f.hidden_field :event_id, :value => @event.id %>
-
-    <div>
-      <%= f.time_select(:time,time_separator: ':',ampm: true) %>
-      
-    </div>
-    <div>
-      <%= f.submit "Add time slot" %>
-    </div>
+  <%= form_for [@event, @slot] do |f| %>    
+    <% if current_user.role == 'VENUE' %>
+        <% f.hidden_field :confirmed, :value => false %>
+        <% f.hidden_field :event_id, :value => @event.id %>
+      <div>
+        <%= f.time_select(:time,time_separator: ':',ampm: true) %> 
+      </div>
+      <div>
+        <%= f.submit "Add time slot" %>
+      </div>
+    <% end %>
   <% end %>
-<% end %>
 </div>

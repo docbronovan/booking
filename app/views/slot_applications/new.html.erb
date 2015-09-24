@@ -1,15 +1,14 @@
 <div class="container center">
-  <h1>Time Slot Info</h1>
-    
-    <%= form_for [@slot,@slot_app] do |f| %>
-      <div class ="">
-        <%= f.collection_select :band_id, @bands, :id, :name %>
-      </div>
-      <div>
-        <% f.hidden_field :approved, :value => false %>
-      </div>
-      <div>
-        <%= f.submit "BOOK!" %>
-      </div>
-    <% end %>
+  <h1>Time Slot Info</h1> 
+  <%= form_for [@slot,@slot_app] do |f| %>
+    <div class ="">
+      <%= f.collection_select :band_id, @bands, :id, :name %>
+    </div>
+    <div>
+      <% f.hidden_field :approved, :value => false %>
+    </div>
+    <div>
+      <%= f.submit "BOOK!" %>
+    </div>
+  <% end %>
 </div>

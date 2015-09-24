@@ -1,11 +1,13 @@
-<%= form_for [event, slot] do |f| %>
-  <div>
-    <% f.hidden_field :approved, value: false  %>
-    <% f.hidden_field :slot_id, value: slot.id  %>
-    <% f.hidden_field :event_id, value: event  %>
-  </div>
-  <div>
-    <%= f.submit "BOOK!" %>
-  </div>
+<div class="container center">
+  <%= form_for [event, slot] do |f| %>
+    <div>
+      <% f.hidden_field :approved, value: false  %>
+      <% f.hidden_field :slot_id, value: slot.id  %>
+      <% f.hidden_field :event_id, value: event  %>
+    </div>
 
-<% end %>
+    <div>
+      <%= f.submit "BOOK!" %>
+    </div>
+  <% end %>
+</div>

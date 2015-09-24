@@ -1,8 +1,10 @@
 <div class="container center">
   <h1>ABOUT  <%= @band.name %></h1>
+
     <div class="photo">
       <%= image_tag(@band.photo.url) if @band.photo? %>
     </div>
+
     <div class="col-md-12">
       <p>Name: <%= @band.name %></p>
       <p>City: <%= @band.city %></p>
@@ -22,7 +24,9 @@
       <%= link_to "edit info", edit_band_path %>
     </div>
   <% end %>
+
+  <div class = "center">
+    <%= link_to "Back", @band %>
+  </div>
+  
 </div>
-    <div class = "center">
-      <%= link_to "Back", @return_to %>
-    </div>

@@ -1,79 +1,80 @@
 <div class = "container center">
-<h1>Band info</h1>
+  <h1>Band info</h1>
   
-    <div class="row bandinfo">
-      <%= form_for @band do |f| %>
-        <div class="form-group">
-            <%= f.label :band_name %>
-            <%= f.text_field :name, class: 'form-control', placeholder: "Enter new band name" %>
-            </div>
+  <div class="row">
 
-            <div class="form-group">
-            <%= f.label :city %>
-            <%= f.text_field :city, class: 'form-control', placeholder: "Enter new city" %>
-            </div>
+    <%= form_for @band do |f| %>
+      <div class="form-group">
+        <%= f.label :band_name %>
+        <%= f.text_field :name, class: 'form-control', placeholder: "Enter new band name" %>
+      </div>
 
-            <div class="form-group">
-            <%= f.label :number_of_members %>
-            <%= f.text_field :members, class: 'form-control', placeholder: "Enter number of members in band" %>
-            </div>
+      <div class="form-group">
+        <%= f.label :city %>
+        <%= f.text_field :city, class: 'form-control', placeholder: "Enter new city" %>
+      </div>
 
-            <div class="form-group">
-            <%= f.label :instruments %>
-            <%= f.text_field :instruments, class: 'form-control', placeholder: "Enter types of instruments" %>
-            </div>
+      <div class="form-group">
+        <%= f.label :number_of_members %>
+        <%= f.text_field :members, class: 'form-control', placeholder: "Enter number of members in band" %>
+      </div>
 
-            <div class="form-group">
-            <%= f.label :genre %>
-            <%= f.text_field :genre, class: 'form-control', placeholder: "Enter new genre" %>
-            </div>
+      <div class="form-group">
+        <%= f.label :instruments %>
+        <%= f.text_field :instruments, class: 'form-control', placeholder: "Enter types of instruments" %>
+      </div>
 
-            <div class="form-group">
-            <%= f.label :soundcloud %>
-            <%= f.text_field :soundcloud, class: 'form-control', placeholder: "Enter new name" %>
-            </div>
+      <div class="form-group">
+        <%= f.label :genre %>
+        <%= f.text_field :genre, class: 'form-control', placeholder: "Enter new genre" %>
+      </div>
 
-            <div class="form-group">
-            <%= f.label :facebook %>
-            <%= f.text_field :facebook, class: 'form-control', placeholder: "Enter facebook page" %>
-            </div>
+      <div class="form-group">
+        <%= f.label :soundcloud %>
+        <%= f.text_field :soundcloud, class: 'form-control', placeholder: "Enter new name" %>
+      </div>
 
-            <div class="form-group">
-            <%= f.label :website %>
-            <%= f.text_field :website, class: 'form-control', placeholder: "Enter website" %>
-            </div>
+      <div class="form-group">
+        <%= f.label :facebook %>
+        <%= f.text_field :facebook, class: 'form-control', placeholder: "Enter facebook page" %>
+      </div>
 
-            <div class="form-group">
-            <%= f.label :phone %>
-            <%= f.telephone_field :phone, class: 'form-control', placeholder: "Enter new phone number" %>
-            </div>
+      <div class="form-group">
+        <%= f.label :website %>
+        <%= f.text_field :website, class: 'form-control', placeholder: "Enter website" %>
+      </div>
 
-            <div class="form-group">
-            <%= f.label :email %>
-            <%= f.text_field :email, class: 'form-control', placeholder: "Enter new band email address" %>
-            </div>
+      <div class="form-group">
+        <%= f.label :phone %>
+        <%= f.telephone_field :phone, class: 'form-control', placeholder: "Enter new phone number" %>
+      </div>
 
-            <div class="form-group">
-            <%= f.label :requirements %>
-            <%= f.text_area :requirements, class: 'form-control', placeholder: "Enter any special requirements" %>
-            </div>
+      <div class="form-group">
+        <%= f.label :email %>
+        <%= f.text_field :email, class: 'form-control', placeholder: "Enter new band email address" %>
+      </div>
 
-            <div class="form-group">
-            <%= f.label :description %>
-            <%= f.text_area :description, class: 'form-control', placeholder: "Enter band description" %>
-            </div>
+      <div class="form-group">
+        <%= f.label :requirements %>
+        <%= f.text_area :requirements, class: 'form-control', placeholder: "Enter any special requirements" %>
+      </div>
 
-            
-            <div class="form-group">
-              <%= f.label :photo %>
-              <%= f.file_field :photo %>
-              <%= f.hidden_field :photo_cache %>
-            </div>
+      <div class="form-group">
+        <%= f.label :description %>
+        <%= f.text_area :description, class: 'form-control', placeholder: "Enter band description" %>
+      </div>
 
-         <div class="form-group">
+
+      <div class="form-group">
+        <%= f.label :photo %>
+        <%= f.file_field :photo %>
+        <%= f.hidden_field :photo_cache %>
+      </div>
+
+      <div class="form-group">
         <%= f.submit "Save", class: 'btn btn-success' %>
       </div>
     <% end %>
+    
   </div>
-</div>
 </div>

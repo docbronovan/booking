@@ -1,8 +1,10 @@
 <div class="container center">
   <h1>ABOUT  <%= @venue.name %></h1>
+  
   <div class="photo">
       <%= image_tag(@venue.photo.url) if @venue.photo? %>
   </div>
+  
   <div class="col-md-12">
     <p>Name: <%= @venue.name %></p>
     <p>Address: <%= @venue.address %></p>    
@@ -14,9 +16,8 @@
     <p>website: <%= @venue.website %></p>
     <p>description: <%= @venue.description %></p>
     <p>email: <%= @venue.email %></p>
-    
-    
   </div>
+  
   <% if @user == current_user %>
     <div class = "col-md-2 col-md-offset-4 btn-info btn-sm">
       <%= link_to "edit info", edit_venue_path %>
@@ -24,6 +25,6 @@
   <% end %>
 
   <div>
-    <%= link_to "Back", @band %>
+    <%= link_to "Back", @venue %>
   </div>
 </div>

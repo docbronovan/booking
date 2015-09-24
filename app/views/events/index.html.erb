@@ -1,6 +1,6 @@
 <div class="container center">
-  
   <h1>Events with open time slots</h1>
+  
   <div class="row column-headers">
     <div class="col-md-2 col-offset-2">    
       DATE
@@ -15,19 +15,23 @@
       OPEN SLOTS
     </div>
   </div>
+
   <% @listings.each do |event| %>
     <% if event.date >= Date.current() %>
       <div class="row">
+        
         <div class="col-md-2 col-offset-2"> 
           <div class="list-group-item">    
             <strong><%= link_to event.date, event_path(event) %></strong>
           </div>
         </div>
+        
         <div class="col-md-3">   
           <div class="list-group-item"> 
             <%= link_to event.venue.name, "/venues/#{event.venue.id}/about" %>
           </div>
         </div>
+        
         <div class="col-md-3">
           <div class="list-group">  
             <div class="list-group-item"> 
@@ -37,6 +41,7 @@
             </div> 
           </div>
         </div>
+        
         <div class="col-md-2">
           <div class="list-group">
             <div class="list-group-item"> 
@@ -44,7 +49,9 @@
             </div> 
           </div>
         </div>
+      
       </div>
+      
     <% end %>
   <% end %>
 

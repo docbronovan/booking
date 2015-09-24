@@ -7,18 +7,18 @@
     <% else  current_user.role == 'VENUE'%>
       <p><%= link_to "Check out your venues!", user_path(current_user) %></p>
     <% end %>
-    <% else %>
-      <button type="button" class="btn btn-primary btn-lg active">
-        <%= link_to "Sign in", new_user_session_path %>
+
+  <% else %>
+    <button type="button" class="btn btn-primary btn-lg active">
+      <%= link_to "Sign in", new_user_session_path %>
+    </button>
+    <div class="row signup">
+      <button type="button" class="col-md-4 col-md-offset-2">
+        <%= link_to "Venue Sign Up", new_user_registration_path %>
       </button>
-      <div class="row signup">
-        <button type="button" class="col-md-4 col-md-offset-2">
-          <%= link_to "Venue Sign Up", new_user_registration_path %>
-          </button>
-        <button type="button" class="col-md-4">
-          <%= link_to "Band Sign Up", new_user_registration_path %>
-        </button>
-      </div>
-    <% end %>
-  
+      <button type="button" class="col-md-4">
+        <%= link_to "Band Sign Up", new_user_registration_path %>
+      </button>
+    </div>
+  <% end %> 
 </div>

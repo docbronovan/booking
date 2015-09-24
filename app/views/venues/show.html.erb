@@ -1,13 +1,17 @@
 <div class="container center">
   <div class = "row">
+    
     <div class = "row col-md-5 col-md-offset-3 ">
       <h1><%= @venue.name %></h1>
       <p><%= link_to "View venue info","/venues/#{@venue.id}/about"%></p>
       <p><%= link_to "Edit venue info", edit_venue_path(@venue) %></p>
     </div>
+    
     <div class = "row col-md-3 col-md-offset-4 btn-success btn-lg"> <%= link_to "New Event", [:new, @venue, :event]  %>
     </div>
+
   </div>
+
   <div class="row column-headers">
     <div class="col-md-2 col-md-offset-2">    
       DATE
@@ -27,13 +31,15 @@
       </div>
     </div>
   </div>
+
   <!-- open  -->
   <% @events.each do |event| %>
     <% if event.date >= Date.current() %>
       <% if event.venue == @venue %>
         <% @open_event.each do |test| %>
           <% if event.id == test %>
-            <div class="row display-shows">
+
+            <div class="row pad-top">
               <div class="col-md-2 col-md-offset-2"> 
                 <div class="list-group-item">    
                   <strong><%= link_to event.date, [@venue,event] %></strong>
@@ -58,13 +64,14 @@
                 </div>
               </div>
             </div>
+
           <% end %>
         <% end %>
       <% end %>
     <% end %>
   <% end %>
 
-<!-- full-->
+  <!-- full-->
   <div class = "row"> 
     <div class="row h3">
       <div class="col-md-3 col-md-offset-4 ">   
@@ -72,14 +79,14 @@
       </div>
     </div>
   </div>
+  
   <!-- closed  -->
-
   <% @events.each do |event| %>
     <% if event.venue == @venue %>
       <% if event.date >= Date.current() %>
         <% @closed_event.each do |close| %>
           <% if event.id == close.id %>
-            <div class="row display-shows">
+            <div class="row pad-top">
               <div class="col-md-2 col-md-offset-2"> 
                 <div class="list-group-item">    
                   <strong><%= link_to event.date, [@venue,event] %></strong>
@@ -108,7 +115,7 @@
     <% end %>
   <% end %>
 
-<!-- no slots added yet -->
+  <!-- no slots added yet -->
   <div class = "row"> 
     <div class="row h3">
       <div class="col-md-3 col-md-offset-4 ">   
@@ -116,13 +123,12 @@
       </div>
     </div>
   </div>
-  <!-- no slots added yet  -->
   <% @events.each do |event| %>
     <% if event.venue == @venue %>
       <% if event.date >= Date.current() %>
         <% @other.each do |test| %>
           <% if event.id == test.id %>
-            <div class="row display-shows">
+            <div class="row pad-top">
               <div class="col-md-2 col-md-offset-2"> 
                 <div class="list-group-item">    
                   <strong><%= link_to event.date, [@venue,event] %></strong>

@@ -1,36 +1,37 @@
 <h1>Slot_applications#index</h1>
 
 <p><%= @slot.event.title %></p>
+
 <p>
-<% @slot_applications.each do |slot_app| %>
-  <div class="row">
-    <div class="col-md-3 "> 
-      <div class="list-group-item">    
-        <strong>Slot_App_id<%= slot_app.id %></strong>
+  <% @slot_applications.each do |slot_app| %>
+    <!-- slot -->
+    <div class="row">
+      <div class="col-md-3 "> 
+        <div class="list-group-item">    
+          <strong>Slot_App_id<%= slot_app.id %></strong>
+        </div>
       </div>
-    </div>
-    <!-- band -->
-    <div class="col-md-3">   
-      <div class="list-group-item"> 
+
+      <!-- band -->
+      <div class="col-md-3">   
+        <div class="list-group-item"> 
+          <% @bands.each do |band| %>
+            <% if band.id == slot_app.band_id %>
+              <%= link_to slot_app.band.name, "/bands/#{band.id}/about" %>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+
+      <!-- confirm -->
+      <div class="col-md-3">   
         <% @bands.each do |band| %>
           <% if band.id == slot_app.band_id %>
-            <%= link_to slot_app.band.name, "/bands/#{band.id}/about" %>
+              <%= link_to "Confirm band?", edit_slot_path(@slot), class: 'btn btn-success' %>
           <% end %>
         <% end %>
       </div>
+
     </div>
-    <!-- confirm -->
-    <div class="col-md-3">   
-      <% @bands.each do |band| %>
-        <% if band.id == slot_app.band_id %>
-            <%= link_to "Confirm band?", edit_slot_path(@slot), class: 'btn btn-success' %>
-        <% end %>
-      <% end %>
-    </div>
-
-  </div>
-
-
-
-<% end %>
+  <% end %>
 </p>

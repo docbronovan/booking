@@ -1,16 +1,12 @@
 <div class="container center">
   <h1>CONFRIM BAND</h1>
-
-  <div class="col-md-8">
-    <%= form_for @slot do |f| %>
-      <div>
-        <%= f.label :"confirm?" %>
-        <%= f.check_box :confirmed %>
-      </div>
-      <div class="form-group">
-         <%= f.submit "Save", class: 'btn btn-success' %>
-       </div>
-    <% end %>
-  </div>
-  
+  <%= form_for @slot do |f| %>
+    <div>
+      <h4><%= f.label :"confirm?" %>
+      <%= f.check_box :confirmed %></h4>
+    </div>
+    <div class="pad-top">
+       <%= f.submit "Save", class: 'btn btn-success' %>
+     </div>
+  <% end %>
 </div>

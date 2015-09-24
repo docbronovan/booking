@@ -1,19 +1,19 @@
-<div class="container">
+<div class="container center">
   
   <h1>DOUBLE DOOR </h1> 
   <p>Venue events index</p><br>
 
   <div class="row column-headers">
-      <div class="col-md-2 col-md-offset-2">    
-        DATE
-      </div>
-      <div class="col-md-3">
-        EVENT TITLE
-      </div>
-      <div class="col-md-2">
-        OPEN SLOTS
-      </div>
+    <div class="col-md-2 col-md-offset-2">    
+      DATE
     </div>
+    <div class="col-md-3">
+      EVENT TITLE
+    </div>
+    <div class="col-md-2">
+      OPEN SLOTS
+    </div>
+  </div>
 
   <% @events.each do |event| %>
     <div class="row">
@@ -43,5 +43,4 @@
     </div>
 
   <% end %>
-
-
+</div>

@@ -44,6 +44,16 @@ class SlotsController < ApplicationController
   end
 
   def destroy
+     @slot = Slot.find(params[:id])
+     @event = Event.find(@slot.event_id)
+     @venue = Venue.find(@event.venue_id)
+    if @slot.destroy
+      redirect_to [@venue, @event]
+      flash[:notice] = "Time slot was removed."
+    else
+      flash[:notice] = "Time slot couldn't be deleted. Try again"
+    end
+
   end
 
   def slot_params

@@ -15,12 +15,12 @@ class Events::SlotsController < ApplicationController
 
   def create
     @event = Event.find(params[:event_id])
-    
+    @venue = Venue.find(@event.venue_id)
     @slot = Slot.new(slot_params)
     @slot.event = @event
     if @slot.save
       flash[:notice] = "Slot was saved."
-      redirect_to current_user
+      redirect_to [@venue,@event]
     else
       flash[:error] = "There was an error saving the slot. Please try again."
       render :new #added by me so I dont get template error

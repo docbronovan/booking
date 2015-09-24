@@ -15,7 +15,7 @@ Rails.application.routes.draw do
     resources :slots, except: [:index], controller: 'events/slots' 
   end
 
-  resources :slots, only: [] do
+  resources :slots, only: [:update,:destroy] do
       resources :slot_applications
     end
 

@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root to: 'welcome#index'
   get 'bands/:id/about' => 'bands#about'
   get 'venues/:id/about' => 'venues#about'
+  
   resources :users, only: [:update, :show, :index] do
     resources :bands 
   end 

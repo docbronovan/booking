@@ -7,6 +7,7 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
   gem 'newrelic_rpm'
+  gem 'raygun4ruby'
 end
 group :development do
   gem 'sqlite3'
@@ -22,9 +23,6 @@ group :development, :test do
   gem 'spring', '1.3.6'
   gem 'factory_girl_rails', '~> 4.0'
 end
-#raygun, error tracking
-gem 'raygun4ruby'
-
 # puma
 gem 'puma'
 # pagination

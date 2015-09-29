@@ -1,0 +1,20 @@
+{
+  "name": "booking",
+  "version": "0.0.0",
+  "homepage": "https://github.com/docbronovan/booking",
+  "authors": [
+    "docbronovan <brockdonovan@gmail.com>"
+  ],
+  "description": "event booking app",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ]
+}

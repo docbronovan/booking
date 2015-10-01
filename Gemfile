@@ -7,13 +7,11 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
   gem 'newrelic_rpm'
-  gem 'raygun4ruby'
 end
 group :development do
   gem 'sqlite3'
   gem 'binding_of_caller'
   gem 'better_errors'
-  #gem 'thin'
 end
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
@@ -61,7 +59,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+#error reporting
+gem 'raygun4ruby'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 # Use ActiveModel has_secure_password

@@ -23,7 +23,6 @@ cmd+ctrl+(upORdown) line buble(move entire line up or down)
 cmd+shift+space highlight selection between quotes
 
 cmd+shift+v paste with correct indenting
-
    
 markdown preview or markdown to HTML preview
   cmd+shift+p, type markdown preview: preview in browser, select github or markdown. Will open new window in browser.

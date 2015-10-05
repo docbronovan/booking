@@ -48,6 +48,18 @@ class BandsController < ApplicationController
     end
   end
 
+  def destroy
+    @band = Band.find(params[:id])
+
+    if @band.destroy
+      flash[:notice] = "\"#{@band.name}\" was deleted sucessfully."
+      redirect_to current_user
+    else
+      flash[:error] = "There was an error deleting the band."
+      render :show
+    end
+  end
+
   def band_params
     params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone,:email,:photo)
   end

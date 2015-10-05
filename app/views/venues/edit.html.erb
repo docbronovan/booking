@@ -1,3 +1,14 @@
+<% if @venue.errors.any? %>
+  <div class="alert alert-danger">
+    <h4>There are <%= pluralize(@venue.errors.count, "error") %>.</h4>
+    <ul>
+      <% @venue.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
 <div class="container center">
   <h2>Edit <%= @venue.name %></h2>
 
@@ -54,6 +65,11 @@
           <%= f.text_field :email, class: 'form-control', placeholder: "Enter new email" %>
         </div>
         
+        <div class="form-group">
+          <%= f.label :email_confirmation %>
+          <%= f.text_field :email_confirmation, class: 'form-control', placeholder: "Confirm venue email address", :value => @email %>
+        </div>
+
         <% if @venue.photo? %>
            <div class="form-group">
              <p>Current Photo</p>

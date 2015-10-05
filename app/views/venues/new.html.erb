@@ -1,3 +1,14 @@
+<% if @venue.errors.any? %>
+  <div class="alert alert-danger">
+    <h4>There are <%= pluralize(@venue.errors.count, "error") %>.</h4>
+    <ul>
+      <% @venue.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
 <div class = "container center">
   <h2>New Venue</h2>
 
@@ -6,52 +17,57 @@
       <%= form_for @venue do |f| %>
         <div class="form-group">
           <%= f.label :venue_name %>
-          <%= f.text_field :name, class: 'form-control', placeholder: "Enter new name" %>
+          <%= f.text_field :name, class: 'form-control', placeholder: "Enter name" %>
         </div>
 
         <div class="form-group">
           <%= f.label :address %>
-          <%= f.text_field :address, class: 'form-control', placeholder: "Enter new address" %>
+          <%= f.text_field :address, class: 'form-control', placeholder: "Enter address" %>
         </div>
 
         <div class="form-group">
           <%= f.label :city %>
-          <%= f.text_field :city, class: 'form-control', placeholder: "Enter new city" %>
+          <%= f.text_field :city, class: 'form-control', placeholder: "Enter city" %>
         </div>
 
         <div class="form-group">
           <%= f.label :state %>
-          <%= f.text_field :state, class: 'form-control', placeholder: "Enter new state" %>
+          <%= f.text_field :state, class: 'form-control', placeholder: "Enter state" %>
         </div>
 
         <div class="form-group">
           <%= f.label :zip %>
-          <%= f.text_field :zip, class: 'form-control', placeholder: "Enter new zip" %>
+          <%= f.text_field :zip, class: 'form-control', placeholder: "Enter zip code" %>
         </div>
 
         <div class="form-group">
           <%= f.label :neighborhood %>
-          <%= f.text_field :neighborhood, class: 'form-control', placeholder: "Enter new neighborhood" %>
+          <%= f.text_field :neighborhood, class: 'form-control', placeholder: "Enter  neighborhood" %>
         </div>
 
         <div class="form-group">
           <%= f.label :description %>
-          <%= f.text_field :description, class: 'form-control', placeholder: "Enter new description" %>
+          <%= f.text_field :description, class: 'form-control', placeholder: "Enter venue description" %>
         </div>
 
         <div class="form-group">
           <%= f.label :phone %>
-          <%= f.text_field :phone, class: 'form-control', placeholder: "Enter new phone" %>
+          <%= f.text_field :phone, class: 'form-control', placeholder: "Enter phone" %>
         </div>
 
         <div class="form-group">
           <%= f.label :website %>
-          <%= f.text_field :website, class: 'form-control', placeholder: "Enter new website" %>
+          <%= f.text_field :website, class: 'form-control', placeholder: "Enter website" %>
         </div>
 
         <div class="form-group">
           <%= f.label :email %>
-          <%= f.text_field :email, class: 'form-control', placeholder: "Enter new email" %>
+          <%= f.text_field :email, class: 'form-control', placeholder: "Enter email address" %>
+        </div>
+        
+        <div class="form-group">
+          <%= f.label :email_confirmation %>
+          <%= f.text_field :email_confirmation, class: 'form-control', placeholder: "Confirm venue email address" %>
         </div>
 
         <div class="form-group">

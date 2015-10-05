@@ -1,3 +1,14 @@
+<% if @band.errors.any? %>
+  <div class="alert alert-danger">
+    <h4>There are <%= pluralize(@band.errors.count, "error") %>.</h4>
+    <ul>
+      <% @band.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
 <div class = "container center">
   <h1>Band info</h1>
   
@@ -11,7 +22,7 @@
 
       <div class="form-group">
         <%= f.label :city %>
-        <%= f.text_field :city, class: 'form-control', placeholder: "Enter new city" %>
+        <%= f.text_field :city, class: 'form-control', placeholder: "Enter city" %>
       </div>
 
       <div class="form-group">
@@ -26,17 +37,17 @@
 
       <div class="form-group">
         <%= f.label :genre %>
-        <%= f.text_field :genre, class: 'form-control', placeholder: "Enter new genre" %>
+        <%= f.text_field :genre, class: 'form-control', placeholder: "Enter genre" %>
       </div>
 
       <div class="form-group">
         <%= f.label :soundcloud %>
-        <%= f.text_field :soundcloud, class: 'form-control', placeholder: "Enter new name" %>
+        <%= f.text_field :soundcloud, class: 'form-control', placeholder: "Enter Soundcloud URL" %>
       </div>
 
       <div class="form-group">
         <%= f.label :facebook %>
-        <%= f.text_field :facebook, class: 'form-control', placeholder: "Enter facebook page" %>
+        <%= f.text_field :facebook, class: 'form-control', placeholder: "Enter Facebook page" %>
       </div>
 
       <div class="form-group">
@@ -46,12 +57,7 @@
 
       <div class="form-group">
         <%= f.label :phone %>
-        <%= f.telephone_field :phone, class: 'form-control', placeholder: "Enter new phone number" %>
-      </div>
-
-      <div class="form-group">
-        <%= f.label :email %>
-        <%= f.text_field :email, class: 'form-control', placeholder: "Enter new band email address" %>
+        <%= f.telephone_field :phone, class: 'form-control', placeholder: "Enter phone number" %>
       </div>
 
       <div class="form-group">
@@ -64,6 +70,15 @@
         <%= f.text_area :description, class: 'form-control', placeholder: "Enter band description" %>
       </div>
 
+       <div class="form-group">
+        <%= f.label :email %>
+        <%= f.text_field :email, class: 'form-control', placeholder: "Enter band email address" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :email_confirmation %>
+        <%= f.text_field :email_confirmation, class: 'form-control', placeholder: "Confirm band email address" %>
+      </div>
 
       <div class="form-group">
         <%= f.label :photo %>

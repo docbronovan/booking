@@ -10,6 +10,7 @@ class BandsController < ApplicationController
 
   def edit
     @band = Band.find(params[:id])
+    @email = @band.email
   end
 
   def new
@@ -32,18 +33,19 @@ class BandsController < ApplicationController
       flash[:notice] = "Band was saved."
       redirect_to @band
     else
-      flash[:error] = "There was an error saving the band. Please try again."
+      #flash[:error] = "There was an error saving the band. Please fill out all fields."
       render :new #added by me so I dont get template error
     end
   end
 
   def update
     @band = Band.find(params[:id])
+    @email = @band.email
     if @band.update_attributes(band_params)
       redirect_to @band
       flash[:notice] = "Band info was updated."
     else
-      flash[:error] = "Error saving band. Please try again."
+      #flash[:error] = "Error saving band. Please try again."
       render :edit
     end
   end
@@ -61,7 +63,7 @@ class BandsController < ApplicationController
   end
 
   def band_params
-    params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone,:email,:photo)
+    params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone,:email,:email_confirmation,:photo)
   end
   
 

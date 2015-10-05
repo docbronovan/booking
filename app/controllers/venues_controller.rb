@@ -22,15 +22,17 @@ class VenuesController < ApplicationController
   
   def edit
     @venue = Venue.find(params[:id])
+    @email = @venue.email
   end
 
   def update
     @venue = Venue.find(params[:id])
+    @email = @venue.email
     if @venue.update_attributes(venue_params)
       redirect_to @venue
       flash[:notice] = "Venue info was updated."
     else
-      flash[:error] = "Error saving Venue. Please try again."
+      #flash[:error] = "Error saving Venue. Please try again."
       render :edit
     end
   end
@@ -45,13 +47,13 @@ class VenuesController < ApplicationController
       flash[:notice] = "Venue was saved."
       redirect_to @venue
     else
-      flash[:error] = "There was an error saving the venue. Please try again."
+      #flash[:error] = "There was an error saving the venue. Please try again."
       render :new #added by me so I dont get template error
     end
   end
 
   def venue_params
-    params.require(:venue).permit(:user,:name,:city,:address,:state,:zip,:neighborhood,:phone,:description,:website,:email,:photo)
+    params.require(:venue).permit(:user,:name,:city,:address,:state,:zip,:neighborhood,:phone,:description,:website,:email,:email_confirmation,:photo)
   end
 
   def event_open

@@ -10,7 +10,6 @@ class Venues::EventsController < ApplicationController
     @venue = Venue.find(params[:venue_id])
     @slots = Slot.all
     @events = Event.where("venue_id = ?", @venue.id)
-    #@listings = Event.joins(:slots).where(slots: { confirmed: false }).order(:date).uniq    
   end
 
   def show

@@ -55,6 +55,9 @@ class EventsController < ApplicationController
     params.require(:event).permit(:title, :date ,:twentyOne, :cover, :stage, :equipment, :description, :other, :disclaimer)
   end
 
+  # open_slot determines if there is a slot that does not have an approved band
+  # If so, the event is added to the listings array which it itterated over in
+  # app/views/events/index.html.erb
   def open_slot(events, *args) #should take array
     open_events = nil
     listing = []
@@ -75,7 +78,7 @@ class EventsController < ApplicationController
     
     end
 
-    return listing #should return array
+    return listing #returns array of events with open slots
   end
 
 end

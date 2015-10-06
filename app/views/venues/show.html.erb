@@ -31,45 +31,48 @@
       </div>
     </div>
   </div>
-
+  
+  
   <!-- open  -->
-  <% @events.each do |event| %>
-    <% if event.date >= Date.current() %>
-      <% if event.venue == @venue %>
-        <% @open_event.each do |test| %>
-          <% if event.id == test %>
+  <div class = 'row'>
+    <% @events.each do |event| %>
+      <% if event.date >= Date.current() %>
+        <% if event.venue == @venue %>
+          <% @open_event.each do |test| %>
+            <% if event.id == test %>
 
-            <div class="row pad-top">
-              <div class="col-md-2 col-md-offset-2"> 
-                <div class="list-group-item">    
-                  <strong><%= link_to event.date, [@venue,event] %></strong>
+              <div class="row pad-top">
+                <div class="col-md-2 col-md-offset-2"> 
+                  <div class="list-group-item">    
+                    <strong><%= link_to event.date, [@venue,event] %></strong>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="list-group">  
+                    <div class="list-group-item"> 
+                      <div class="item-edit-delete">
+                        <%= link_to event.title, [@venue,event] %>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+                    
+                <div class="col-md-2">
+                  <div class="list-group">
+                    <div class="list-group-item"> 
+                          <%= link_to "OPEN", [@venue,event] %>
+                    </div> 
+                  </div>
                 </div>
               </div>
 
-              <div class="col-md-3">
-                <div class="list-group">  
-                  <div class="list-group-item"> 
-                    <div class="item-edit-delete">
-                      <%= link_to event.title, [@venue,event] %>
-                    </div>
-                  </div> 
-                </div>
-              </div>
-                  
-              <div class="col-md-2">
-                <div class="list-group">
-                  <div class="list-group-item"> 
-                        <%= link_to "OPEN", [@venue,event] %>
-                  </div> 
-                </div>
-              </div>
-            </div>
-
+            <% end %>
           <% end %>
         <% end %>
       <% end %>
     <% end %>
-  <% end %>
+  </div>
 
   <!-- full-->
   <div class = "row"> 
@@ -81,39 +84,41 @@
   </div>
   
   <!-- closed  -->
-  <% @events.each do |event| %>
-    <% if event.venue == @venue %>
-      <% if event.date >= Date.current() %>
-        <% @closed_event.each do |close| %>
-          <% if event.id == close.id %>
-            <div class="row pad-top">
-              <div class="col-md-2 col-md-offset-2"> 
-                <div class="list-group-item">    
-                  <strong><%= link_to event.date, [@venue,event] %></strong>
+  <div class= "row">
+    <% @events.each do |event| %>
+      <% if event.venue == @venue %>
+        <% if event.date >= Date.current() %>
+          <% @closed_event.each do |close| %>
+            <% if event.id == close.id %>
+              <div class="row pad-top">
+                <div class="col-md-2 col-md-offset-2"> 
+                  <div class="list-group-item">    
+                    <strong><%= link_to event.date, [@venue,event] %></strong>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="list-group">  
+                    <div class="list-group-item"> 
+                      <div class="item-edit-delete">
+                        <%= link_to event.title, [@venue,event] %>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="list-group">
+                    <div class="list-group-item"> 
+                      FULL
+                    </div> 
+                  </div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="list-group">  
-                  <div class="list-group-item"> 
-                    <div class="item-edit-delete">
-                      <%= link_to event.title, [@venue,event] %>
-                    </div>
-                  </div> 
-                </div>
-              </div>
-              <div class="col-md-2">
-                <div class="list-group">
-                  <div class="list-group-item"> 
-                    FULL
-                  </div> 
-                </div>
-              </div>
-            </div>
+            <% end %>
           <% end %>
         <% end %>
       <% end %>
     <% end %>
-  <% end %>
+  </div>
 
   <!-- no slots added yet -->
   <div class = "row"> 
@@ -123,38 +128,39 @@
       </div>
     </div>
   </div>
-  <% @events.each do |event| %>
-    <% if event.venue == @venue %>
-      <% if event.date >= Date.current() %>
-        <% @other.each do |test| %>
-          <% if event.id == test.id %>
-            <div class="row pad-top">
-              <div class="col-md-2 col-md-offset-2"> 
-                <div class="list-group-item">    
-                  <strong><%= link_to event.date, [@venue,event] %></strong>
-                </div>
-              </div>
-            <div class="col-md-3">
-              <div class="list-group">  
-                <div class="list-group-item"> 
-                  <div class="item-edit-delete">
-                    <%= link_to event.title, [@venue,event] %>
+  <div class = "row">
+    <% @events.each do |event| %>
+      <% if event.venue == @venue %>
+        <% if event.date >= Date.current() %>
+          <% @no_slots.each do |test| %>
+            <% if event.id == test.id %>
+              <div class="row pad-top">
+                <div class="col-md-2 col-md-offset-2"> 
+                  <div class="list-group-item">    
+                    <strong><%= link_to event.date, [@venue,event] %></strong>
                   </div>
-                </div> 
-              </div>
-            </div>             
-              <div class="col-md-2">
-                <div class="list-group">
+                </div>
+              <div class="col-md-3">
+                <div class="list-group">  
                   <div class="list-group-item"> 
-                    <%= link_to "NONE", [@venue,event] %>
+                    <div class="item-edit-delete">
+                      <%= link_to event.title, [@venue,event] %>
+                    </div>
                   </div> 
                 </div>
+              </div>             
+                <div class="col-md-2">
+                  <div class="list-group">
+                    <div class="list-group-item"> 
+                      <%= link_to "NONE", [@venue,event] %>
+                    </div> 
+                  </div>
+                </div>
               </div>
-            </div>
+            <% end %>
           <% end %>
         <% end %>
       <% end %>
     <% end %>
-  <% end %>
-
+  </div>
 </div>

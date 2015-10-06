@@ -11,13 +11,9 @@ class VenuesController < ApplicationController
   def show
     @venue = Venue.find(params[:id])
     @events = Event.all
-    # want to group slots by 
-    #@open = Event.joins(:slots).where(slots: { confirmed: false }).order(:date).uniq
-    #@closed = Event.joins(:slots).where(slots: { confirmed: true })
-    @other = Event.joins("LEFT JOIN slots ON events.id = slots.event_id where slots.event_id is null").order(:date).uniq
-    @open_event = event_open
-    @closed_event = event_closed(@open_event, @other)
-    @num_slots = open_count
+    @no_slots = Event.joins("LEFT JOIN slots ON events.id = slots.event_id where slots.event_id is null").order(:date).uniq #finds events that do not have any slots added yet.
+    @open_event = event_open #get list of events with open slots
+    @closed_event = event_closed(@open_event, @no_slots) # get list of events with zero open slots
   end
   
   def edit
@@ -56,6 +52,8 @@ class VenuesController < ApplicationController
     params.require(:venue).permit(:user,:name,:city,:address,:state,:zip,:neighborhood,:phone,:description,:website,:email,:email_confirmation,:photo)
   end
 
+  # called by show method above
+  # checks for unconfirmed slots
   def event_open
     @open_event = []
     
@@ -65,13 +63,15 @@ class VenuesController < ApplicationController
         @open_event << slot.event_id
       end
     end
-    @open_event = @open_event.uniq
+    @open_event = @open_event.uniq #return array of open events
   end
-
-  def event_closed(open, others)
+  
+  # called by show method above
+  # Any events that are neither open nor have zero slots have open slots
+  def event_closed(open, no_slots)
     @other_event = []
-    others.each do |other|
-      @other_event << other.id 
+    no_slots.each do |noslot|
+      @other_event << noslot.id 
     end
     @other_event = @other_event.uniq
     @not_closed = []
@@ -79,21 +79,6 @@ class VenuesController < ApplicationController
     @not_closed  = @not_closed + open
 
     @closed_event = Event.where("id NOT IN (?)", @not_closed)
-  end
-
-  def open_count 
-    @slot_apps = SlotApplication.all
-    @events = Event.all
-    @venue = Venue.find(params[:id])
-    @slots = Slot.all
-
-    num_open_slots = []
-
-
-  end
-
-  def application_count
-
   end
 
 end

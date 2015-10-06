@@ -3,6 +3,7 @@ class Venues::EventsController < ApplicationController
   def new
     @event = Event.new
     @venue = Venue.find(params[:venue_id])
+    
   end
 
   def index 

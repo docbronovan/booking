@@ -1,21 +1,23 @@
-<div class="container center">
-  <h1>ABOUT  <%= @venue.name %></h1>
+<div class="container ">
+  <h1 class="center">ABOUT  <%= @venue.name %></h1>
   
   <div class="photo">
       <%= image_tag(@venue.photo.url) if @venue.photo? %>
   </div>
   
   <div class="col-md-12">
-    <p>Name: <%= @venue.name %></p>
-    <p>Address: <%= @venue.address %></p>    
-    <p>City: <%= @venue.city %></p>
-    <p>State: <%= @venue.state %></p>
-    <p>Zip: <%= @venue.zip %></p>
-    <p>neighborhood: <%= @venue.neighborhood %></p>
-    <p>phone: <%= @venue.phone %></p>
-    <p>website: <%= @venue.website %></p>
-    <p>description: <%= @venue.description %></p>
-    <p>email: <%= @venue.email %></p>
+    <div class="col-sm-6 col-sm-offset-3">
+    <p><span class="bold">Name: </span><%= @venue.name %></p>
+    <p><span class="bold">Address: </span><%= @venue.address %></p>    
+    <p><span class="bold">City: </span><%= @venue.city %></p>
+    <p><span class="bold">State: </span><%= @venue.state %></p>
+    <p><span class="bold">Zip: </span><%= @venue.zip %></p>
+    <p><span class="bold">neighborhood: </span><%= @venue.neighborhood %></p>
+    <p><span class="bold">phone: </span><%= @venue.phone %></p>
+    <p><span class="bold">website: </span><%= @venue.website %></p>
+    <p><span class="bold">description: </span><%= @venue.description %></p>
+    <p><span class="bold">email: </span><%= @venue.email %></p>
+    </div>
   </div>
   
   <% if @user == current_user %>
@@ -24,7 +26,7 @@
     </div>
   <% end %>
 
-  <div>
+  <div class = "center">
     <%= link_to "Back", @venue %>
   </div>
 </div>

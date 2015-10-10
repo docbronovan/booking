@@ -10,10 +10,16 @@
   <body>
     <ul class="nav nav-tabs">
       <li><%= link_to "locl shows", root_path %></li>
+      <% if current_user && current_user.role == 'BAND' %>
+        <li><%= link_to "My Bands", user_path(current_user) %></li>
+        <li><%= link_to "Search Shows", events_path %></li>
+      <% elsif current_user && current_user.role == 'VENUE' %>
+        <li><%= link_to "My Venues", user_path(current_user)  %></li>
+      <% end %>
 
       <div class="pull-right user-info">
         <% if current_user %>
-          <%= current_user.email %>
+          <%= link_to "contact", welcome_contact_path %>
           <%= link_to user_path(current_user), class: 'btn btn-primary btn-sm' do %>
             <span class="glyphicon glyphicon-music"></span>
           <% end %>

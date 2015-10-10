@@ -12,8 +12,9 @@ class BandsController < ApplicationController
     @return_to ||= request.referer
 
     @scloud = URI(@band.soundcloud).path.split(/\//i)[1]
-    @song = @band.song.gsub(' ','-')
+    
     unless @song.nil?
+      @song = @band.song.gsub(' ','-')
       @source = "http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2F"+@scloud+"%2F"+@song+"&color=ff7700&amp;sharing=false&amp;show_playcount=false"
     end
   end

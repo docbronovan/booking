@@ -1,0 +1,970 @@
+/Users/User/.filezilla/trustedcerts.xml
+/Users/User/.heroku/cacert.pem
+/Users/User/.heroku/client/data/cacert.pem
+/Users/User/.heroku/client/lib/heroku/command/certs.rb
+/Users/User/.heroku/client/vendor/gems/excon-0.45.4/data/cacert.pem
+/Users/User/.heroku/client/vendor/gems/excon-0.45.4/tests/data/127.0.0.1.cert.crt
+/Users/User/.heroku/client/vendor/gems/excon-0.45.4/tests/data/127.0.0.1.cert.key
+/Users/User/.heroku/client/vendor/gems/excon-0.45.4/tests/data/excon.cert.crt
+/Users/User/.heroku/client/vendor/gems/excon-0.45.4/tests/data/excon.cert.key
+/Users/User/.heroku/client/vendor/gems/net-ssh-2.9.2/net-ssh-public_cert.pem
+/Users/User/.heroku/client/vendor/gems/net-ssh-gateway-1.2.0/gem-public_cert.pem
+/Users/User/.heroku/client/vendor/gems/rest-client-1.6.8/spec/integration/capath_digicert
+/Users/User/.heroku/client/vendor/gems/rest-client-1.6.8/spec/integration/capath_digicert/digicert.crt
+/Users/User/.heroku/client/vendor/gems/rest-client-1.6.8/spec/integration/certs
+/Users/User/.heroku/client/vendor/gems/rest-client-1.6.8/spec/integration/certs/digicert.crt
+/Users/User/.heroku/node-v4.1.1-darwin-x64/lib/node_modules/npm/test/tap/config-certfile.js
+/Users/User/.rvm/gems/ruby-2.2.0/gems/excon-0.45.3/data/cacert.pem
+/Users/User/.rvm/gems/ruby-2.2.0/gems/excon-0.45.3/tests/data/127.0.0.1.cert.crt
+/Users/User/.rvm/gems/ruby-2.2.0/gems/excon-0.45.3/tests/data/127.0.0.1.cert.key
+/Users/User/.rvm/gems/ruby-2.2.0/gems/excon-0.45.3/tests/data/excon.cert.crt
+/Users/User/.rvm/gems/ruby-2.2.0/gems/excon-0.45.3/tests/data/excon.cert.key
+/Users/User/.rvm/gems/ruby-2.2.0/gems/excon-0.45.4/data/cacert.pem
+/Users/User/.rvm/gems/ruby-2.2.0/gems/excon-0.45.4/tests/data/127.0.0.1.cert.crt
+/Users/User/.rvm/gems/ruby-2.2.0/gems/excon-0.45.4/tests/data/127.0.0.1.cert.key
+/Users/User/.rvm/gems/ruby-2.2.0/gems/excon-0.45.4/tests/data/excon.cert.crt
+/Users/User/.rvm/gems/ruby-2.2.0/gems/excon-0.45.4/tests/data/excon.cert.key
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/parsers/iam/list_server_certificates.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/parsers/iam/list_signing_certificates.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/parsers/iam/upload_server_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/parsers/iam/upload_signing_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/requests/elb/set_load_balancer_listener_ssl_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/requests/iam/delete_server_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/requests/iam/delete_signing_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/requests/iam/get_server_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/requests/iam/list_server_certificates.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/requests/iam/list_signing_certificates.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/requests/iam/update_server_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/requests/iam/update_signing_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/requests/iam/upload_server_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/aws/requests/iam/upload_signing_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/cloudstack/requests/compute/assign_cert_to_load_balancer.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/cloudstack/requests/compute/delete_ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/cloudstack/requests/compute/list_ssl_certs.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/cloudstack/requests/compute/remove_cert_from_load_balancer.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/cloudstack/requests/compute/upload_custom_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/cloudstack/requests/compute/upload_ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/google/examples/sql/ssl_certs.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/google/models/sql/ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/google/models/sql/ssl_certs.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/google/requests/sql/delete_ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/google/requests/sql/get_ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/google/requests/sql/insert_ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/lib/fog/google/requests/sql/list_ssl_certs.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/tests/aws/requests/iam/server_certificate_tests.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/tests/google/models/sql/ssl_cert_tests.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/tests/google/models/sql/ssl_certs_tests.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.24.0/tests/google/requests/sql/ssl_cert_tests.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.30.0/lib/fog/cloudstack/requests/compute/assign_cert_to_load_balancer.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.30.0/lib/fog/cloudstack/requests/compute/delete_ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.30.0/lib/fog/cloudstack/requests/compute/list_ssl_certs.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.30.0/lib/fog/cloudstack/requests/compute/remove_cert_from_load_balancer.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.30.0/lib/fog/cloudstack/requests/compute/upload_custom_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-1.30.0/lib/fog/cloudstack/requests/compute/upload_ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/parsers/iam/list_server_certificates.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/parsers/iam/list_signing_certificates.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/parsers/iam/upload_server_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/parsers/iam/upload_signing_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/requests/elb/set_load_balancer_listener_ssl_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/requests/iam/delete_server_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/requests/iam/delete_signing_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/requests/iam/get_server_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/requests/iam/list_server_certificates.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/requests/iam/list_signing_certificates.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/requests/iam/update_server_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/requests/iam/update_signing_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/requests/iam/upload_server_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/lib/fog/aws/requests/iam/upload_signing_certificate.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-aws-0.2.2/tests/requests/iam/server_certificate_tests.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-google-0.0.5/examples/sql/ssl_certs.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-google-0.0.5/lib/fog/google/models/sql/ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-google-0.0.5/lib/fog/google/models/sql/ssl_certs.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-google-0.0.5/lib/fog/google/requests/sql/delete_ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-google-0.0.5/lib/fog/google/requests/sql/get_ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-google-0.0.5/lib/fog/google/requests/sql/insert_ssl_cert.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-google-0.0.5/lib/fog/google/requests/sql/list_ssl_certs.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-google-0.0.5/tests/models/sql/ssl_cert_tests.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-google-0.0.5/tests/models/sql/ssl_certs_tests.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/fog-google-0.0.5/tests/requests/sql/ssl_cert_tests.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/net-scp-1.2.1/gem-public_cert.pem
+/Users/User/.rvm/gems/ruby-2.2.0/gems/net-ssh-2.9.2/net-ssh-public_cert.pem
+/Users/User/.rvm/gems/ruby-2.2.0/gems/newrelic_rpm-3.12.1.298/cert
+/Users/User/.rvm/gems/ruby-2.2.0/gems/newrelic_rpm-3.12.1.298/cert/cacert.pem
+/Users/User/.rvm/gems/ruby-2.2.0/gems/newrelic_rpm-3.12.1.298/test/config/test.cert.crt
+/Users/User/.rvm/gems/ruby-2.2.0/gems/newrelic_rpm-3.12.1.298/test/config/test.cert.key
+/Users/User/.rvm/gems/ruby-2.2.0/gems/newrelic_rpm-3.13.1.300/cert
+/Users/User/.rvm/gems/ruby-2.2.0/gems/newrelic_rpm-3.13.1.300/cert/cacert.pem
+/Users/User/.rvm/gems/ruby-2.2.0/gems/newrelic_rpm-3.13.1.300/test/config/test.cert.crt
+/Users/User/.rvm/gems/ruby-2.2.0/gems/newrelic_rpm-3.13.1.300/test/config/test.cert.key
+/Users/User/.rvm/gems/ruby-2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0009-Fix-certain-patterns-with-predicates.patch
+/Users/User/.rvm/gems/ruby-2.2.0/gems/rest-client-1.8.0/lib/restclient/windows/root_certs.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/rest-client-1.8.0/spec/integration/capath_digicert
+/Users/User/.rvm/gems/ruby-2.2.0/gems/rest-client-1.8.0/spec/integration/capath_digicert/digicert.crt
+/Users/User/.rvm/gems/ruby-2.2.0/gems/rest-client-1.8.0/spec/integration/certs
+/Users/User/.rvm/gems/ruby-2.2.0/gems/rest-client-1.8.0/spec/integration/certs/digicert.crt
+/Users/User/.rvm/gems/ruby-2.2.0/gems/rest-client-1.8.0/spec/unit/windows/root_certs_spec.rb
+/Users/User/.rvm/gems/ruby-2.2.0/gems/stripe-1.23.0/lib/data/ca-certificates.crt
+/Users/User/.rvm/help/osx-ssl-certs.md
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/rubygems/commands/cert_command.rb
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/rubygems/ssl_certs
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/rubygems/ssl_certs/Class3PublicPrimaryCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/rubygems/ssl_certs/DigiCertHighAssuranceEVRootCA.pem
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/rubygems/ssl_certs/EntrustnetSecureServerCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/gems/2.0.0/gems/bundler-1.9.1/lib/bundler/ssl_certs
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/gems/2.0.0/gems/bundler-1.9.1/lib/bundler/ssl_certs/certificate_manager.rb
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/gems/2.0.0/gems/bundler-1.9.1/lib/bundler/ssl_certs/Class3PublicPrimaryCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/gems/2.0.0/gems/bundler-1.9.1/lib/bundler/ssl_certs/DigiCertHighAssuranceEVRootCA.pem
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/gems/2.0.0/gems/bundler-1.9.1/lib/bundler/ssl_certs/EntrustnetSecureServerCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/site_ruby/2.0.0/rubygems/commands/cert_command.rb
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/site_ruby/2.0.0/rubygems/ssl_certs
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/site_ruby/2.0.0/rubygems/ssl_certs/Class3PublicPrimaryCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/site_ruby/2.0.0/rubygems/ssl_certs/DigiCertHighAssuranceEVRootCA.pem
+/Users/User/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/site_ruby/2.0.0/rubygems/ssl_certs/EntrustnetSecureServerCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/rubygems/commands/cert_command.rb
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/rubygems/ssl_certs
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/rubygems/ssl_certs/Class3PublicPrimaryCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/rubygems/ssl_certs/DigiCertHighAssuranceEVRootCA.pem
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/rubygems/ssl_certs/EntrustnetSecureServerCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/bundler-1.9.1/lib/bundler/ssl_certs
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/bundler-1.9.1/lib/bundler/ssl_certs/certificate_manager.rb
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/bundler-1.9.1/lib/bundler/ssl_certs/Class3PublicPrimaryCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/bundler-1.9.1/lib/bundler/ssl_certs/DigiCertHighAssuranceEVRootCA.pem
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/bundler-1.9.1/lib/bundler/ssl_certs/EntrustnetSecureServerCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/site_ruby/2.2.0/rubygems/commands/cert_command.rb
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/site_ruby/2.2.0/rubygems/ssl_certs
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/site_ruby/2.2.0/rubygems/ssl_certs/Class3PublicPrimaryCertificationAuthority.pem
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/site_ruby/2.2.0/rubygems/ssl_certs/DigiCertHighAssuranceEVRootCA.pem
+/Users/User/.rvm/rubies/ruby-2.2.0/lib/ruby/site_ruby/2.2.0/rubygems/ssl_certs/EntrustnetSecureServerCertificationAuthority.pem
+/Users/User/.rvm/scripts/functions/osx-ssl-certs
+/Users/User/.rvm/scripts/osx-ssl-certs
+/Users/User/.rvm/src/rvm/help/osx-ssl-certs.md
+/Users/User/.rvm/src/rvm/scripts/functions/osx-ssl-certs
+/Users/User/.rvm/src/rvm/scripts/osx-ssl-certs
+/Users/User/code/blocitoff/tmp/cache/assets/development/sprockets/v3.0/84dlB8kpprVQhIvKRupb-PfRITS3zMevLdcERtU9l-E.cache
+/Users/User/code/blocmarks/tmp/cache/assets/development/sprockets/v3.0/RI5Frcertq9afp5US2lZa74OReb9zuf0txxN76mu-SQ.cache
+/Users/User/code/blocmetrics/tmp/cache/assets/development/sprockets/v3.0/6ceRTcHI9ERtS6IdXLteWVaUwmGIq_K-VrUSlzeR5ZU.cache
+/Users/User/code/booking/certlocations.txt
+/Users/User/Documents/FileZilla.app/Contents/SharedSupport/resources/xrc/certificate.xrc
+/Users/User/Documents/google analytics/ga_api_report/gdata-2.0.18/pydocs/gdata.tlslite.X509CertChain.html
+/Users/User/Documents/google analytics/ga_api_report/gdata-2.0.18/samples/apps/marketplace_sample/gdata/tlslite/X509CertChain.py
+/Users/User/Documents/google analytics/ga_api_report/gdata-2.0.18/src/gdata/tlslite/X509CertChain.py
+/Users/User/Documents/google analytics/google-api-python-client-examples/tests/data/certs.json
+/Users/User/Documents/google analytics/google-api-python-client-gae-1.2/httplib2/cacerts.txt
+/Users/User/Documents/Mobile App Analytics Fundamentals - Certificate.pdf
+/Users/User/Documents/ofa-projects/old projects/facebook app/facebook-php-sdk-v4-4.0-dev/src/Facebook/HttpClients/certs
+/Users/User/Documents/ofa-projects/old projects/facebook app/facebook-php-sdk-v4-4.0-dev/src/Facebook/HttpClients/certs/DigiCertHighAssuranceEVRootCA.pem
+/Users/User/Documents/Organizing for action/mysql-ssl-ca-cert.pem
+/Users/User/Documents/Organizing for action/scripts/mysql-connector-python-1.0.12/support/ssl/tests_CA_cert.pem
+/Users/User/Documents/Organizing for action/scripts/mysql-connector-python-1.0.12/support/ssl/tests_client_cert.pem
+/Users/User/Documents/Organizing for action/scripts/mysql-connector-python-1.0.12/support/ssl/tests_server_cert.pem
+/Users/User/Documents/pythonstuff/django/mysite/py3env/lib/python3.4/site-packages/pip/_vendor/requests/__pycache__/certs.cpython-34.pyc
+/Users/User/Documents/pythonstuff/django/mysite/py3env/lib/python3.4/site-packages/pip/_vendor/requests/cacert.pem
+/Users/User/Documents/pythonstuff/django/mysite/py3env/lib/python3.4/site-packages/pip/_vendor/requests/certs.py
+/Users/User/Documents/pythonstuff/django/mysite/py3env/lib/python3.4/site-packages/requests/__pycache__/certs.cpython-34.pyc
+/Users/User/Documents/pythonstuff/django/mysite/py3env/lib/python3.4/site-packages/requests/cacert.pem
+/Users/User/Documents/pythonstuff/django/mysite/py3env/lib/python3.4/site-packages/requests/certs.py
+/Users/User/Documents/pythonstuff/mysql-connector-python-1.0.12/support/ssl/tests_CA_cert.pem
+/Users/User/Documents/pythonstuff/mysql-connector-python-1.0.12/support/ssl/tests_client_cert.pem
+/Users/User/Documents/pythonstuff/mysql-connector-python-1.0.12/support/ssl/tests_server_cert.pem
+/Users/User/Documents/pythonstuff/pythondaily/py27env/lib/python2.7/site-packages/pip/_vendor/requests/cacert.pem
+/Users/User/Documents/pythonstuff/pythondaily/py27env/lib/python2.7/site-packages/pip/_vendor/requests/certs.py
+/Users/User/Documents/pythonstuff/pythondaily/py27env/lib/python2.7/site-packages/pip/_vendor/requests/certs.pyc
+/Users/User/Documents/pythonstuff/pythondaily/py2env/lib/python2.7/site-packages/pip/_vendor/requests/cacert.pem
+/Users/User/Documents/pythonstuff/pythondaily/py2env/lib/python2.7/site-packages/pip/_vendor/requests/certs.py
+/Users/User/Documents/pythonstuff/pythondaily/py2env/lib/python2.7/site-packages/pip/_vendor/requests/certs.pyc
+/Users/User/Documents/pythonstuff/pythondaily/py2newenv/lib/python2.7/site-packages/pip/_vendor/requests/cacert.pem
+/Users/User/Documents/pythonstuff/pythondaily/py2newenv/lib/python2.7/site-packages/pip/_vendor/requests/certs.py
+/Users/User/Documents/pythonstuff/pythondaily/py2newenv/lib/python2.7/site-packages/pip/_vendor/requests/certs.pyc
+/Users/User/Documents/udemy/py27env/lib/python2.7/site-packages/pip/_vendor/certifi
+/Users/User/Documents/udemy/py27env/lib/python2.7/site-packages/pip/_vendor/certifi/cacert.pem
+/Users/User/Documents/udemy/py27env/lib/python2.7/site-packages/pip/_vendor/requests/cacert.pem
+/Users/User/Documents/udemy/py27env/lib/python2.7/site-packages/pip/_vendor/requests/certs.py
+/Users/User/Documents/udemy/py27env/lib/python2.7/site-packages/pip/_vendor/requests/certs.pyc
+/Users/User/Downloads/ga-bitbot-320b6b39cc15/tools/nimbs/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert
+/Users/User/Downloads/ga-bitbot-320b6b39cc15/tools/nimbs/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/MozillaRootCertificates.as
+/Users/User/Downloads/ga-bitbot-320b6b39cc15/tools/nimbs/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/X509Certificate.as
+/Users/User/Downloads/ga-bitbot-320b6b39cc15/tools/nimbs/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/X509CertificateCollection.as
+/Users/User/Downloads/ga-bitbot-320b6b39cc15/tools/nimbs/node_modules/socket.io-client/node_modules/ws/test/fixtures/certificate.pem
+/Users/User/Dropbox/Kindle Books (1)/Adam Haeder; Stephen Addison Schneiter; Bruno Gomes Pessanha; James Stanger/LPI Linux Certification in a Nutshell (8259)
+/Users/User/Dropbox/Kindle Books (1)/Adam Haeder; Stephen Addison Schneiter; Bruno Gomes Pessanha; James Stanger/LPI Linux Certification in a Nutshell (8259)/LPI Linux Certification in a Nutshell - Adam Haeder; Stephen Addison Schneiter; Bruno Gomes Pessanha; James Stanger.mobi
+/Users/User/Dropbox/Kindle Books (1)/Jude Watson/Star Wars_ Jedi Apprentice 6_ The Uncertain Path (10751)
+/Users/User/Dropbox/Kindle Books (1)/Jude Watson/Star Wars_ Jedi Apprentice 6_ The Uncertain Path (10751)/Star Wars_ Jedi Apprentice 6_ The Uncertain Path - Jude Watson.mobi
+/Users/User/Dropbox/Organizing for action dropbox/info/mysql-ssl-ca-cert.pem
+/Users/User/Dropbox/UIC/SpringResearchDropbox/From Damian motif page/clover_1000bp_genes_with_certain_motifs_damian.xls
+/Users/User/Library/Application Support/Brackets/extensions/user/adobe.brackets.extract/node/v0.5.0/node_modules/http-proxy/test/fixtures/agent2-cert.pem
+/Users/User/Library/Application Support/Brackets/live-dev-profile/Certificate Revocation Lists
+/Users/User/Library/Application Support/Brackets/live-dev-profile/Default/Origin Bound Certs
+/Users/User/Library/Application Support/Brackets/live-dev-profile/Default/Origin Bound Certs-journal
+/Users/User/Library/Application Support/Firefox/Profiles/7ls1y2sn.default/cert8.db
+/Users/User/Library/Application Support/Google/Chrome/Certificate Revocation Lists
+/Users/User/Library/Application Support/Google/Chrome/Default/Local Storage/http_prosoccertalk.nbcsports.com_0.localstorage
+/Users/User/Library/Application Support/Google/Chrome/Default/Local Storage/http_prosoccertalk.nbcsports.com_0.localstorage-journal
+/Users/User/Library/Application Support/Google/Chrome/Default/Local Storage/https_www.digicert.com_0.localstorage
+/Users/User/Library/Application Support/Google/Chrome/Default/Local Storage/https_www.digicert.com_0.localstorage-journal
+/Users/User/Library/Application Support/Google/Chrome/Default/Origin Bound Certs
+/Users/User/Library/Application Support/Google/Chrome/Default/Origin Bound Certs-journal
+/Users/User/Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/CacheWritableAdobeRoot/0/CertStore.dat
+/Users/User/Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/CacheWritableAdobeRoot/0/CertStore.dat.lkg
+/Users/User/Library/Application Support/Google/Drive/cacerts
+/Users/User/Library/Application Support/Microsoft/Office/DRM/CERT-Machine-2048.drm
+/Users/User/Library/Application Support/Microsoft/Office/DRM/CERT-Machine.drm
+/Users/User/Library/Application Support/Oracle/Java/Deployment/security/blacklisted.certs
+/Users/User/Library/Application Support/Oracle/Java/Deployment/security/trusted.certs
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Dutch.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Dutch.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Dutch.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Dutch.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/English.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/English.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/English.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/English.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/es_419.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/es_419.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/es_419.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/es_419.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/French.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/French.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/French.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/French.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/German.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/German.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/German.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/German.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Italian.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Italian.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Italian.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Italian.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Japanese.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Japanese.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Japanese.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Japanese.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/ko.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/ko.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/ko.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/ko.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/pt.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/pt.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/pt.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/pt.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/ru.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/ru.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/ru.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/ru.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Spanish.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Spanish.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Spanish.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/Spanish.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/sv.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/sv.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/sv.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/sv.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/zh_CN.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/zh_CN.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/zh_CN.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/zh_CN.lproj/nocertificates.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/zh_TW.lproj/certificate.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/zh_TW.lproj/certificateinfo.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/zh_TW.lproj/certificatepassword.nib
+/Users/User/Library/Application Support/WebEx Folder/1424/pkicrypto2.bundle/Contents/Resources/zh_TW.lproj/nocertificates.nib
+/Users/User/Library/Caches/Adobe/Flash Player/APSPrivateData2/0/drm-plug-mac-x64/CertStore.dat
+/Users/User/Library/Caches/Adobe/Flash Player/APSPrivateData2/0/drm-plug-mac-x64/CertStore.dat.lkg
+/Users/User/Library/Caches/Metadata/Safari/History/http:%2F%2Fespn.go.com%2Fespn%2Fstory%2F_%2Fpage%2FinstantawesomeSoccerThrowIn-150114%2Fwatch-soccer-player-score-ridiculously-long-throw-flip.webhistory
+/Users/User/Library/Caches/Metadata/Safari/History/http:%2F%2Fportswigger.net%2Fburp%2Fhelp%2Fproxy_options_installingCAcert.html.webhistory
+/Users/User/Library/Caches/Metadata/Safari/History/http:%2F%2Fprosoccertalk.nbcsports.com%2F2014%2F08%2F11%2Fconfirmed-us-to-play-friendly-vs-republic-of-ireland-in-dublin%2F.webhistory
+/Users/User/Library/Caches/Metadata/Safari/History/http:%2F%2Fprosoccertalk.nbcsports.com%2F2015%2F01%2F11%2Freport-toronto-fc-the-frontrunner-for-jozy-altidore-transfer%2F.webhistory
+/Users/User/Library/Caches/Metadata/Safari/History/http:%2F%2Fworldsoccertalk.com%2F2015%2F04%2F24%2Fcommentators-for-premier-league-matches-on-nbc-sports-gameweek-34%2F.webhistory
+/Users/User/Library/Caches/Metadata/Safari/History/http:%2F%2Fwww.visitmusiccity.com%2Fvisitors%2Fevents%2Fupcomingconcerts.webhistory
+/Users/User/Library/Caches/Metadata/Safari/History/https:%2F%2Fwww.google.com%2Fsearch?q=can+you+get+a+certified+check+from+any+bank&ie=UTF-8&oe=UTF-8&hl=en&client=safari.webhistory
+/Users/User/Library/Caches/Metadata/Safari/History/https:%2F%2Fwww.google.com%2Fsearch?q=server+requires+certificate+error&ie=UTF-8&oe=UTF-8&hl=en&client=safari%23hl=en&q=iphone+browser+requires+certificate+error.webhistory
+/Users/User/Library/Caches/Metadata/Safari/History/https:%2F%2Fwww.google.com%2Fsearch?q=server+requires+certificate+error&ie=UTF-8&oe=UTF-8&hl=en&client=safari%23hl=en&q=iphone+requires+certificate+error.webhistory
+/Users/User/Library/Caches/Metadata/Safari/History/https:%2F%2Fwww.google.com%2Fsearch?q=server+requires+certificate+error&ie=UTF-8&oe=UTF-8&hl=en&client=safari%23hl=en&q=siphone+erver+requires+certificate+error.webhistory
+/Users/User/Library/Caches/Metadata/Safari/History/https:%2F%2Fwww.google.com%2Fsearch?q=server+requires+certificate+error&ie=UTF-8&oe=UTF-8&hl=en&client=safari.webhistory
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleLegacy.CoreReference.docset/Contents/Resources/Tokens/C/func/-/KCChooseCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleLegacy.CoreReference.docset/Contents/Resources/Tokens/C/func/-/KCFindX509Certificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_auth.svg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_auth_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_trust_settings.svg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_trust_settings_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_view.svg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_view_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CertKeyTrustProgGuide
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CodeSigningGuide/Art/create_cert1.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CodeSigningGuide/Art/create_cert2.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CodeSigningGuide/Art/create_cert3.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/cryptoservices/Art/certificate_anatomy_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/cryptoservices/Art/keys_in_cert_chain2_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Conceptual/cryptoservices/Art/keys_in_cert_chain_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/certifkeytrustservices
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/certifkeytrustservices/certKeyTrustPolicies
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/certifkeytrustservices/certKeyTrustPolicies/certKeyTrustPolicies.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/certifkeytrustservices/certKeyTrustRef_revHist
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/SecAppleCertificateLibrarySpec
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificatePanel_Class
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificatePanel_Class/Art/cert_panel.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificateTrustPanel_Class
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificateTrustPanel_Class/Art/cert_trust_panel.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificateTrustPanel_Class/History/Original Art/cert_trust_panel.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificateView_Class
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificateView_Class/Art/cert_view.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/referencelibrary/GettingStarted/RoadMapOSX/books/RM_PrepareForAppStore_Mac/Art/4_developmentcertificate.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Documents/referencelibrary/GettingStarted/RoadMapOSX/books/RM_PrepareForAppStore_Mac/Art/4_teamcertificates.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/CMSDecoderCopyAllCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/CMSDecoderCopySignerCert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/CMSDecoderCopySignerTimestampCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/CMSEncoderAddSupportingCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/CMSEncoderCopySupportingCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/CMSEncoderGetCertificateChainMode.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/CMSEncoderSetCertificateChainMode.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateAddToKeychain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyEmailAddresses.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyLongDescription.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyNormalizedIssuerContent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyNormalizedSubjectContent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyPreference.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyPreferred.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyPublicKey.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopySerialNumber.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyShortDescription.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopySubjectSummary.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyValues.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCreateFromData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCreateWithData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetAlgorithmID.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetCLHandle.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetIssuer.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetItem.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetSubject.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetTypeID.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateSetPreference.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecCertificateSetPreferred.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecIdentityCopyCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecIdentityCreateWithCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecTrustCopyAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecTrustCopyCustomAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecTrustCreateWithCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecTrustGetCertificateAtIndex.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecTrustGetCertificateCount.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecTrustGetCSSMAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecTrustSetAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecTrustSetAnchorCertificatesOnly.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SecTrustSettingsCopyCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLCopyCertificateAuthorities.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLCopyPeerCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLGetAllowsExpiredCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLGetClientCertificateState.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLGetEnableCertVerify.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLGetPeerCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLSetAllowsExpiredCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLSetCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLSetCertificateAuthorities.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLSetEnableCertVerify.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/C/func/-/SSLSetEncryptionCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/clm/NSURLCredential/credentialWithIdentity:certificates:persistence:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/clm/SFCertificatePanel
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/clm/SFCertificatePanel/sharedCertificatePanel.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/clm/SFCertificateTrustPanel
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/clm/SFCertificateTrustPanel/sharedCertificateTrustPanel.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/CBUserIdentity/certificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/NSURLCredential/certificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/NSURLCredential/initWithIdentity:certificates:persistence:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificatePanel
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificatePanel/beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:certificates:showGroup:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificatePanel/certificateView.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificatePanel/runModalForCertificates:showGroup:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificateTrustPanel
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificateView
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificateView/certificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleOSX10_8.CoreReference.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificateView/setCertificate:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Performance/Conceptual/EnergyGuide-iOS/Art/voip_certificate_creation.pdf
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Performance/Conceptual/EnergyGuide-iOS/Art/voip_certificate_creation_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CertKeyTrustProgGuide
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CertKeyTrustProgGuide/CertKeyTrustProgGuide.pdf
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CodeSigningGuide/Art/create_cert1.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CodeSigningGuide/Art/create_cert2.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CodeSigningGuide/Art/create_cert3.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Security/Conceptual/cryptoservices/Art/certificate_anatomy_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Security/Conceptual/cryptoservices/Art/keys_in_cert_chain2_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Security/Conceptual/cryptoservices/Art/keys_in_cert_chain_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Security/Reference/certifkeytrustservices
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/documentation/Security/Reference/certifkeytrustservices/certKeyTrustPolicies.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/qa/qa1618/Art/qa1618_cert_is_invalid.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/qa/qa1618/Art/qa1618_cert_is_valid.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCertificateInformation1.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCertificateInformation1A.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCertificateInformation2.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCertificateInformation2A.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCertificateInformation2Client.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCreateYourCertificate.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCreateYourCertificateClient.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigLocationForThisCertificate.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigLocationForThisCertificateA.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/data/-/kCFStreamPropertySSLPeerCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/data/-/kCFStreamSSLAllowsExpiredCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/data/-/kCFStreamSSLCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/data/-/kCFStreamSSLValidatesCertificateChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/data/-/kSecAttrCertificateEncoding.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/data/-/kSecAttrCertificateType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/data/-/kSecClassCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/data/-/kSecImportItemCertChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/data/-/NSURLAuthenticationMethodClientCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/AVAudioUnitDistortionPresetMultiCellphoneConcert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorClientCertificateRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorClientCertificateRequired.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorServerCertificateHasBadDate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorServerCertificateHasUnknownRoot.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorServerCertificateNotYetValid.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorServerCertificateUntrusted.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kDNSServiceType_CERT.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kSSLClientCertNone.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kSSLClientCertRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kSSLClientCertRequested.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kSSLClientCertSent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/kSSLSessionOptionBreakOnCertRequested.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NEVPNIKEAuthenticationMethodCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NEVPNIKEv2CertificateTypeECDSA256.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NEVPNIKEv2CertificateTypeECDSA384.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NEVPNIKEv2CertificateTypeECDSA521.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NEVPNIKEv2CertificateTypeRSA.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorClientCertificateRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorClientCertificateRequired.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorServerCertificateHasBadDate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorServerCertificateHasUnknownRoot.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorServerCertificateNotYetValid.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorServerCertificateUntrusted.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopySubjectSummary.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCreateWithData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetTypeID.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecIdentityCopyCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecTrustCopyCustomAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecTrustCreateWithCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecTrustGetCertificateAtIndex.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecTrustGetCertificateCount.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecTrustSetAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SecTrustSetAnchorCertificatesOnly.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SSLGetClientCertificateState.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SSLSetCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/C/func/-/SSLSetEncryptionCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/Objective-C/clm/NSURLCredential/credentialWithIdentity:certificates:persistence:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/Objective-C/instm/NSURLCredential/initWithIdentity:certificates:persistence:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/Objective-C/instp/NEVPNProtocolIKEv2/certificateType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/Objective-C/instp/NEVPNProtocolIKEv2/serverCertificateCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/Objective-C/instp/NEVPNProtocolIKEv2/serverCertificateIssuerCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/Objective-C/instp/NSURLCredential/certificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/Objective-C/instp/WKWebView/certificateChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/Objective-C/intfm/MCSessionDelegate/session:didReceiveCertificate:fromPeer:certificateHandler:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/Objective-C/intfm/NWTCPConnectionAuthenticationDelegate/evaluateTrustForConnection:peerCertificateChain:completionHandler:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorClientCertificateRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorClientCertificateRequired.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorServerCertificateHasBadDate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorServerCertificateHasUnknownRoot.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorServerCertificateNotYetValid.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorServerCertificateUntrusted.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@kCFStreamSSLCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@kCFStreamSSLValidatesCertificateChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecAttrCertificateEncoding.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecAttrCertificateType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecClassCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecImportItemCertChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/data/-/c:@NSURLAuthenticationMethodClientCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/AVAudioUnitDistortionPreset/c:@E@AVAudioUnitDistortionPreset@AVAudioUnitDistortionPresetMultiCellphoneConcert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorClientCertificateRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorClientCertificateRequired.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorServerCertificateHasBadDate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorServerCertificateHasUnknownRoot.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorServerCertificateNotYetValid.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorServerCertificateUntrusted.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEAuthenticationMethod/c:@E@NEVPNIKEAuthenticationMethod@NEVPNIKEAuthenticationMethodCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEv2CertificateType
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEv2CertificateType/c:@E@NEVPNIKEv2CertificateType@NEVPNIKEv2CertificateTypeECDSA256.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEv2CertificateType/c:@E@NEVPNIKEv2CertificateType@NEVPNIKEv2CertificateTypeECDSA384.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEv2CertificateType/c:@E@NEVPNIKEv2CertificateType@NEVPNIKEv2CertificateTypeECDSA521.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEv2CertificateType/c:@E@NEVPNIKEv2CertificateType@NEVPNIKEv2CertificateTypeRSA.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopySubjectSummary.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCreateWithData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateGetTypeID.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecIdentityCopyCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustCopyCustomAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustCreateWithCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustGetCertificateAtIndex.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustGetCertificateCount.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustSetAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustSetAnchorCertificatesOnly.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyData(SecCertificate!)->Unmanaged<CFData>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopySubjectSummary(SecCertificate!)->Unmanaged<CFString>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCreateWithData(CFAllocator!,CFData!)->Unmanaged<SecCertificate>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateGetTypeID()->CFTypeID.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecIdentityCopyCertificate(SecIdentity!,UnsafeMutablePointer<Unmanaged<SecCertificate>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecTrustCopyCustomAnchorCertificates(SecTrust!,UnsafeMutablePointer<Unmanaged<CFArray>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecTrustCreateWithCertificates(AnyObject!,AnyObject!,UnsafeMutablePointer<Unmanaged<SecTrust>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecTrustGetCertificateAtIndex(SecTrust!,CFIndex)->Unmanaged<SecCertificate>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecTrustGetCertificateCount(SecTrust!)->CFIndex.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecTrustSetAnchorCertificates(SecTrust!,CFArray!)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/func/-/SecTrustSetAnchorCertificatesOnly(SecTrust!,Boolean)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/instctr/NSURLCredential/c:objc(cs)NSURLCredential(im)initWithIdentity:certificates:persistence:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/instctr/NSURLCredential/identity(SecIdentity!)certificates([AnyObject])persistence(NSURLCredentialPersistence).xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/instctr/NSURLCredential/identity(SecIdentity)certificates([AnyObject])persistence(NSURLCredentialPersistence).xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/instp/NEVPNProtocolIKEv2/c:objc(cs)NEVPNProtocolIKEv2(py)certificateType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/instp/NEVPNProtocolIKEv2/c:objc(cs)NEVPNProtocolIKEv2(py)serverCertificateCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/instp/NEVPNProtocolIKEv2/c:objc(cs)NEVPNProtocolIKEv2(py)serverCertificateIssuerCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/instp/NSURLCredential/c:objc(cs)NSURLCredential(py)certificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/instp/NSURLCredential/certificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/instp/WKWebView/c:objc(cs)WKWebView(py)certificateChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/intfm/MCSessionDelegate/c:objc(pl)MCSessionDelegate(im)session:didReceiveCertificate:fromPeer:certificateHandler:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.iOS.docset/Contents/Resources/Tokens/swift/intfm/MCSessionDelegate/session(MCSession!)didReceiveCertificate([AnyObject]!)fromPeer(MCPeerID!)certificateHandler(((Bool)->Void)!).xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/AppleApplications/Conceptual/FXPlug_overview/Art/applycert.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/AppleApplications/Conceptual/FXPlug_overview/Art/certcreate.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man1/certtool.1.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/Net__DNS__RR__CERT.3pm.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/Net__DNS__RR__CERT5.12.3pm.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/Net__DNS__RR__CERT5.16.3pm.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/PEM_read_bio_NETSCAPE_CERT_SEQUENCE.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/PEM_read_NETSCAPE_CERT_SEQUENCE.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/PEM_write_bio_NETSCAPE_CERT_SEQUENCE.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/PEM_write_NETSCAPE_CERT_SEQUENCE.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_add_extra_chain_cert.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_get_cert_store.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_get_client_cert_cb.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_get_max_cert_list.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_set_cert_store.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_set_cert_verify_callback.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_set_client_cert_cb.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_set_max_cert_list.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_use_certificate.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_use_certificate_ASN1.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_use_certificate_chain_file.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_CTX_use_certificate_file.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_get_max_cert_list.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_get_peer_cert_chain.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_get_peer_certificate.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_set_max_cert_list.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_use_certificate.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_use_certificate_ASN1.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man3/SSL_use_certificate_file.3ssl.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man8/xscertadmin.8.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man8/xscertd-helper.8.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/man8/xscertd.8.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/certtool.1.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/Net::DNS::RR::CERT.3pm.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/Net::DNS::RR::CERT5.12.3pm.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/Net::DNS::RR::CERT5.16.3pm.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/PEM_read_bio_NETSCAPE_CERT_SEQUENCE.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/PEM_read_NETSCAPE_CERT_SEQUENCE.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/PEM_write_bio_NETSCAPE_CERT_SEQUENCE.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/PEM_write_NETSCAPE_CERT_SEQUENCE.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_add_extra_chain_cert.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_get_cert_store.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_get_client_cert_cb.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_get_max_cert_list.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_set_cert_store.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_set_cert_verify_callback.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_set_client_cert_cb.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_set_max_cert_list.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_use_certificate.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_use_certificate_ASN1.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_use_certificate_chain_file.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_CTX_use_certificate_file.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_get_max_cert_list.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_get_peer_cert_chain.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_get_peer_certificate.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_set_max_cert_list.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_use_certificate.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_use_certificate_ASN1.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/SSL_use_certificate_file.3ssl.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/xscertadmin.8.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/xscertd-helper.8.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Darwin/Reference/ManPages/versionlists/xscertd.8.versions.js
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/NetworkingInternet/Conceptual/NotificationProgrammingGuideForWebsites/Art/cert-create-safari-notification-id-05-download.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_auth.svg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_auth_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_trust_settings.svg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_trust_settings_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_view.svg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/AuthenticationAndAuthorizationGuide/Art/certificate_view_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CertKeyTrustProgGuide
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CertKeyTrustProgGuide/CertKeyTrustProgGuide.pdf
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CodeSigningGuide/Art/create_cert1.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CodeSigningGuide/Art/create_cert2.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/CodeSigningGuide/Art/create_cert3.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/cryptoservices/Art/certificate_anatomy_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/cryptoservices/Art/keys_in_cert_chain2_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Conceptual/cryptoservices/Art/keys_in_cert_chain_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/certifkeytrustservices
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/certifkeytrustservices/certKeyTrustPolicies.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/SecAppleCertificateLibrarySpec
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/SecAppleCertificateLibrarySpec/Apple_Certificate_Library_Functional_Specification.pdf
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificatePanel_Class
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificatePanel_Class/Art/cert_panel.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificateTrustPanel_Class
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificateTrustPanel_Class/Art/cert_trust_panel.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificateTrustPanel_Class/History/Original Art/cert_trust_panel.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificateView_Class
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/documentation/Security/Reference/SecurityInterfaceFramework/Classes/SFCertificateView_Class/Art/cert_view.jpg
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/referencelibrary/GettingStarted/RoadMapOSX/books/RM_PrepareForAppStore_Mac/Art/4_developmentcertificate.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/referencelibrary/GettingStarted/RoadMapOSX/books/RM_PrepareForAppStore_Mac/Art/4_teamcertificates.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCertificateInformation1.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCertificateInformation1A.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCertificateInformation2.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCertificateInformation2A.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCertificateInformation2Client.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCreateYourCertificate.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigCreateYourCertificateClient.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigLocationForThisCertificate.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Documents/technotes/tn2326/Art/tn2326_FigLocationForThisCertificateA.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kCFStreamPropertySSLPeerCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kCFStreamSSLAllowsExpiredCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kCFStreamSSLCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kCFStreamSSLValidatesCertificateChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kODAttributeTypeCACertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kODAttributeTypeCertificateRevocationList.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kODAttributeTypeCrossCertificatePair.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kODAttributeTypeUserCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kODAttributeTypeUserSMIMECertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kODAuthenticationTypeSetCertificateHashAsCurrent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kODRecordTypeCertificateAuthorities.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kSCPropNetIPSecLocalCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kSecAttrCertificateEncoding.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kSecAttrCertificateType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kSecCertificateUsageDeriveAndSign.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kSecCertificateUsageSigning.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kSecCertificateUsageSigningAndEncrypting.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kSecClassCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kSecCodeInfoCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kSecImportItemCertChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/kSecPolicyKU_KeyCertSign.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/NSURLAuthenticationMethodClientCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/data/-/SFCertificateViewDisclosureStateDidChange.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/AVAudioUnitDistortionPresetMultiCellphoneConcert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/CSSM_CERT_STATUS_EXPIRED.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/CSSM_CERT_STATUS_IS_FROM_NET.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/CSSM_CERT_STATUS_IS_IN_ANCHORS.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/CSSM_CERT_STATUS_IS_IN_INPUT_CERTS.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/CSSM_CERT_STATUS_IS_ROOT.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/CSSM_CERT_STATUS_NOT_VALID_YET.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/CSSM_TP_ACTION_FETCH_CERT_FROM_NET.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorClientCertificateRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorClientCertificateRequired.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorServerCertificateHasBadDate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorServerCertificateHasUnknownRoot.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorServerCertificateNotYetValid.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCFURLErrorServerCertificateUntrusted.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCMSCertificateChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCMSCertificateChainWithRoot.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCMSCertificateNone.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCMSCertificateSignerOnly.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kCMSSignerInvalidCert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kDNSServiceType_CERT.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kDS1AttrCACertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kDS1AttrCertificateRevocationList.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kDS1AttrCrossCertificatePair.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kDS1AttrUserCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kDS1AttrUserSMIMECertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kDSStdRecordTypeCertificateAuthorities.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSecCertEncodingItemAttr.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSecCertificateEncoding.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSecCertificateItemClass.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSecCertificateType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSecCertTypeItemAttr.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSecFormatNetscapeCertSequence.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSecFormatX509Cert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSecItemTypeCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSecTrustOptionRequireRevPerCert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSecTrustSettingsKeyUseSignCert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSSLClientCertNone.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSSLClientCertRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSSLClientCertRequested.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSSLClientCertSent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/kSSLSessionOptionBreakOnCertRequested.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NEVPNIKEAuthenticationMethodCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NEVPNIKEv2CertificateTypeECDSA256.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NEVPNIKEv2CertificateTypeECDSA384.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NEVPNIKEv2CertificateTypeECDSA521.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NEVPNIKEv2CertificateTypeRSA.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorClientCertificateRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorClientCertificateRequired.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorServerCertificateHasBadDate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorServerCertificateHasUnknownRoot.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorServerCertificateNotYetValid.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/econst/-/NSURLErrorServerCertificateUntrusted.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/CMSDecoderCopyAllCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/CMSDecoderCopySignerCert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/CMSDecoderCopySignerTimestampCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/CMSEncoderAddSupportingCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/CMSEncoderCopySupportingCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/CMSEncoderGetCertificateChainMode.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/CMSEncoderSetCertificateChainMode.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateAddToKeychain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyEmailAddresses.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyLongDescription.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyNormalizedIssuerContent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyNormalizedSubjectContent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyPreference.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyPreferred.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyPublicKey.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopySerialNumber.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyShortDescription.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopySubjectSummary.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCopyValues.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCreateFromData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateCreateWithData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetAlgorithmID.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetCLHandle.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetIssuer.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetItem.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetSubject.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateGetTypeID.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateSetPreference.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecCertificateSetPreferred.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecIdentityCopyCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecIdentityCreateWithCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecTrustCopyAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecTrustCopyCustomAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecTrustCreateWithCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecTrustGetCertificateAtIndex.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecTrustGetCertificateCount.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecTrustGetCSSMAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecTrustSetAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecTrustSetAnchorCertificatesOnly.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SecTrustSettingsCopyCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLCopyCertificateAuthorities.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLCopyPeerCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLGetAllowsExpiredCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLGetClientCertificateState.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLGetEnableCertVerify.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLGetPeerCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLSetAllowsExpiredCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLSetCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLSetCertificateAuthorities.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLSetEnableCertVerify.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/func/-/SSLSetEncryptionCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/C/macro/-/kSecTrustSettingsDefaultRootCertSetting.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/cl/-/SFCertificatePanel.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/cl/-/SFCertificateTrustPanel.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/cl/-/SFCertificateView.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/clm/NSURLCredential/credentialWithIdentity:certificates:persistence:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/clm/SFCertificatePanel
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/clm/SFCertificatePanel/sharedCertificatePanel.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/clm/SFCertificateTrustPanel
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/clm/SFCertificateTrustPanel/sharedCertificateTrustPanel.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instm/CBUserIdentity/certificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instm/NSURLCredential/initWithIdentity:certificates:persistence:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificatePanel
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificatePanel/beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:certificates:showGroup:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificatePanel/certificateView.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificatePanel/runModalForCertificates:showGroup:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificateTrustPanel
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificateView
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificateView/certificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instm/SFCertificateView/setCertificate:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instp/NEVPNProtocolIKEv2/certificateType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instp/NEVPNProtocolIKEv2/serverCertificateCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instp/NEVPNProtocolIKEv2/serverCertificateIssuerCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instp/NSURLCredential/certificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/instp/WKWebView/certificateChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/Objective-C/intfm/NWTCPConnectionAuthenticationDelegate/evaluateTrustForConnection:peerCertificateChain:completionHandler:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@CSSM_CERT_STATUS_EXPIRED.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@CSSM_CERT_STATUS_IS_FROM_NET.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@CSSM_CERT_STATUS_IS_IN_ANCHORS.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@CSSM_CERT_STATUS_IS_IN_INPUT_CERTS.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@CSSM_CERT_STATUS_IS_ROOT.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@CSSM_CERT_STATUS_NOT_VALID_YET.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@CSSM_TP_ACTION_FETCH_CERT_FROM_NET.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@kSecCertEncodingItemAttr.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@kSecCertTypeItemAttr.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorClientCertificateRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorClientCertificateRequired.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorServerCertificateHasBadDate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorServerCertificateHasUnknownRoot.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorServerCertificateNotYetValid.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@Ea@NSURLErrorServerCertificateUntrusted.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kCFStreamSSLCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kCFStreamSSLValidatesCertificateChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kODAttributeTypeCACertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kODAttributeTypeCertificateRevocationList.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kODAttributeTypeCrossCertificatePair.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kODAttributeTypeUserCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kODAttributeTypeUserSMIMECertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kODAuthenticationTypeSetCertificateHashAsCurrent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kODRecordTypeCertificateAuthorities.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecAttrCertificateEncoding.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecAttrCertificateType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecCertificateUsageDeriveAndSign.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecCertificateUsageSigning.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecCertificateUsageSigningAndEncrypting.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecClassCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecCodeInfoCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecImportItemCertChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@kSecPolicyKU_KeyCertSign.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/data/-/c:@NSURLAuthenticationMethodClientCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/AVAudioUnitDistortionPreset/c:@E@AVAudioUnitDistortionPreset@AVAudioUnitDistortionPresetMultiCellphoneConcert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorClientCertificateRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorClientCertificateRequired.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorServerCertificateHasBadDate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorServerCertificateHasUnknownRoot.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorServerCertificateNotYetValid.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CFNetworkErrors/c:@E@CFNetworkErrors@kCFURLErrorServerCertificateUntrusted.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CMSCertificateChainMode
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CMSCertificateChainMode/c:@E@CMSCertificateChainMode@kCMSCertificateChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CMSCertificateChainMode/c:@E@CMSCertificateChainMode@kCMSCertificateChainWithRoot.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CMSCertificateChainMode/c:@E@CMSCertificateChainMode@kCMSCertificateNone.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CMSCertificateChainMode/c:@E@CMSCertificateChainMode@kCMSCertificateSignerOnly.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/CMSSignerStatus/c:@E@CMSSignerStatus@kCMSSignerInvalidCert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEAuthenticationMethod/c:@E@NEVPNIKEAuthenticationMethod@NEVPNIKEAuthenticationMethodCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEv2CertificateType
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEv2CertificateType/c:@E@NEVPNIKEv2CertificateType@NEVPNIKEv2CertificateTypeECDSA256.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEv2CertificateType/c:@E@NEVPNIKEv2CertificateType@NEVPNIKEv2CertificateTypeECDSA384.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEv2CertificateType/c:@E@NEVPNIKEv2CertificateType@NEVPNIKEv2CertificateTypeECDSA521.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/NEVPNIKEv2CertificateType/c:@E@NEVPNIKEv2CertificateType@NEVPNIKEv2CertificateTypeRSA.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SecExternalFormat/c:@E@SecExternalFormat@kSecFormatNetscapeCertSequence.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SecExternalFormat/c:@E@SecExternalFormat@kSecFormatX509Cert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SecExternalItemType/c:@E@SecExternalItemType@kSecItemTypeCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SecItemAttr/c:@E@SecItemAttr@kSecCertificateEncoding.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SecItemAttr/c:@E@SecItemAttr@kSecCertificateType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SecItemClass/c:@E@SecItemClass@kSecCertificateItemClass.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SSLClientCertificateState
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SSLClientCertificateState/c:@E@SSLClientCertificateState@kSSLClientCertNone.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SSLClientCertificateState/c:@E@SSLClientCertificateState@kSSLClientCertRejected.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SSLClientCertificateState/c:@E@SSLClientCertificateState@kSSLClientCertRequested.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SSLClientCertificateState/c:@E@SSLClientCertificateState@kSSLClientCertSent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/enumelt/SSLSessionOption/c:@E@SSLSessionOption@kSSLSessionOptionBreakOnCertRequested.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@CMSDecoderCopyAllCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@CMSDecoderCopySignerCert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@CMSDecoderCopySignerTimestampCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@CMSEncoderAddSupportingCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@CMSEncoderCopySupportingCerts.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@CMSEncoderGetCertificateChainMode.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@CMSEncoderSetCertificateChainMode.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateAddToKeychain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyEmailAddresses.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyLongDescription.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyNormalizedIssuerContent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyNormalizedSubjectContent.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyPreferred.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyPublicKey.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopySerialNumber.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyShortDescription.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopySubjectSummary.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCopyValues.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateCreateWithData.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateGetTypeID.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateSetPreference.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecCertificateSetPreferred.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecIdentityCopyCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecIdentityCreateWithCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustCopyAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustCopyCustomAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustCreateWithCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustGetCertificateAtIndex.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustGetCertificateCount.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustSetAnchorCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustSetAnchorCertificatesOnly.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SecTrustSettingsCopyCertificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SSLCopyCertificateAuthorities.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SSLGetClientCertificateState.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SSLSetCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SSLSetCertificateAuthorities.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/c:@F@SSLSetEncryptionCertificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/CMSDecoderCopyAllCerts(CMSDecoder!,UnsafeMutablePointer<Unmanaged<CFArray>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/CMSDecoderCopySignerCert(CMSDecoder!,UInt,UnsafeMutablePointer<Unmanaged<SecCertificate>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/CMSDecoderCopySignerTimestampCertificates(CMSDecoder!,UInt,UnsafeMutablePointer<Unmanaged<CFArray>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/CMSEncoderAddSupportingCerts(CMSEncoder!,AnyObject!)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/CMSEncoderCopySupportingCerts(CMSEncoder!,UnsafeMutablePointer<Unmanaged<CFArray>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/CMSEncoderGetCertificateChainMode(CMSEncoder!,UnsafeMutablePointer<CMSCertificateChainMode>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/CMSEncoderSetCertificateChainMode(CMSEncoder!,CMSCertificateChainMode)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateAddToKeychain(SecCertificate!,SecKeychain!)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyCommonName(SecCertificate!,UnsafeMutablePointer<Unmanaged<CFString>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyData(SecCertificate!)->Unmanaged<CFData>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyEmailAddresses(SecCertificate!,UnsafeMutablePointer<Unmanaged<CFArray>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyLongDescription(CFAllocator!,SecCertificate!,UnsafeMutablePointer<Unmanaged<CFError>?>)->Unmanaged<CFString>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyNormalizedIssuerContent(SecCertificate!,UnsafeMutablePointer<Unmanaged<CFError>?>)->Unmanaged<CFData>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyNormalizedSubjectContent(SecCertificate!,UnsafeMutablePointer<Unmanaged<CFError>?>)->Unmanaged<CFData>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyPreferred(CFString!,CFArray!)->Unmanaged<SecCertificate>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyPublicKey(SecCertificate!,UnsafeMutablePointer<Unmanaged<SecKey>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopySerialNumber(SecCertificate!,UnsafeMutablePointer<Unmanaged<CFError>?>)->Unmanaged<CFData>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyShortDescription(CFAllocator!,SecCertificate!,UnsafeMutablePointer<Unmanaged<CFError>?>)->Unmanaged<CFString>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopySubjectSummary(SecCertificate!)->Unmanaged<CFString>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCopyValues(SecCertificate!,CFArray!,UnsafeMutablePointer<Unmanaged<CFError>?>)->Unmanaged<CFDictionary>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateCreateWithData(CFAllocator!,CFData!)->Unmanaged<SecCertificate>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateGetTypeID()->CFTypeID.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateSetPreference(SecCertificate!,CFString!,uint32,CFDate!)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecCertificateSetPreferred(SecCertificate!,CFString!,CFArray!)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecIdentityCopyCertificate(SecIdentity!,UnsafeMutablePointer<Unmanaged<SecCertificate>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecIdentityCreateWithCertificate(AnyObject!,SecCertificate!,UnsafeMutablePointer<Unmanaged<SecIdentity>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustCopyAnchorCertificates(UnsafeMutablePointer<Unmanaged<CFArray>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustCopyCustomAnchorCertificates(SecTrust!,UnsafeMutablePointer<Unmanaged<CFArray>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustCreateWithCertificates(AnyObject!,AnyObject!,UnsafeMutablePointer<Unmanaged<SecTrust>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustGetCertificateAtIndex(SecTrust!,CFIndex)->Unmanaged<SecCertificate>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustGetCertificateCount(SecTrust!)->CFIndex.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustSetAnchorCertificates(SecTrust!,CFArray!)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustSetAnchorCertificatesOnly(SecTrust!,Boolean)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustSettingsCopyCertificates(SecTrustSettingsDomain,UnsafeMutablePointer<Unmanaged<CFArray>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustSettingsCopyModificationDate(SecCertificate!,SecTrustSettingsDomain,UnsafeMutablePointer<Unmanaged<CFDate>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustSettingsCopyTrustSettings(SecCertificate!,SecTrustSettingsDomain,UnsafeMutablePointer<Unmanaged<CFArray>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustSettingsRemoveTrustSettings(SecCertificate!,SecTrustSettingsDomain)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SecTrustSettingsSetTrustSettings(SecCertificate!,SecTrustSettingsDomain,AnyObject!)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SSLCopyCertificateAuthorities(SSLContext!,UnsafeMutablePointer<Unmanaged<CFArray>?>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SSLGetClientCertificateState(SSLContext!,UnsafeMutablePointer<SSLClientCertificateState>)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SSLSetCertificate(SSLContext!,CFArray!)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SSLSetCertificateAuthorities(SSLContext!,AnyObject!,Boolean)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/func/-/SSLSetEncryptionCertificate(SSLContext!,CFArray!)->OSStatus.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instctr/NSURLCredential/c:objc(cs)NSURLCredential(im)initWithIdentity:certificates:persistence:.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instctr/NSURLCredential/identity(SecIdentity!)certificates([AnyObject])persistence(NSURLCredentialPersistence).xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instctr/NSURLCredential/identity(SecIdentity)certificates([AnyObject])persistence(NSURLCredentialPersistence).xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instm/CBUserIdentity/certificate()->Unmanaged<SecCertificate>!.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instp/CBUserIdentity/c:objc(cs)CBUserIdentity(py)certificate.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instp/NEVPNProtocolIKEv2/c:objc(cs)NEVPNProtocolIKEv2(py)certificateType.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instp/NEVPNProtocolIKEv2/c:objc(cs)NEVPNProtocolIKEv2(py)serverCertificateCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instp/NEVPNProtocolIKEv2/c:objc(cs)NEVPNProtocolIKEv2(py)serverCertificateIssuerCommonName.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instp/NSURLCredential/c:objc(cs)NSURLCredential(py)certificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instp/NSURLCredential/certificates.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/instp/WKWebView/c:objc(cs)WKWebView(py)certificateChain.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/structdata/SecTrustOptionFlags/c:@E@SecTrustOptionFlags@kSecTrustOptionRequireRevPerCert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.OSX.docset/Contents/Resources/Tokens/swift/structdata/SecTrustSettingsKeyUsage/c:@E@SecTrustSettingsKeyUsage@kSecTrustSettingsKeyUseSignCert.xml
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/11_mc_approve_cert_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_create_developerID_certificate2_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_create_developerID_certificate_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_createdistributioncert_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_download_certificate_authority.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_exportcertificates_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_ios_apns_certificate_1_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_ios_apns_certificate_2_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_ios_apns_certificate_3_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_keychaincerts2_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_keychaincerts_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_portalcerts1_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_revoke_certificate_2_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/12_tb_ios_certificates_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/14_mac_developerid_certs_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/14_request_developerid_certs_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/4_generatesslcertificate_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/Art/certificates_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Art/2_certs_ids_profiles_tunnel_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Art/4_keychaincerts2_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Art/4_keychaincerts_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Art/4_portalcerts1_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Art/certificates_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/documentation/IDEs/Conceptual/xcode_guide-continuous_integration/art/website_certificate_notice_2x.png
+/Users/User/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.Xcode.docset/Contents/Resources/Documents/recipes/xcode_help-accounts_preferences/articles/obtain_certificates_and_provisioning_profiles.html
+/Users/User/Library/Developer/Xcode/iOS DeviceSupport/8.2 (12D508)/Symbols/System/Library/PrivateFrameworks/CertInfo.framework
+/Users/User/Library/Developer/Xcode/iOS DeviceSupport/8.2 (12D508)/Symbols/System/Library/PrivateFrameworks/CertInfo.framework/CertInfo
+/Users/User/Library/Developer/Xcode/iOS DeviceSupport/8.2 (12D508)/Symbols/System/Library/PrivateFrameworks/CertUI.framework
+/Users/User/Library/Developer/Xcode/iOS DeviceSupport/8.2 (12D508)/Symbols/System/Library/PrivateFrameworks/CertUI.framework/CertUI
+/Users/User/Library/Developer/Xcode/iOS DeviceSupport/8.4 (12H143)/Symbols/System/Library/PrivateFrameworks/CertInfo.framework
+/Users/User/Library/Developer/Xcode/iOS DeviceSupport/8.4 (12H143)/Symbols/System/Library/PrivateFrameworks/CertInfo.framework/CertInfo
+/Users/User/Library/Developer/Xcode/iOS DeviceSupport/8.4 (12H143)/Symbols/System/Library/PrivateFrameworks/CertUI.framework
+/Users/User/Library/Developer/Xcode/iOS DeviceSupport/8.4 (12H143)/Symbols/System/Library/PrivateFrameworks/CertUI.framework/CertUI
+/Users/User/Library/Keychains/Microsoft_Intermediate_Certificates
+/Users/User/Library/VirtualBox/vbox-ssl-cacertificate.crt

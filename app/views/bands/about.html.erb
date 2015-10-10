@@ -1,6 +1,6 @@
 <div class="container center">
   <h1>ABOUT  <%= @band.name %></h1>
-
+  
     <div class="photo">
       <%= image_tag(@band.photo.url) if @band.photo? %>
     </div>
@@ -13,11 +13,19 @@
       <p>description: <%= @band.description %></p>
       <p>genre: <%= @band.genre %></p>
       <p>requirements: <%= @band.requirements %></p>
-      <p>soundcloud: <%= @band.soundcloud %></p>
       <p>facebook: <%= @band.facebook %></p>
       <p>website: <%= @band.website %></p>
       <p>email: <%= @band.email %></p>
+      <% if @band.soundcloud %>
+        <p>soundcloud: <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2F<%= @scloud%>&color=orange_white&size=32" style="width: 32px; height: 32px;"></iframe></p><% end %>
+      <p>soundcloud song: <%= @band.song %></p>
     </div>
+
+  <% if @band.song != nil %>
+    <div>
+      <embed allowscriptaccess="always" height="100" src=<%= @source %> type="application/x-shockwave-flash" width="300"></embed>
+    </div>
+  <% end %>
 
   <% if @user == current_user %>
     <div class = "col-md-2 col-md-offset-4 btn-info btn-sm">

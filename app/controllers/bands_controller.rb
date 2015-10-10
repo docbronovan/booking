@@ -1,11 +1,21 @@
+
 class BandsController < ApplicationController
+  # require 'soundcloud'
+
   def index
   end
 
   def about
+    require 'uri'
     @band = Band.find(params[:id])
     @user = @band.user_id
     @return_to ||= request.referer
+
+    @scloud = URI(@band.soundcloud).path.split(/\//i)[1]
+    @song = @band.song.gsub(' ','-')
+    unless @song.nil?
+      @source = "http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2F"+@scloud+"%2F"+@song+"&color=ff7700&amp;sharing=false&amp;show_playcount=false"
+    end
   end
 
   def edit
@@ -24,6 +34,10 @@ class BandsController < ApplicationController
     @slots = Slot.all
     @events = Event.all
     @venue = Venue.all
+
+    # @client = scloud
+   
+
   end
 
 
@@ -63,9 +77,21 @@ class BandsController < ApplicationController
   end
 
   def band_params
-    params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone,:email,:email_confirmation,:photo)
+    params.require(:band).permit(:user,:name,:city,:members,:instruments,:description,:genre,:requirements,:soundcloud,:facebook,:website,:phone,:email,:email_confirmation,:photo,:song)
   end
-  
 
+
+  # def scloud
+  #   require 'soundcloud'
+  #   @client = Soundcloud.new(
+  #       :client_id => "1cf5cb7850b34273320400605f7175fd",
+
+  #       :client_secret => "90bc590d968c1f65394e332c089d7ce4",
+
+  #       :username => "Brock Donovan 2",
+
+  #       :password => "fluffy")
+
+  # end  
 
 end

@@ -61,6 +61,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 #error reporting
 gem 'raygun4ruby'
+#soundcloud
+gem 'soundcloud'
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 # Use ActiveModel has_secure_password

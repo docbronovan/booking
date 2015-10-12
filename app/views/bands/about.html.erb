@@ -1,25 +1,38 @@
-<div class="container center">
-  <h1>ABOUT  <%= @band.name %></h1>
+<div class="container">
+  <div class = "row">
+    <div class = "col-sm-12">
+      <h1 class = "center"><%= @band.name %>
+      <% if @band.soundcloud != nil %>
+        <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2F<%= @scloud%>&color=orange_white&size=32" style="width: 32px; height: 32px;"></iframe></h1>
+      <% end %>
+    </div>
+  </div>
   
-    <div class="photo">
-      <%= image_tag(@band.photo.url) if @band.photo? %>
-    </div>
+  <div class="photo center">
+    <%= image_tag(@band.photo.url) if @band.photo? %>
+  </div>
 
-    <div class="col-md-12">
-      <p>Name: <%= @band.name %></p>
-      <p>City: <%= @band.city %></p>
-      <p>num_members: <%= @band.members %></p>
-      <p>instruments: <%= @band.instruments %></p>
-      <p>description: <%= @band.description %></p>
-      <p>genre: <%= @band.genre %></p>
-      <p>requirements: <%= @band.requirements %></p>
-      <p>facebook: <%= @band.facebook %></p>
-      <p>website: <%= @band.website %></p>
-      <p>email: <%= @band.email %></p>
+  <div class = "center">
+    
+  </div>
+
+  <div class="col-md-12">
+    <div class="col-sm-6 col-sm-offset-3">
+      <p><span class="bold">Name: </span><%= @band.name %></p>
+      <p><span class="bold">City: </span> <%= @band.city %></p>
+      <p><span class="bold">Number of Members: </span> <%= @band.members %></p>
+      <p><span class="bold">Instruments: </span> <%= @band.instruments %></p>
+      <p><span class="bold">Description: </span> <%= @band.description %></p>
+      <p><span class="bold">Genre: </span> <%= @band.genre %></p>
+      <p><span class="bold">Requirements: </span> <%= @band.requirements %></p>
+      <p><span class="bold">Facebook: </span> <%= @band.facebook %></p>
+      <p><span class="bold">Website: </span> <%= @band.website %></p>
+      <p><span class="bold">Email: </span> <%= @band.email %></p>
       <% if @band.soundcloud %>
-        <p>soundcloud: <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2F<%= @scloud%>&color=orange_white&size=32" style="width: 32px; height: 32px;"></iframe></p><% end %>
-      <p>soundcloud song: <%= @band.song %></p>
+        <p><span class="bold">Soundcloud: </span><%= @band.soundcloud%></p><% end %>
+      <p><span class="bold">Soundcloud Song: </span><%= @band.song %></p>
     </div>
+  </div>
 
   <% if @band.song != nil %>
     <div>

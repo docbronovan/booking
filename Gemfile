@@ -63,6 +63,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'raygun4ruby'
 #soundcloud
 gem 'soundcloud'
+# contact mail form
+gem 'mail_form'
+gem 'simple_form'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby

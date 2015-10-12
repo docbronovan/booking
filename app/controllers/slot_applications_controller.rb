@@ -24,7 +24,7 @@ class SlotApplicationsController < ApplicationController
       redirect_to current_user
     else
       flash[:error] = "There was an error with the application. Please try again."
-      render :new #added by me so I dont get template error
+      render :new 
     end
   end
 

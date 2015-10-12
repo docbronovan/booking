@@ -48,8 +48,7 @@ class BandsController < ApplicationController
       flash[:notice] = "Band was saved."
       redirect_to @band
     else
-      #flash[:error] = "There was an error saving the band. Please fill out all fields."
-      render :new #added by me so I dont get template error
+      render :new 
     end
   end
 

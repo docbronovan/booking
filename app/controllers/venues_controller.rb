@@ -28,7 +28,6 @@ class VenuesController < ApplicationController
       redirect_to @venue
       flash[:notice] = "Venue info was updated."
     else
-      #flash[:error] = "Error saving Venue. Please try again."
       render :edit
     end
   end
@@ -43,8 +42,7 @@ class VenuesController < ApplicationController
       flash[:notice] = "Venue was saved."
       redirect_to @venue
     else
-      #flash[:error] = "There was an error saving the venue. Please try again."
-      render :new #added by me so I dont get template error
+      render :new 
     end
   end
 

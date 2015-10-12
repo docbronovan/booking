@@ -1,12 +1,23 @@
-<div class="container center">
+<% if @slot.errors.any? %>
+  <div class="alert alert-danger">
+    <h4>There are <%= pluralize(@slot.errors.count, "error") %>.</h4>
+    <ul>
+      <% @slot.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<div class="container center pad-top">
   <%= form_for [@event, @slot] do |f| %>    
     <% if current_user.role == 'VENUE' %>
         <% f.hidden_field :confirmed, :value => false %>
         <% f.hidden_field :event_id, :value => @event.id %>
-      <div>
-        <%= f.time_select(:time,time_separator: ':',ampm: true) %> 
+      <div class = "form-group pad-top pad-bottom center">
+        <%= f.time_select(:time,time_separator: ':',ampm: true,minute_step: 15 ) %> 
       </div>
-      <div>
+      <div class = "form-group pad-bottom center">
         <%= f.submit "Add time slot" %>
       </div>
     <% end %>

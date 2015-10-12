@@ -22,7 +22,7 @@ class Events::SlotsController < ApplicationController
       flash[:notice] = "Slot was saved."
       redirect_to [@venue,@event]
     else
-      flash[:error] = "There was an error saving the slot. Please try again."
+      #flash[:error] = "There was an error saving the slot. Please try again."
       render :new #added by me so I dont get template error
     end
 

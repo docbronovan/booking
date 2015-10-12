@@ -3,5 +3,5 @@ class Event < ActiveRecord::Base
   has_many :slots, dependent: :destroy
 
   validates_presence_of :title,:date, :stage, :equipment, :description, :other, :disclaimer
-
+  
 end

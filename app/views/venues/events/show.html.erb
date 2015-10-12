@@ -1,21 +1,21 @@
 <div class="container center">
-  <div class="row col-md-12">
+  <div class="row col-sm-12">
     <h1><%=@event.title%></h1>
   </div>
 
-  <div class="row col-md-12">
+  <div class="row col-sm-12">
     <p><%= @event.date %> @ <%= @venue.name %></p>
   </div>
 
-  <div class="row pad-top col-md-12">
+  <div class="row pad-top col-sm-12">
     
     <h3>Schedule</h3>
-    <div class ="row col-md-6 col-md-offset-3 pad-top">
+    <div class ="row col-sm-6 col-sm-offset-3 pad-top">
       <% @slots.each do |slot| %>
         
         <% if slot.confirmed == false %>
           <div class = "row">
-            <div class = "col-md-10">
+            <div class = "col-sm-10">
               <div class = "btn-info btn-lg"> 
                 <div class="row">
                   <div class = "col-sm-4">
@@ -28,7 +28,7 @@
               </div>
               </div>
         
-          <div class="row col-md-2 ">
+          <div class="row col-sm-2 ">
             <div class = "col-sm-12 align-btn-mid">
               <%= link_to "Delete Slot", slot_path(slot), :method => :delete, class: 'btn btn-danger', data: {confirm: 'Are you sure you want to remove this time!? This cannot be undone' } %>
             </div>
@@ -41,7 +41,7 @@
             <% @bands.each do |band| %>
               <% if slot_app.slot == slot && slot_app.approved == true && slot_app.band == band %>
                <div class = "row">
-                 <div class = "col-md-10">
+                 <div class = "col-sm-10">
                   <div class = "btn-info btn-lg"> 
                     <div class="row">
                       <div class = "col-sm-4">
@@ -54,7 +54,7 @@
                   </div>
                   </div>
 
-                <div class="row col-md-2 ">
+                <div class="row col-sm-2 ">
                   <div class = "col-sm-12 align-btn">
 
                     <%= link_to "Cancel Band", slot_path(slot, :slot => { :confirmed => false}),:method => :put, class: 'btn btn-warning', data: {confirm: 'Are you sure you want to remove this band!? This cannot be undone' } %>
@@ -78,7 +78,7 @@
         </div>
       </div>
     
-      <div class="row col-md-6 col-md-offset-3">
+      <div class="row col-sm-6 col-sm-offset-3">
         <div class = "col-sm-12">
           <%= link_to "Cancel show", [@venue,@event], method: :delete, class: 'btn btn-danger', data: {confirm: 'Are you sure you want to cancel this show!? This cannot be undone' } %>
         </div>

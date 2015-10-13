@@ -1,4 +1,3 @@
-
 class BandsController < ApplicationController
   # require 'soundcloud'
 
@@ -37,8 +36,6 @@ class BandsController < ApplicationController
     @venue = Venue.all
 
     # @client = scloud
-   
-
   end
 
 

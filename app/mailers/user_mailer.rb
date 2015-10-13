@@ -14,4 +14,11 @@ class UserMailer < ApplicationMailer
     mail(to: 'brockdonovan@gmail.com', subject: 'Venue removal request')
   end
 
+  def contact_email(name, email, message, role)
+    @name = name
+    @email = email
+    @message = message
+    @role = role
+    mail(to: 'brockdonovan@gmail.com', subject: 'Contact form loclshows')
+  end
 end

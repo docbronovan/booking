@@ -19,7 +19,7 @@
 
       <div class="pull-right user-info">
         <% if current_user %>
-          <%= link_to "contact", welcome_contact_path %>
+          <%= link_to "contact", '/contacts' %>
           <%= link_to user_path(current_user), class: 'btn btn-primary btn-sm' do %>
             <span class="glyphicon glyphicon-music"></span>
           <% end %>

@@ -1,12 +1,15 @@
 Rails.application.routes.draw do
 
+  match '/contacts', to: 'contacts#new', via: 'get'
+  resources "contacts", only: [:new, :create]
+
   devise_for :users
   
   get 'welcome/index'
   root to: 'welcome#index'
   get 'bands/:id/about' => 'bands#about'
   get 'venues/:id/about' => 'venues#about'
-  get 'welcome/contact' => 'welcome#contact'
+
   resources :users, only: [:update, :show, :index] do
     resources :bands 
   end 
@@ -30,7 +33,6 @@ Rails.application.routes.draw do
   end
   resources :slot_applications
   
-  match '/contacts', to: 'contacts#new', via: 'get'
-  resources "contacts", only: [:new, :create]
+  
 
 end

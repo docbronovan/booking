@@ -30,9 +30,9 @@ class SlotsController < ApplicationController
   def update
     @slot = Slot.find(params[:id])
     @event = @slot.event
+    @venue = @event.venue
     if @slot.update_attributes(slot_params)
-      flash[:notice] = "Band confirmed"
-      redirect_to current_user
+      redirect_to [@venue,@event]
     else
       flash[:error] = "There was an error confirming the band. Please try again."
       render :edit
@@ -48,7 +48,7 @@ class SlotsController < ApplicationController
      @event = Event.find(@slot.event_id)
      @venue = Venue.find(@event.venue_id)
     if @slot.destroy
-      redirect_to [@venue, @event]
+      redirect_to [@event, @slot]
       flash[:notice] = "Time slot was removed."
     else
       flash[:notice] = "Time slot couldn't be deleted. Try again"

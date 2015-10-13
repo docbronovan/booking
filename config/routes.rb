@@ -17,6 +17,7 @@ Rails.application.routes.draw do
 
   resources :slots, only: [:update,:destroy] do
       resources :slot_applications
+      resources :bands
     end
 
   resources :venues do

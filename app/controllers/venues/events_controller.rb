@@ -18,6 +18,7 @@ class Venues::EventsController < ApplicationController
     @slots = Slot.where("event_id = ?", @event.id).order(:time) #all of the slots assocated with event
     @slot_apps = SlotApplication.all # ALL slot applications
     @bands = Band.all # ALL bands
+    @waiting = venue_event_slot_applications(@slots, @slot_apps)
   end
 
   def create
@@ -65,6 +66,25 @@ class Venues::EventsController < ApplicationController
       flash[:error] = "There was an error deleting the event."
       render :show
     end
+  end
+
+  # determines if there are any unconfirmed applications for any time slot in a specific event
+  # this is referenced by slot to display notification that bands are waiting to be confirmed
+  def venue_event_slot_applications(slots, slot_apps)
+
+    @slots = slots
+    @slot_apps = slot_apps
+    @waiting = []
+    @slots.each do |slot|
+      if slot.confirmed == false
+        @slot_apps.each do |slot_app|
+          if slot_app.slot_id == slot.id
+            @waiting << slot_app.slot_id
+          end
+        end
+      end
+    end
+    @waiting = @waiting.uniq
   end
 
   private

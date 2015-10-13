@@ -20,7 +20,7 @@ class SlotApplicationsController < ApplicationController
     @band = Band.all
     if @slot_app.save
       UserMailer.request_email(@venue.user, @date, @time).deliver_later
-      flash[:notice] = "Applications was saved."
+      flash[:notice] = "Application was saved. You should hear from the venue soon."
       redirect_to current_user
     else
       flash[:error] = "There was an error with the application. Please try again."

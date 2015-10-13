@@ -1,6 +1,8 @@
 class Band < ActiveRecord::Base
   belongs_to :user
   has_many :slot_applications, dependent: :destroy
+  has_many :slots
+  
   mount_uploader :photo, PhotoUploader
   #scope :visible_to, -> (current_user) { where('user_id = ?', current_user.id) }
   validates_presence_of :name,:city,:members,:instruments,:genre,:soundcloud,:facebook,:website,:description,:phone,:email,:email_confirmation

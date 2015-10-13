@@ -75,7 +75,9 @@ class VenuesController < ApplicationController
     @not_closed = []
     @not_closed  = @not_closed + @other_event
     @not_closed  = @not_closed + open
-
+    if @not_closed == []
+      @not_closed = 0
+    end
     @closed_event = Event.where("id NOT IN (?)", @not_closed)
   end
 

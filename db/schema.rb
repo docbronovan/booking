@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151010214442) do
+ActiveRecord::Schema.define(version: 20151013194831) do
 
   create_table "bands", force: :cascade do |t|
     t.integer  "user_id"
@@ -35,6 +35,14 @@ ActiveRecord::Schema.define(version: 20151010214442) do
 
   add_index "bands", ["user_id"], name: "index_bands_on_user_id"
 
+  create_table "contacts", force: :cascade do |t|
+    t.string   "name"
+    t.string   "email"
+    t.text     "message"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "events", force: :cascade do |t|
     t.integer  "venue_id"
     t.string   "title"
@@ -53,11 +61,10 @@ ActiveRecord::Schema.define(version: 20151010214442) do
   add_index "events", ["venue_id"], name: "index_events_on_venue_id"
 
   create_table "slot_applications", force: :cascade do |t|
-    t.boolean  "approved",   default: false
     t.integer  "band_id"
     t.integer  "slot_id"
-    t.datetime "created_at",                 null: false
-    t.datetime "updated_at",                 null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_index "slot_applications", ["band_id"], name: "index_slot_applications_on_band_id"
@@ -69,6 +76,7 @@ ActiveRecord::Schema.define(version: 20151010214442) do
     t.boolean  "confirmed",  default: false
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
+    t.string   "band"
   end
 
   add_index "slots", ["event_id"], name: "index_slots_on_event_id"

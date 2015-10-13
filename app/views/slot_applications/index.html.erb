@@ -1,13 +1,14 @@
 <div class="container center">
   <h1><%= @slot.event.title %></h1>
   <h5><%= @slot.time.strftime("%B %d, %Y") %></h5>
-  <% @slot_applications.each do |slot_app| %>
-    <!-- slot -->
-    <div class="row pad-top h4">
+  <div class="row pad-top h4">
       <div class="col-md-4"> Time</div>
       <div class="col-md-4"> Band</div>
       <div class="col-md-4"> Confirm?</div>
     </div>
+  <% @slot_applications.each do |slot_app| %>
+    <!-- slot -->
+    
     
     <div class="row pad-top">
       <div class="col-md-4"> 
@@ -31,7 +32,7 @@
       <div class="col-md-4">   
         <% @bands.each do |band| %>
           <% if band.id == slot_app.band_id %>
-              <%= link_to "Confirm band?", edit_slot_path(@slot), class: 'btn btn-success' %>
+              <%= link_to "Confirm band?", edit_slot_path([@slot, band.name => @slot.band ]), class: 'btn btn-success' %>
           <% end %>
         <% end %>
       </div>

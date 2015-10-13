@@ -4,9 +4,6 @@
     <div class ="">
       <%= f.collection_select :band_id, @bands, :id, :name %>
     </div>
-    <div>
-      <% f.hidden_field :approved, :value => false %>
-    </div>
     <div class="pad-top">
       <%= f.submit "BOOK!" %>
     </div>

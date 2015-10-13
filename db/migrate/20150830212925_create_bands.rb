@@ -10,6 +10,7 @@ class CreateBands < ActiveRecord::Migration
       t.string :genre
       t.string :requirements
       t.string :soundcloud
+      t.string :song
       t.string :facebook
       t.string :website
       t.string :photo

@@ -9,21 +9,31 @@
 require 'faker'
 
 # Create some users
-3.times do 
-  user = User.create!(
-    email:    Faker::Internet.email,
-    password: 'helloworld',
-    role:     'BAND'
-  )
-  user.skip_confirmation!
-  user.save!
-end
-users = User.all
+# 3.times do 
+#   user = User.create!(
+#     email:    Faker::Internet.email,
+#     password: 'helloworld',
+#     role:     'BAND'
+#   )
+#   user.skip_confirmation!
+#   user.save!
+# end
+# users = User.all
+brock = User.new(
+  email: 'brockdonovan@gmail.com',
+  password: 'helloworld',
+  role:     'BAND'
+)
+brock.skip_confirmation!
+brock.save!
+
 # Create Bands
 4.times do
+  @email = 'brockdonovan@gmail.com'
   Band.create!(
-    email:    Faker::Internet.email,
-    user: users.sample,  
+    email:    @email,
+    email_confirmation: @email,
+    user: brock,  
     name: Faker::Name.name,
     city:   Faker::Address.city, 
     members:  Faker::Number.number(1),
@@ -34,17 +44,11 @@ users = User.all
     soundcloud: Faker::Internet.url('soundcloud.com') ,
     facebook: Faker::Internet.url('facebook.com') ,
     website: Faker::Internet.url ,
-    phone:  Faker::PhoneNumber.phone_number 
+    phone:  Faker::PhoneNumber.cell_phone 
   )
 end
 bands = Band.all
-brock = User.new(
-  email: 'brockdonovan@gmail.com',
-  password: 'helloworld',
-  role:     'BAND'
-)
-brock.skip_confirmation!
-brock.save!
+
 
 bdon = User.new(
   email: 'bdonovan@barackobama.com',
@@ -58,16 +62,18 @@ users = User.all
 
 # Create venues
 4.times do
+  @email = 'bdonovan@barackobama.com'
   Venue.create!(
-    email:    Faker::Internet.email,
+    email:    @email,
+    email_confirmation: @email,
     user:   bdon,
     name:  Faker::Name.name, 
     address:  Faker::Address.street_address,
     city:   Faker::Address.city, 
     state:  Faker::Address.state_abbr,
-    zip:  Faker::Address.zip_code,
+    zip:  11225,
     neighborhood:  Faker::Address.city_suffix,
-    phone:  Faker::PhoneNumber.phone_number,
+    phone:  Faker::PhoneNumber.cell_phone,
     website:  Faker::Internet.url,
     description:  Faker::Lorem.sentence
   )
@@ -93,20 +99,20 @@ end
 events = Event.all
 
 #Create slots
-20.times do
+6.times do
   Slot.create!(
     event: events.sample,  
     time:  Faker::Time.forward(23, :night).strftime("%H:%M"),
-    confirmed: true
+    confirmed: true,
+    band: bands.sample
   )
 end
 slots = Slot.all
 
-50.times do
+12.times do
   SlotApplication.create!(
     band: bands.sample,
     slot: slots.sample, 
-    approved: [1,0].sample
   )
 end
 slot_applications = SlotApplication.all

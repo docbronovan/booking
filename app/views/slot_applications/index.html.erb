@@ -32,7 +32,7 @@
       <div class="col-md-4">   
         <% @bands.each do |band| %>
           <% if band.id == slot_app.band_id %>
-              <%= link_to "Confirm band?", edit_slot_path([@slot, band.name => @slot.band ]), class: 'btn btn-success' %>
+              <%= link_to "Confirm band?", edit_slot_path(@slot, band.id), class: 'btn btn-success' %>
           <% end %>
         <% end %>
       </div>

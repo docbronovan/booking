@@ -1,9 +1,9 @@
 <div class="container center">
   <h1>CONFRIM BAND</h1>
-  <h3>Are you sure you want to confirm <%= @slot.band %> for <%= @slot.time.strftime("%I:%M%p") %>?</h3>
+  <h3>Are you sure you want to confirm <%=@band.name %> for <%= @slot.time.strftime("%I:%M%p") %>?</h3>
   <%= form_for [@slot ] do |f| %>
     <%= f.hidden_field :confirmed,  :value => true %>
-    <%= f.hidden_field :band, :value => @slot.band %>
+    <%= f.hidden_field :band_id, :value => @band.id %>
     <div class="pad-top">
        <%= f.submit "Yes", class: 'btn btn-success' %>
      </div>

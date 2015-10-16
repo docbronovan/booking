@@ -40,7 +40,7 @@ class SlotApplicationsController < ApplicationController
   end
 
   def slot_app_params
-    params.require(:slot_application).permit(:band_id, :slot_id, :approved)
+    params.require(:slot_application).permit(:band_id, :slot_id)
   end
 
 end

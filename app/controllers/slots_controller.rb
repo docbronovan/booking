@@ -41,6 +41,7 @@ class SlotsController < ApplicationController
 
   def edit
     @slot = Slot.find(params[:id])
+    @band = Band.find(params[:band_id])
   end
 
   def destroy
@@ -48,7 +49,7 @@ class SlotsController < ApplicationController
      @event = Event.find(@slot.event_id)
      @venue = Venue.find(@event.venue_id)
     if @slot.destroy
-      redirect_to [@event, @slot]
+      redirect_to [@venue, @event]
       flash[:notice] = "Time slot was removed."
     else
       flash[:notice] = "Time slot couldn't be deleted. Try again"
@@ -57,6 +58,6 @@ class SlotsController < ApplicationController
   end
 
   def slot_params
-    params.require(:slot).permit(:event_id, :time, :confirmed) 
+    params.require(:slot).permit(:event_id, :time, :confirmed, :band_id) 
   end
 end

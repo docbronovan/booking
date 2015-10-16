@@ -4,7 +4,6 @@ class EventsController < ApplicationController
     #@events = Event.order(params[:sort])
     @slots = Slot.all
     @listings = Event.joins(:slots).where(slots: { confirmed: false }).order(:date).uniq
-    
   end
 
   def show
@@ -30,12 +29,6 @@ class EventsController < ApplicationController
       render :new #added by me so I dont get template error
     end
   end
-  
-  def edit
-  end
-
-  def update
-  end
 
   def destroy
     @venue = Venue.find(params[:venue_id])
@@ -55,7 +48,7 @@ class EventsController < ApplicationController
     params.require(:event).permit(:title, :date ,:twentyOne, :cover, :stage, :equipment, :description, :other, :disclaimer)
   end
 
-  # open_slot determines if there is a slot that does not have an approved band
+  # open_slot determines if there is a slot that does not have a confirmed band
   # If so, the event is added to the listings array which it itterated over in
   # app/views/events/index.html.erb
   def open_slot(events, *args) #should take array
@@ -65,7 +58,7 @@ class EventsController < ApplicationController
     events.each do |event|
       @slots.each do |slot| 
         if slot.event_id == event
-          if slot.approved == false
+          if slot.confirmed == false
             open_events = slot.event_id
             break
           end

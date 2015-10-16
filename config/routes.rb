@@ -18,6 +18,8 @@ Rails.application.routes.draw do
     resources :slots, except: [:index], controller: 'events/slots' 
   end
 
+  get "/slots/:id//edit.:band_id" => "slots#edit"
+
   resources :slots, only: [:update,:destroy] do
       resources :slot_applications
       resources :bands

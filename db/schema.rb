@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151013194831) do
+ActiveRecord::Schema.define(version: 20151016222637) do
 
   create_table "bands", force: :cascade do |t|
     t.integer  "user_id"
@@ -72,11 +72,11 @@ ActiveRecord::Schema.define(version: 20151013194831) do
 
   create_table "slots", force: :cascade do |t|
     t.integer  "event_id"
+    t.integer  "band_id"
     t.time     "time"
     t.boolean  "confirmed",  default: false
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
-    t.string   "band"
   end
 
   add_index "slots", ["event_id"], name: "index_slots_on_event_id"

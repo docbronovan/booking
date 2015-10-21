@@ -53,6 +53,13 @@ h3 {
 .pad-check {
   padding-left: 20px;
 }
+
+.align-top {
+  position: relative;
+  top: 50%;
+  transform: translateY(-40%);
+}
+
 .column-headers {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -60,6 +67,11 @@ h3 {
 }
 
 .btn-info.btn-lg{
+  margin-top: 2%;
+  margin-bottom:2%;
+}
+
+.btn-warning.btn-lg{
   margin-top: 2%;
   margin-bottom:2%;
 }
@@ -77,6 +89,9 @@ h3 {
   margin-top: 6%;
 }
 
+.btn-warning {
+  margin-top: 6%
+}
 .center {
   text-align: center;
 }

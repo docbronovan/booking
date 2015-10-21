@@ -1,0 +1,100 @@
+<div class="container center">
+  <div class="row col-sm-12">
+    <h1><%=@event.title%></h1>
+  </div>
+
+  <div class="row col-sm-12">
+    <p><%= @event.date %> @ <%= @venue.name %></p>
+  </div>
+
+  <div class="row  col-sm-12">
+    
+    <h3>Schedule</h3>
+      <div class ="col-sm-6 col-sm-offset-3 ">
+        <% @slots.each do |slot| %> 
+          <% if slot.confirmed == false && @waiting.include?(slot.id) %>
+            <div class = "col-sm-12">
+              <div class = " btn-success btn-lg"> 
+                <div class="row">
+                  <div class = "col-sm-4">
+                    <%= slot.time.strftime("%I:%M%p") %>
+                  </div>
+                  <div class = "col-sm-4 pad-bottom">
+                    <h4> <%= link_to "Unconfirmed", "/slots/#{slot.id}/slot_applications" %> </h4>  
+                  </div>
+                </div>
+              </div>
+        
+              
+                <div class="align-top pad-top pad-bottom">
+                  <%= link_to "Delete Slot", slot_path(slot), :method => :delete, class: 'btn btn-danger', data: {confirm: 'Are you sure you want to remove this time!? This cannot be undone' } %>
+                </div>
+           
+            </div>
+
+        <% elsif slot.confirmed == false %>
+          
+          <div class = "col-sm-12">
+            <div class = " btn-info btn-lg"> 
+              <div class="row">
+                <div class = "col-sm-4">
+                  <%= slot.time.strftime("%I:%M%p") %>
+                </div>
+                <div class = "col-sm-4">
+                  <h4> <%= link_to "Unconfirmed", "/slots/#{slot.id}/slot_applications" %> </h4>  
+                </div>
+              </div>
+            </div>
+        
+            <div class="align-top">
+                <%= link_to "Delete Slot", slot_path(slot), :method => :delete, class: 'btn btn-danger', data: {confirm: 'Are you sure you want to remove this time!? This cannot be undone' } %>
+            </div>
+          </div>
+
+        <% else %>
+         
+          <% @slot_apps.each do |slot_app| %>
+            <% @bands.each do |band| %>
+              <% if slot_app.slot == slot && slot.confirmed == true && slot.band == band %>
+               
+                <div class = "col-sm-12">
+                  <div class = " btn-info btn-lg"> 
+                    <div class="row">
+                      <div class = "col-sm-4">
+                        <%= slot.time.strftime("%I:%M%p") %>
+                      </div>
+                      <div class = "col-sm-4">
+                        <h4><%= link_to "#{slot.time.strftime("%I:%M%p")} #{band.name} ", "/bands/#{band.id}/about" %></h4> 
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="col-sm-4 align-top pad-top pad-bottom">
+                      <%= link_to "Cancel Band", slot_path(slot, :slot => { :confirmed => false, band => nil}),:method => :patch, class: 'btn btn-warning', data: {confirm: 'Are you sure you want to remove this band!? This cannot be undone' } %>
+                    </div>
+                  </div>
+                </div> <!-- col-sm-12 -->
+
+              <% end %>
+            <% end %>
+          <% end %>
+        
+        <% end %> <!-- else-->
+
+      <% end %> <!-- @slots.each do -->
+  </div>
+    </div>
+      <div class = "row col-lg-4 col-lg-offset-3 col-md-4 col-sm-4 ">
+        <!-- <div class = " btn-info btn-lg"> -->
+          <div class = "btn-info btn-lg">
+            <%=link_to "Add slot",  [:new, @event, :slot] %>
+          </div>
+        <!-- </div> -->
+      </div>
+    </div>   <!-- schedule div -->
+    
+    <div class="row col-sm-4 pad-bottom">
+      <%= link_to "Cancel show", [@venue,@event], method: :delete, class: 'btn btn-danger', data: {confirm: 'Are you sure you want to cancel this show!? This cannot be undone' } %>
+    </div>
+  </div>
+</div>

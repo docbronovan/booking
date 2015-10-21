@@ -7,12 +7,15 @@
       <p><%= link_to "Edit venue info", edit_venue_path(@venue) %></p>
     </div>
     
-    <div class = "row col-md-3 col-md-offset-4 btn-success btn-lg"> <%= link_to "New Event", [:new, @venue, :event]  %>
+    <div class = "row col-md-3 col-md-offset-4"> 
+      <div class ="btn-success btn-lg">
+        <%= link_to "New Event", [:new, @venue, :event]  %>
+      </div>
     </div>
 
   </div>
 
-  <div class="row column-headers">
+  <div class="row column-headers hidden-sm hidden-xs">
     <div class="col-md-2 col-md-offset-2">    
       DATE
     </div>

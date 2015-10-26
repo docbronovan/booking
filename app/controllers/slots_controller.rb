@@ -12,13 +12,12 @@ class SlotsController < ApplicationController
     @slot = Slot.new
     @event = Event.find(params[:event_id])
     @bands = current_user.bands
+    @date = @event.date
   end
 
   def create
     @slot = Slot.build(params.require(:slot).permit(:event_id, :time))
     if @slot.save
-      #added for through
-      #@slot.users << current_user
       flash[:notice] = "Time slot was saved."
       redirect_to @slot
     else

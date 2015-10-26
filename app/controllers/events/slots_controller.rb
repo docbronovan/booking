@@ -10,7 +10,7 @@ class Events::SlotsController < ApplicationController
     @event = Event.find(params[:event_id])
     @slot = Slot.new
     @bands = current_user.bands
-
+    @date = @event.date
   end
 
   def create
@@ -18,6 +18,7 @@ class Events::SlotsController < ApplicationController
     @venue = Venue.find(@event.venue_id)
     @slot = Slot.new(slot_params)
     @slot.event = @event
+
     if @slot.save
       flash[:notice] = "Slot was saved."
       redirect_to [@venue,@event]
